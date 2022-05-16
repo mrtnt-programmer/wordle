@@ -16,7 +16,7 @@ function setup() {
 function draw() {
   background(220);
   fill(60);
-  rect(width/3,0,width/3,height);
+  rect(width/3,0,width/3,height);//background
   Grid();
 }
 
@@ -32,10 +32,14 @@ function Grid(){
       fill(245,245,245,100);
       stroke(0);
       strokeWeight(3);
-      rect(x+(w/numberOfLetters*c)+margin,y+(h/numberOfTries*r)+margin,(w/numberOfLetters)-margin*2,(h/numberOfTries)-margin*2);//draw squares
+      let squareX = x+(w/numberOfLetters*c)+margin;
+      let squareY = y+(h/numberOfTries*r)+margin;
+      let squareW = (w/numberOfLetters)-margin*2
+      let squareH = (h/numberOfTries)-margin*2
+      rect(squareX,squareY,squareW,squareH);//draw squares
       if(letters[r][c] != "empty"){
-        fill(255,0,255);
-        text(letters[r][c],x+(w/numberOfLetters*c)+margin,y+(h/numberOfTries*r)+margin);
+        fill(255,0,255,200);
+        text(letters[r][c],squareX,squareY,squareX+squareW,squareY+squareH);//draw letters
       }
       pop();
     }
@@ -44,20 +48,20 @@ function Grid(){
 
 function keyPressed(){
   console.log(letters);
-  typing(key);
+  typing();
 }
 
-function typing(key){
+function typing(){
 
   if(keyCode == ENTER){
   }else if(keyCode == BACKSPACE){
     deleteLastLetter();
   }else{
-    findEmptySpot(key);
+    findEmptySpot();
   }
 }
   
-function findEmptySpot(key){
+function findEmptySpot(){
   for(let r = 0;r<numberOfTries;r++){
     for(let c = 0;c<numberOfLetters;c++){
       if(letters[r][c] == "empty"){
