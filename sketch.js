@@ -1,5 +1,6 @@
 let numberOfLetters = 6;
 let numberOfTries = 6;
+let currentTry = 1;
 let letters = [];
 
 function setup() {
@@ -39,7 +40,9 @@ function Grid(){
       rect(squareX,squareY,squareW,squareH);//draw squares
       if(letters[r][c] != "empty"){
         fill(255,0,255,200);
-        text(letters[r][c],squareX,squareY,squareX+squareW,squareY+squareH);//draw letters
+        rect(squareX,squareY,squareW,squareH);
+        textSize(squareW);
+        text(letters[r][c],squareX,squareY,squareW,squareH);//draw letters
       }
       pop();
     }
@@ -54,15 +57,22 @@ function keyPressed(){
 function typing(){
 
   if(keyCode == ENTER){
+    checkWord();
   }else if(keyCode == BACKSPACE){
     deleteLastLetter();
   }else{
     findEmptySpot();
   }
 }
+
+function checkWord(){
+  if(letters[currentTry-1][numberOfLetters-1] != "empty"){
+    currentTry++;
+  }
+}
   
 function findEmptySpot(){
-  for(let r = 0;r<numberOfTries;r++){
+  for(let r = 0;r<currentTry;r++){
     for(let c = 0;c<numberOfLetters;c++){
       if(letters[r][c] == "empty"){
         letters[r][c] = key;
@@ -75,13 +85,17 @@ function findEmptySpot(){
 function deleteLastLetter(){
   let placeToDeleteR = 0;
   let placeToDeleteC = 0;
+  let somethingToDelete = false;
   for(let r = 0;r<numberOfTries;r++){
     for(let c = 0;c<numberOfLetters;c++){
-      if(letters[r][c] != "empty"){
+      if(letters[r][c] != "empty" && r>=currentTry-1){
         placeToDeleteR = r;
         placeToDeleteC = c;
+        somethingToDelete = true;
       }
     }
   }
-  letters[placeToDeleteR][placeToDeleteC] = "empty";
+  if(somethingToDelete){
+    letters[placeToDeleteR][placeToDeleteC] = "empty";
+  }
 }
