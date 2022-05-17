@@ -1,0 +1,3726 @@
+abaisser|28|verbe 1er group|
+abandonner|25|verbe 1er group|
+abattre|23|verbe 3ème grou|
+abbé|26|nom masculin|
+abeille|13|nom féminin|
+abîme|24|nom masculin|
+abîmer|30|verbe 1er group|
+abondamment|33|adverbe|
+abondance|20|nom féminin|
+abondant|22|adjectif qualif|
+abord|24|nom masculin|
+aborder|21|verbe 1er group|
+aboutir|16|verbe 2ème grou|
+aboyer|25|verbe 1er group|
+abri|28|nom masculin|
+abriter|19|verbe 1er group|
+absence|24|nom féminin|
+absent|23|adjectif qualif|
+absolu|23|adjectif qualif|
+absolument|22|adverbe|
+abuser|19|verbe 1er group|
+accabler|30|verbe 1er group|
+accepter|29|verbe 1er group|
+accident|21|nom masculin|
+acclamation|27|nom féminin|
+acclamer|23|verbe 1er group|
+accompagner|24|verbe 1er group|
+accomplir|24|verbe 2ème grou|
+accord|23|nom masculin|
+accorder|21|verbe 1er group|
+accourir|24|verbe 3ème grou|
+accrocher|29|verbe 1er group|
+accueil|31|nom masculin|
+accueillir|33|verbe 3ème grou|
+accuser|23|verbe 1er group|
+acharner|22|verbe 1er group|
+achat|6|nom masculin|
+acheminer|26|verbe 1er group|
+acheter|17|verbe 1er group|
+acheteur|18|nom masculin|
+achever|21|verbe 1er group|
+acide|25|nom masculin|
+acier|23|nom masculin|
+acquérir|28|verbe 3ème grou|
+acquitter|33|verbe 1er group|
+acte|10|nom masculin|
+actif|17|adjectif qualif|
+action|14|nom féminin|
+activer|20|verbe 1er group|
+activité|20|nom féminin|
+actuel|22|adjectif qualif|
+actuellement|19|adverbe|
+adieu|17|nom masculin|
+adjectif numéral|20|nom masculin|
+admettre|25|verbe 3ème grou|
+administration|20|nom féminin|
+administrer|26|verbe 1er group|
+admirable|16|adjectif qualif|
+admiration|19|nom féminin|
+admirer|21|verbe 1er group|
+adopter|23|verbe 1er group|
+adorer|21|verbe 1er group|
+adoucir|21|verbe 2ème grou|
+adresse|19|nom féminin|
+adresser|23|verbe 1er group|
+adroit|14|adjectif qualif|
+adversaire|21|nom masculin|
+aérer|23|verbe 1er group|
+affaiblir|15|verbe 2ème grou|
+affaire|21|nom féminin|
+affairé|34|adjectif qualif|
+affection|22|nom féminin|
+affectionner|26|verbe 1er group|
+affectueusement|25|adverbe|
+affectueux|23|adjectif qualif|
+affiche|21|nom féminin|
+affliger|25|verbe 1er group|
+affreux|22|adjectif qualif|
+afin|20|conjonction|
+agacer|32|verbe 1er group|
+âge|16|nom masculin|
+âgé|27|adjectif qualif|
+agent|15|nom masculin|
+agile|18|adjectif qualif|
+agir|20|verbe 2ème grou|
+agitation|19|nom féminin|
+agiter|24|verbe 1er group|
+agréable|11|adjectif qualif|
+agréablement|17|adverbe|
+agréer|24|verbe 1er group|
+agrément|20|nom masculin|
+agrémenter|21|verbe 1er group|
+ah|25|interjection|
+aide|17|nom féminin|
+aider|22|verbe 1er group|
+aigu|27|adjectif qualif|
+aiguille|21|nom féminin|
+aiguiser|32|verbe 1er group|
+aile|15|nom féminin|
+ailleurs|37|adverbe|
+aimable|18|adjectif qualif|
+aimer|16|verbe 1er group|
+aîné|32|adjectif qualif|
+ainsi|24|adverbe|
+air|15|nom masculin|
+aire|26|nom féminin|
+aisance|27|nom féminin|
+aise|18|nom féminin|
+aisé|26|adjectif qualif|
+aisément|24|adverbe|
+ajouter|17|verbe 1er group|
+alcool|24|nom masculin|
+alcoolique|27|adjectif qualif|
+alentours|24|nom masculin|
+alerte|20|nom féminin|
+aligner|29|verbe 1er group|
+aliment|16|nom masculin|
+allée|16|nom féminin|
+allégresse|26|nom féminin|
+allemand|25|adjectif qualif|
+aller|17|verbe 3ème grou|
+allonger|20|verbe 1er group|
+allumer|22|verbe 1er group|
+allumette|21|nom féminin|
+allure|23|nom féminin|
+alors|20|adverbe|
+alouette|23|nom féminin|
+amateur|13|nom masculin|
+ambulance|28|nom féminin|
+âme|14|nom féminin|
+amende|24|nom féminin|
+amener|21|verbe 1er group|
+amer|24|adjectif qualif|
+américain|27|adjectif qualif|
+ami|16|nom masculin|
+amical|21|adjectif qualif|
+amicalement|18|adverbe|
+amitié|26|nom féminin|
+amour|13|nom masculin|
+ample|29|adjectif qualif|
+amusant|19|adjectif qualif|
+amusement|16|nom masculin|
+amuser|20|verbe 1er group|
+an|20|ncm|
+ancien|22|adjectif qualif|
+âne|13|nom masculin|
+ange|12|nom masculin|
+anglais|21|adjectif qualif|
+angle|18|nom masculin|
+angoisse|31|nom féminin|
+animal|8|nom masculin|
+animation|19|nom féminin|
+animer|23|verbe 1er group|
+anneau|24|nom masculin|
+année|9|nom féminin|
+anniversaire|25|nom masculin|
+annonce|21|nom féminin|
+annoncer|26|verbe 1er group|
+annuel|25|adjectif qualif|
+anticiper|36|verbe 1er group|
+anxiété|33|nom féminin|
+anxieux|33|adjectif qualif|
+août|27|nom masculin|
+apaiser|30|verbe 1er group|
+apercevoir|26|verbe 3ème grou|
+apostolique|21|adjectif qualif|
+apôtre|21|nom masculin|
+apparaître|29|verbe 3ème grou|
+apparence|22|nom féminin|
+apparition|22|nom féminin|
+appartement|20|nom masculin|
+appartenir|20|verbe 3ème grou|
+appel|22|nom masculin|
+appeler|26|verbe 1er group|
+appétissant|27|adjectif qualif|
+appétit|24|nom masculin|
+applaudir|29|verbe 2ème grou|
+application|21|nom féminin|
+appliquer|25|verbe 1er group|
+apporter|23|verbe 1er group|
+apprécier|27|verbe 1er group|
+apprendre|18|verbe 3ème grou|
+apprêter|32|verbe 1er group|
+approche|19|nom féminin|
+approcher|17|verbe 1er group|
+approuver|25|verbe 1er group|
+appui|31|nom masculin|
+appuyer|33|verbe 1er group|
+après|17|préposition|
+après-midi|23|nom masculin|
+araignée|22|nom féminin|
+arbitre|18|nom masculin|
+arbre|8|nom masculin|
+arbuste|18|nom masculin|
+architecte|18|nom masculin|
+ardent|18|adjectif qualif|
+ardeur|11|nom féminin|
+ardoise|13|nom féminin|
+argent|18|nom masculin|
+argenter|25|verbe 1er group|
+arme|8|nom féminin|
+armée|15|nom féminin|
+armer|22|verbe 1er group|
+armoire|11|nom féminin|
+arracher|18|verbe 1er group|
+arranger|26|verbe 1er group|
+arrêt|23|nom masculin|
+arrêter|26|verbe 1er group|
+arrière|21|nom masculin|
+arrivée|19|nom féminin|
+arriver|20|verbe 1er group|
+arrondir|25|verbe 2ème grou|
+arrondissement|23|nom masculin|
+arroser|22|verbe 1er group|
+art|21|nom masculin|
+article|9|nom masculin|
+artiste|10|nom masculin|
+aspirer|19|verbe 1er group|
+assaut|28|nom masculin|
+assembler|27|verbe 1er group|
+asseoir|33|verbe 3ème grou|
+assez|29|adverbe|
+assidu|23|adjectif qualif|
+assiette|24|nom féminin|
+assister|23|verbe 1er group|
+associer|28|verbe 1er group|
+assurer|22|verbe 1er group|
+astre|10|nom masculin|
+atelier|19|nom masculin|
+atmosphère|27|nom féminin|
+attachement|22|nom masculin|
+attacher|25|verbe 1er group|
+attaque|18|nom féminin|
+attaquer|22|verbe 1er group|
+attarder|28|verbe 1er group|
+atteindre|24|verbe 3ème grou|
+atteler|26|verbe 1er group|
+attendre|19|verbe 3ème grou|
+attente|24|nom féminin|
+attentif|21|adjectif qualif|
+attention|21|nom féminin|
+attentivement|20|adverbe|
+attester|32|verbe 1er group|
+attirer|19|verbe 1er group|
+attrait|32|nom masculin|
+attraper|25|verbe 1er group|
+attribuer|19|verbe 1er group|
+attrister|29|verbe 1er group|
+au-dessus|26|préposition|
+aube|8|nom féminin|
+aubépine|21|nom féminin|
+auberge|18|nom féminin|
+aucun|17|adjectif indéfi|
+augmenter|24|verbe 1er group|
+aujourd'hui|21|adverbe|
+aumône|23|nom féminin|
+auparavant|27|adverbe|
+auprès|22|adverbe|
+auquel|23|pronom|
+aurore|20|nom féminin|
+aussi|14|adverbe|
+aussitôt|22|adverbe|
+autant|20|adverbe|
+autel|20|nom masculin|
+auteur|17|nom masculin|
+automne|23|nom masculin|
+automobile|18|nom féminin|
+autoriser|21|verbe 1er group|
+autorité|20|nom féminin|
+autour|8|préposition|
+autre|12|adjectif qualif|
+autrefois|18|adverbe|
+autrement|18|adverbe|
+autrui|22|pronom|
+avaler|16|verbe 1er group|
+avance|19|nom féminin|
+avancer|22|verbe 1er group|
+avant|14|préposition|
+avantage|18|nom masculin|
+avantageux|26|adjectif qualif|
+avec|2|préposition|
+avenir|8|nom masculin|
+aventure|18|nom féminin|
+aventurer|24|verbe 1er group|
+avenue|16|nom féminin|
+averse|17|nom féminin|
+avertir|14|verbe 2ème grou|
+aveugle|12|adjectif qualif|
+aviateur|9|nom masculin|
+avion|13|nom masculin|
+avis|17|nom masculin|
+aviser|22|verbe 1er group|
+avoine|19|nom masculin|
+avoir|14|nom masculin|
+avouer|16|verbe 1er group|
+avril|13|nom masculin|
+azur|26|nom masculin|
+azuré|23|adjectif qualif|
+bagage|18|nom masculin|
+baguette|22|nom féminin|
+baigner|28|verbe 1er group|
+bâiller|43|verbe 1er group|
+bain|15|nom masculin|
+baiser|25|nom masculin|
+baisser|23|verbe 1er group|
+bal|14|nom masculin|
+balancer|21|verbe 1er group|
+balançoire|30|nom féminin|
+balayer|28|verbe 1er group|
+balcon|15|nom masculin|
+balle|11|nom féminin|
+ballon|19|nom masculin|
+bambin|26|nom masculin|
+banane|19|nom féminin|
+banc|14|nom masculin|
+bande|13|nom féminin|
+bandit|19|nom masculin|
+banque|14|nom féminin|
+banquier|20|nom masculin|
+baptême|33|nom masculin|
+baptiser|30|verbe 1er group|
+barbe|6|nom féminin|
+barque|12|nom féminin|
+barquette|13|nom féminin|
+barrage|28|nom masculin|
+barre|20|nom féminin|
+barreau|24|nom masculin|
+barrière|23|nom féminin|
+bas|16|adjectif qualif|
+basse|16|nom féminin|
+basse-cour|24|nom féminin|
+bassin|14|nom masculin|
+bataille|14|nom féminin|
+bateau|24|nom masculin|
+bâtiment|21|nom masculin|
+bâtir|20|verbe 2ème grou|
+bâton|19|nom masculin|
+battre|18|verbe 3ème grou|
+bavarder|17|verbe 1er group|
+bazar|14|nom masculin|
+beau|13|adjectif qualif|
+beaucoup|18|adverbe|
+beauté|19|nom féminin|
+bébé|5|nom masculin|
+bec|12|nom masculin|
+bêche|16|nom féminin|
+belge|11|adjectif qualif|
+bénédiction|16|nom féminin|
+bénir|19|verbe 2ème grou|
+berceau|19|nom masculin|
+bercer|24|verbe 1er group|
+béret|26|nom masculin|
+berger|16|nom masculin|
+besogne|15|nom féminin|
+besoin|18|nom masculin|
+bétail|22|nom masculin|
+bête|17|nom féminin|
+betterave|23|nom féminin|
+beurre|17|nom masculin|
+bibelot|26|nom masculin|
+bibliothèque|32|nom féminin|
+bicyclette|25|nom féminin|
+bien|13|adverbe|
+bien-aimé|26|adjectif qualif|
+bien-être|27|nom masculin|
+bienfaisant|25|adjectif qualif|
+bienfait|18|nom masculin|
+bienfaiteur|18|nom masculin|
+bienheureux|21|adjectif qualif|
+bientôt|17|adverbe|
+bienveillance|27|nom féminin|
+bienveillant|29|adjectif qualif|
+bienvenue|22|nom féminin|
+bière|23|nom féminin|
+bijou|21|nom masculin|
+bille|12|nom féminin|
+billet|15|nom masculin|
+bise|13|nom (masc ou fé|
+bizarre|33|adjectif qualif|
+blanc|15|adjectif qualif|
+blancheur|12|nom féminin|
+blanchir|12|verbe 2ème grou|
+blé|10|nom masculin|
+blesser|26|verbe 1er group|
+blessure|20|nom féminin|
+bleu|12|adjectif qualif|
+bleuet|19|nom masculin|
+bloc|18|nom masculin|
+blond|21|adjectif qualif|
+blottir|33|verbe 2ème grou|
+blouse|14|nom féminin|
+bluet|19|nom masculin|
+boeuf|16|nom masculin|
+boire|10|verbe 3ème grou|
+bois|10|nom masculin|
+boisson|16|nom féminin|
+boîte|27|nom féminin|
+boiteux|22|adjectif qualif|
+bon|10|adjectif qualif|
+bonbon|17|nom masculin|
+bond|22|nom masculin|
+bondir|13|verbe 2ème grou|
+bonheur|15|nom masculin|
+bonhomme|20|nom masculin|
+bonjour|11|nom masculin|
+bonne|9|nom féminin|
+bonnet|19|nom masculin|
+bonsoir|18|nom masculin|
+bonté|16|nom féminin|
+bord|10|nom masculin|
+border|22|verbe 1er group|
+bordure|11|nom féminin|
+borne|12|nom féminin|
+bosquet|18|nom masculin|
+bosselé|28|adjectif qualif|
+bossu|20|adjectif qualif|
+botte|13|nom féminin|
+bouche|8|nom féminin|
+boucher|18|verbe 1er group|
+boucle|13|nom féminin|
+boucler|20|verbe 1er group|
+bouder|19|verbe 1er group|
+boue|14|nom féminin|
+boueux|23|adjectif qualif|
+bouger|21|verbe 1er group|
+bougie|17|nom féminin|
+boulanger|14|nom masculin|
+boulangerie|14|nom féminin|
+boule|13|nom féminin|
+bouleau|24|nom masculin|
+boulevard|24|nom masculin|
+bouleverser|26|verbe 1er group|
+bouquet|15|nom masculin|
+bourdonnement|21|nom masculin|
+bourdonner|25|verbe 1er group|
+bourgeois|24|nom masculin|
+bourgeon|20|nom masculin|
+bourgeonner|25|verbe 1er group|
+bourgmestre|29|nom masculin|
+bourrasque|30|nom féminin|
+bourse|15|nom féminin|
+bousculer|24|verbe 1er group|
+bout|19|nom masculin|
+bouteille|16|nom féminin|
+boutique|13|nom féminin|
+bouton|11|nom masculin|
+branche|7|nom féminin|
+bras|13|nom masculin|
+brave|8|adjectif qualif|
+bravo|21|nom masculin|
+brebis|17|nom féminin|
+brèche|29|nom féminin|
+bref|17|adjectif qualif|
+brigand|27|nom masculin|
+brillant|24|adjectif qualif|
+briller|24|verbe 1er group|
+brin|19|nom masculin|
+brindille|23|nom féminin|
+brique|7|nom féminin|
+brise|13|nom féminin|
+briser|17|verbe 1er group|
+brochure|15|nom féminin|
+broder|21|verbe 1er group|
+brouillard|23|nom masculin|
+brouter|21|verbe 1er group|
+broyer|18|verbe 1er group|
+bruit|17|nom masculin|
+brûlant|28|adjectif qualif|
+brûler|28|verbe 1er group|
+brume|12|nom féminin|
+brumeux|20|adjectif qualif|
+brun|17|adjectif qualif|
+brusque|15|adjectif qualif|
+brusquement|18|adverbe|
+brut|23|adjectif qualif|
+brutal|17|adjectif qualif|
+bruyamment|36|adverbe|
+bruyant|31|adjectif qualif|
+bûcheron|26|nom masculin|
+buis|29|nom masculin|
+buisson|19|nom masculin|
+bulletin|24|nom masculin|
+bureau|15|nom masculin|
+but|19|nom masculin|
+butiner|22|verbe 1er group|
+ça|27|pronom|
+cabane|16|nom féminin|
+cabine|10|nom féminin|
+cache-cache|20|nom masculin|
+cacher|16|verbe 1er group|
+cadavre|14|nom masculin|
+cadeau|16|nom masculin|
+cadet|18|adjectif qualif|
+cadran|20|nom masculin|
+cadre|12|nom masculin|
+café|9|nom masculin|
+cage|9|nom féminin|
+cahier|11|nom masculin|
+caillou|28|nom masculin|
+caisse|16|nom féminin|
+calcul|11|nom masculin|
+calculer|15|verbe 1er group|
+calendrier|20|nom masculin|
+calice|19|nom masculin|
+calme|16|adjectif qualif|
+calmer|20|verbe 1er group|
+calvaire|26|nom masculin|
+camarade|19|nom commun (mas|
+camion|15|nom masculin|
+camp|22|nom masculin|
+campagnard|25|nom masculin|
+campagne|12|nom féminin|
+canal|13|nom masculin|
+canard|13|nom masculin|
+canif|16|nom masculin|
+canne|21|nom féminin|
+canon|12|nom masculin|
+canot|25|nom masculin|
+cantique|16|nom masculin|
+capable|16|adjectif qualif|
+capitaine|15|nom masculin|
+capital|17|nom masculin|
+caprice|20|nom masculin|
+car|15|conjonction|
+carabine|13|nom féminin|
+caractère|19|nom masculin|
+caresse|25|nom féminin|
+caresser|26|verbe 1er group|
+carnet|15|nom masculin|
+carotte|22|nom féminin|
+carré|17|adjectif qualif|
+carreau|23|nom masculin|
+carrefour|30|nom masculin|
+carrière|22|nom féminin|
+carrousel|39|nom masculin|
+cartable|17|nom masculin|
+carte|5|nom féminin|
+carton|9|nom masculin|
+cas|21|nom masculin|
+casquette|19|nom féminin|
+casser|22|verbe 1er group|
+catastrophe|24|nom féminin|
+catéchisme|26|nom masculin|
+cathédrale|30|nom féminin|
+catholique|28|adjectif qualif|
+cause|16|nom féminin|
+causer|19|verbe 1er group|
+cave|9|nom féminin|
+caverne|13|nom féminin|
+ceci|20|pronom|
+céder|25|verbe 1er group|
+ceinture|25|nom féminin|
+cela|20|pronom|
+célèbre|24|adjectif qualif|
+célébrer|26|verbe 1er group|
+céleste|21|adjectif qualif|
+celle-ci|18|pronom|
+celui-ci|18|pronom|
+cendre|23|nom féminin|
+cent|18|adjectif numéra|
+centaine|19|nom féminin|
+centime|17|nom masculin|
+centimètre|20|nom masculin|
+central|28|adjectif qualif|
+centre|19|nom masculin|
+cependant|24|adverbe|
+cercle|17|nom masculin|
+cérémonie|22|nom féminin|
+cerf|23|nom masculin|
+cerise|19|nom féminin|
+cerisier|18|nom masculin|
+certain|23|adjectif qualif|
+certainement|26|adverbe|
+certes|37|adverbe|
+cesse|24|nom féminin|
+cesser|23|verbe 1er group|
+ceux|18|pronom|
+chacun|14|pronom|
+chagrin|17|nom masculin|
+chaîne|28|nom féminin|
+chair|20|nom féminin|
+chaise|17|nom féminin|
+chaland|31|nom masculin|
+chaleur|9|nom féminin|
+chambre|9|nom féminin|
+chameau|16|nom masculin|
+champ|21|nom masculin|
+chance|19|nom féminin|
+changement|16|nom masculin|
+changer|19|verbe 1er group|
+chanson|11|nom féminin|
+chant|13|nom masculin|
+chanter|17|verbe 1er group|
+chanteur|9|nom masculin|
+chantre|12|nom masculin|
+chapeau|12|nom masculin|
+chapelet|21|nom masculin|
+chapelle|14|nom féminin|
+chapitre|18|nom masculin|
+chaque|12|adjectif indéfi|
+charbon|11|nom masculin|
+charbonnage|18|nom masculin|
+charge|11|nom féminin|
+charger|20|verbe 1er group|
+chariot|24|nom masculin|
+charitable|12|adjectif qualif|
+charité|15|nom féminin|
+charlatan|32|nom masculin|
+charmant|19|adjectif qualif|
+charme|9|nom masculin|
+charmer|17|verbe 1er group|
+charrette|25|nom féminin|
+charrue|24|nom féminin|
+chasse|10|nom féminin|
+chasser|20|verbe 1er group|
+chasseur|10|nom masculin|
+chat|7|nom masculin|
+château|19|nom masculin|
+chaud|16|adjectif qualif|
+chaudement|13|adverbe|
+chauffage|21|nom masculin|
+chauffer|21|verbe 1er group|
+chauffeur|18|nom masculin|
+chaume|17|nom masculin|
+chaumière|16|nom féminin|
+chaussée|18|nom féminin|
+chausser|20|verbe 1er group|
+chaussure|18|nom féminin|
+chaux|24|nom féminin|
+chef|12|nom masculin|
+chef-d'oeuvre|27|nom masculin|
+chemin|8|nom masculin|
+cheminée|5|nom féminin|
+chemise|10|nom féminin|
+chêne|22|nom masculin|
+cher|17|adjectif qualif|
+chercher|10|verbe 1er group|
+chéri|19|adjectif qualif|
+chérir|20|verbe 2ème grou|
+cheval|8|nom masculin|
+chevalier|13|nom masculin|
+chevelure|10|nom féminin|
+chevet|25|nom masculin|
+cheveu|28|nom masculin|
+chèvre|21|nom féminin|
+chez|22|préposition|
+chien|11|nom masculin|
+chiffon|21|nom masculin|
+chiffre|20|nom masculin|
+choc|19|nom masculin|
+chocolat|14|nom masculin|
+choeur|28|nom masculin|
+choisir|16|verbe 2ème grou|
+choix|20|nom masculin|
+chose|15|nom féminin|
+chou|28|nom masculin|
+chrétien|24|adjectif qualif|
+chrysanthème|32|nom masculin|
+chute|17|nom féminin|
+ci-joint|35|adjectif qualif|
+ciel|14|nom masculin|
+cigarette|18|nom féminin|
+cime|29|nom féminin|
+cimetière|20|nom masculin|
+cinéma|18|nom masculin|
+cinq|15|adjectif numéra|
+cinquante|18|adjectif numéra|
+circonstance|24|nom féminin|
+circulation|18|nom féminin|
+circuler|23|verbe 1er group|
+cirer|24|verbe 1er group|
+cirque|15|nom masculin|
+ciseaux|27|nom masculin|
+cité|22|nom féminin|
+citer|27|verbe 1er group|
+citoyen|27|nom masculin|
+civil|27|adjectif qualif|
+clair|19|adjectif qualif|
+clairière|21|nom féminin|
+clairon|16|nom masculin|
+claquer|20|verbe 1er group|
+clarté|21|nom féminin|
+classe|6|nom féminin|
+classique|18|adjectif qualif|
+clé|19|nom féminin|
+clef|19|nom féminin|
+clément|19|adjectif qualif|
+client|17|nom masculin|
+climat|21|nom masculin|
+clin d'oeil|36|nom masculin|
+cloche|11|nom féminin|
+clocher|17|nom masculin|
+clochette|14|nom féminin|
+clos|25|adjectif qualif|
+clou|13|nom masculin|
+clouer|21|verbe 1er group|
+clown|34|nom masculin|
+cochon|12|nom masculin|
+coeur|9|nom masculin|
+coffre|22|nom masculin|
+coffret|22|nom masculin|
+coiffer|20|verbe 1er group|
+coiffure|19|nom féminin|
+coin|11|nom masculin|
+colère|20|nom féminin|
+colis|27|nom masculin|
+collection|21|nom féminin|
+collège|27|nom masculin|
+coller|25|verbe 1er group|
+colline|20|nom féminin|
+colonel|21|nom masculin|
+colonial|23|adjectif qualif|
+colonne|27|nom féminin|
+colorer|17|verbe 1er group|
+combat|19|nom masculin|
+combattant|26|nom masculin|
+combattre|25|verbe 3ème grou|
+combien|13|adverbe|
+comble|14|nom masculin|
+combler|22|verbe 1er group|
+commandant|25|nom masculin|
+commande|21|nom féminin|
+commandement|26|nom masculin|
+commander|30|verbe 1er group|
+comme|11|conjonction|
+commencement|21|nom masculin|
+commencer|22|verbe 1er group|
+comment|16|conjonction|
+commerçant|25|nom masculin|
+commerce|19|nom masculin|
+commercial|25|adjectif qualif|
+commettre|28|verbe 3ème grou|
+commission|38|nom féminin|
+commode|26|nom féminin|
+commun|15|adjectif qualif|
+communal|24|adjectif qualif|
+commune|13|nom féminin|
+communiant|27|nom masculin|
+communication|28|nom féminin|
+communier|27|verbe 1er group|
+communion|19|nom féminin|
+communiquer|26|verbe 1er group|
+compagne|13|nom féminin|
+compagnie|15|nom féminin|
+compagnon|10|nom masculin|
+comparaison|23|nom féminin|
+comparer|15|verbe 1er group|
+compassion|32|nom féminin|
+complet|18|adjectif qualif|
+complètement|23|adverbe|
+compléter|25|verbe 1er group|
+compliment|14|nom masculin|
+compliquer|21|verbe 1er group|
+composer|23|verbe 1er group|
+composition|20|nom féminin|
+comprendre|17|verbe 3ème grou|
+compte|24|nom masculin|
+compter|28|verbe 1er group|
+comte|28|nom masculin|
+concerner|34|verbe 1er group|
+concert|25|nom masculin|
+conclure|19|verbe 3ème grou|
+concours|29|nom masculin|
+condamner|26|verbe 1er group|
+condisciple|29|nom masculin|
+condition|27|nom féminin|
+condoléances|24|nom féminin|
+conduire|14|verbe 3ème grou|
+conduite|10|nom féminin|
+confectionner|27|verbe 1er group|
+conférence|20|nom féminin|
+confesser|27|verbe 1er group|
+confiance|21|nom féminin|
+confier|21|verbe 1er group|
+confiture|10|nom féminin|
+confondre|15|verbe 3ème grou|
+conformément|19|adverbe|
+confrère|13|nom masculin|
+confus|32|adjectif qualif|
+congé|18|nom masculin|
+congrès|21|nom masculin|
+connaissance|24|nom féminin|
+connaître|24|verbe 3ème grou|
+conquérir|25|verbe 3ème grou|
+consacrer|22|verbe 1er group|
+conscience|28|nom féminin|
+conseil|19|nom masculin|
+conseiller|24|verbe 1er group|
+consentement|21|nom masculin|
+consentir|25|verbe 3ème grou|
+conséquence|28|nom féminin|
+conserver|21|verbe 1er group|
+considérable|18|adjectif qualif|
+considérer|25|verbe 1er group|
+consister|28|verbe 1er group|
+consolation|17|nom féminin|
+consoler|18|verbe 1er group|
+constamment|34|adverbe|
+constant|23|adjectif qualif|
+constater|18|verbe 1er group|
+constituer|20|verbe 1er group|
+construction|17|nom féminin|
+construire|19|verbe 3ème grou|
+consulter|22|verbe 1er group|
+contact|28|nom masculin|
+conte|17|nom masculin|
+contempler|29|verbe 1er group|
+contenir|10|verbe 3ème grou|
+content|18|adjectif qualif|
+contenter|21|verbe 1er group|
+contenu|12|nom masculin|
+conter|25|verbe 1er group|
+continuel|23|adjectif qualif|
+continuellement|17|adverbe|
+continuer|16|verbe 1er group|
+contraire|18|adjectif qualif|
+contrarier|19|verbe 1er group|
+contre|11|préposition|
+contrée|18|nom féminin|
+contribuer|15|verbe 1er group|
+convaincre|25|verbe 3ème grou|
+convenable|14|adjectif qualif|
+convenir|10|verbe 3ème grou|
+conversation|17|nom féminin|
+convertir|20|verbe 2ème grou|
+conviction|18|nom féminin|
+copier|17|verbe 1er group|
+coq|15|nom masculin|
+coquelicot|25|nom masculin|
+coquet|19|adjectif qualif|
+coquille|21|nom féminin|
+corbeau|15|nom masculin|
+corbeille|14|nom féminin|
+corde|12|nom féminin|
+cordial|23|nom masculin|
+cordialement|21|adverbe|
+cordonnier|22|nom masculin|
+corne|15|nom féminin|
+corniche|13|nom féminin|
+corolle|25|nom féminin|
+corps|23|nom masculin|
+correction|21|nom féminin|
+correspondance|29|nom féminin|
+corridor|23|nom masculin|
+corriger|22|verbe 1er group|
+cortège|16|nom masculin|
+costume|9|nom masculin|
+côte|18|nom féminin|
+côté|16|nom masculin|
+coton|14|nom masculin|
+cou|16|nom masculin|
+couche|9|nom féminin|
+coucher|17|verbe 1er group|
+coucou|10|nom masculin|
+coude|10|nom masculin|
+coudre|14|verbe 3ème grou|
+couler|16|verbe 1er group|
+couleur|11|nom féminin|
+couloir|19|nom masculin|
+coup|18|nom masculin|
+coupable|12|adjectif qualif|
+coupe|11|nom féminin|
+couper|13|verbe 1er group|
+cour|14|nom féminin|
+courage|10|nom masculin|
+courageusement|17|adverbe|
+courageux|20|adjectif qualif|
+courant|20|adjectif qualif|
+courber|19|verbe 1er group|
+coureur|16|nom masculin|
+courir|16|verbe 3ème grou|
+couronne|20|nom féminin|
+couronner|28|verbe 1er group|
+courrier|24|nom masculin|
+cours|23|nom masculin|
+course|15|nom féminin|
+court|21|adjectif qualif|
+cousin|14|nom masculin|
+coussin|20|nom masculin|
+couteau|18|nom masculin|
+coûter|27|verbe 1er group|
+coutume|15|nom féminin|
+couture|22|nom féminin|
+couvent|20|nom féminin|
+couver|20|verbe 1er group|
+couvercle|18|nom masculin|
+couvert|19|nom masculin|
+couverture|13|nom féminin|
+couvrir|14|verbe 3ème grou|
+craindre|20|verbe 3ème grou|
+crainte|18|nom féminin|
+craquement|18|nom masculin|
+craquer|23|verbe 1er group|
+crayon|19|nom masculin|
+créateur|18|nom masculin|
+créature|12|nom féminin|
+crèche|27|nom féminin|
+créer|25|verbe 1er group|
+crème|27|nom féminin|
+crêpe|24|nom féminin|
+crépuscule|17|nom masculin|
+creuser|22|verbe 1er group|
+creux|20|adjectif qualif|
+crever|22|verbe 1er group|
+cri|20|nom masculin|
+crier|13|verbe 1er group|
+crime|11|nom masculin|
+crise|16|nom féminin|
+cristal|17|nom masculin|
+croire|15|verbe 3ème grou|
+croiser|24|verbe 1er group|
+croître|24|verbe 3ème grou|
+croix|9|nom féminin|
+croquer|24|verbe 1er group|
+croûte|35|nom féminin|
+crucifix|34|nom masculin|
+cruel|24|adjectif qualif|
+cueillette|27|nom féminin|
+cueillir|26|verbe 3ème grou|
+cuiller|28|nom féminin|
+cuillère|28|nom féminin|
+cuir|20|nom masculin|
+cuire|15|verbe 3ème grou|
+cuisine|14|nom féminin|
+cuisinière|18|nom féminin|
+cuivre|11|nom masculin|
+culotte|19|nom féminin|
+cultivateur|16|nom masculin|
+cultiver|18|verbe 1er group|
+culture|8|nom féminin|
+curé|16|nom masculin|
+curieux|18|adjectif qualif|
+curiosité|22|nom féminin|
+cycliste|27|nom masculin|
+cygne|29|nom masculin|
+d'abord|24|adverbe|
+d'après|17|préposition|
+dahlia|43|nom masculin|
+daigner|27|verbe 1er group|
+dame|14|nom féminin|
+danger|17|nom masculin|
+dangereux|16|adjectif qualif|
+dans|10|préposition|
+danse|18|nom féminin|
+danser|21|verbe 1er group|
+darder|25|verbe 1er group|
+date|14|nom féminin|
+dater|27|verbe 1er group|
+davantage|37|adverbe|
+débarquer|22|verbe 1er group|
+débarrasser|37|verbe 1er group|
+débattre|26|verbe 3ème grou|
+débiter|21|verbe 1er group|
+déborder|18|verbe 1er group|
+déboucher|22|verbe 1er group|
+debout|21|adverbe|
+débris|27|nom masculin|
+début|17|nom masculin|
+décéder|22|verbe 1er group|
+décembre|13|nom masculin|
+déception|27|nom féminin|
+déchaîner|33|verbe 1er group|
+décharger|22|verbe 1er group|
+déchirer|20|verbe 1er group|
+décider|19|verbe 1er group|
+décision|27|nom féminin|
+déclarer|21|verbe 1er group|
+décorer|20|verbe 1er group|
+découper|22|verbe 1er group|
+décourager|20|verbe 1er group|
+découverte|13|nom féminin|
+découvrir|16|verbe 3ème grou|
+décrire|22|verbe 3ème grou|
+dédaigner|29|verbe 1er group|
+dedans|17|adverbe|
+défaire|21|verbe 3ème grou|
+défaut|19|nom masculin|
+défendre|19|verbe 3ème grou|
+défense|20|nom féminin|
+défenseur|18|nom masculin|
+défiler|24|verbe 1er group|
+défunt|26|nom masculin|
+dégager|22|verbe 1er group|
+dégât|36|nom masculin|
+degré|19|nom masculin|
+dehors|22|adverbe|
+déjà|23|adverbe|
+déjeuner|20|verbe 1er group|
+délaisser|30|verbe 1er group|
+délicat|18|adjectif qualif|
+délice|20|nom masculin|
+délicieux|21|adjectif qualif|
+délivrer|18|verbe 1er group|
+demain|12|adverbe|
+demande|14|nom féminin|
+demander|21|verbe 1er group|
+démarche|17|nom féminin|
+déménager|22|verbe 1er group|
+demeure|19|nom féminin|
+demeurer|22|verbe 1er group|
+demi|15|nom masculin|
+demoiselle|16|nom féminin|
+démolir|19|verbe 2ème grou|
+démontrer|25|verbe 1er group|
+dent|12|nom féminin|
+dentelle|18|nom féminin|
+dénudé|18|adjectif qualif|
+départ|22|nom masculin|
+dépasser|24|verbe 1er group|
+dépêcher|28|verbe 1er group|
+dépendre|17|verbe 3ème grou|
+dépens|39|nom masculin|
+dépenser|15|verbe 1er group|
+déplacer|19|verbe 1er group|
+déplaire|17|verbe 3ème grou|
+déployer|24|verbe 1er group|
+déposer|21|verbe 1er group|
+dépôt|26|nom masculin|
+dépouiller|26|verbe 1er group|
+depuis|15|préposition|
+déranger|20|verbe 1er group|
+dernier|12|adjectif qualif|
+dernièrement|20|adverbe|
+dérober|19|verbe 1er group|
+dérouler|24|verbe 1er group|
+derrière|25|préposition|
+dès|20|préposition|
+désagréable|14|adjectif qualif|
+désaltérer|25|verbe 1er group|
+désastre|22|nom masculin|
+descendre|20|verbe 3ème grou|
+descente|26|nom féminin|
+description|22|nom féminin|
+désert|24|adjectif qualif|
+désespérer|32|verbe 1er group|
+désespoir|24|nom masculin|
+déshabiller|31|verbe 1er group|
+désigner|17|verbe 1er group|
+désir|20|nom masculin|
+désirer|23|verbe 1er group|
+désireux|16|adjectif qualif|
+désobéir|19|verbe 2ème grou|
+désobéissance|26|nom féminin|
+désobéissant|27|adjectif qualif|
+désolation|18|nom féminin|
+désoler|20|verbe 1er group|
+désordre|16|nom masculin|
+désormais|26|adverbe|
+dessein|31|nom masculin|
+dessert|21|nom masculin|
+dessin|12|nom masculin|
+dessiner|20|verbe 1er group|
+dessous|20|préposition|
+dessus|22|adverbe|
+destination|15|nom féminin|
+destinée|18|nom féminin|
+destiner|23|verbe 1er group|
+détacher|21|verbe 1er group|
+détail|19|nom masculin|
+déterminer|21|verbe 1er group|
+détester|17|verbe 1er group|
+détour|18|nom masculin|
+détourner|20|verbe 1er group|
+détruire|17|verbe 3ème grou|
+dette|17|nom féminin|
+deuil|21|nom masculin|
+deux|2|adjectif numéra|
+deuxième|21|adjectif numéra|
+devant|15|préposition|
+développer|27|verbe 1er group|
+devenir|9|verbe 3ème grou|
+deviner|19|verbe 1er group|
+devoir|8|verbe 3ème grou|
+dévorer|21|verbe 1er group|
+dévouement|16|nom masculin|
+dévouer|17|verbe 1er group|
+diable|11|nom masculin|
+diamant|25|nom masculin|
+dictée|11|nom féminin|
+dicter|24|verbe 1er group|
+dictionnaire|23|nom masculin|
+dieu|15|nom masculin|
+différence|25|nom féminin|
+différent|21|adjectif qualif|
+différer|30|verbe 1er group|
+difficile|25|adjectif qualif|
+difficilement|26|adverbe|
+difficulté|27|nom féminin|
+digne|16|adjectif qualif|
+dimanche|13|nom masculin|
+dimension|27|nom féminin|
+diminuer|21|verbe 1er group|
+dîner|21|verbe 1er group|
+dire|13|verbe 3ème grou|
+directement|15|adverbe|
+directeur|11|nom masculin|
+direction|17|nom féminin|
+diriger|18|verbe 1er group|
+discours|31|nom masculin|
+discussion|35|nom féminin|
+discuter|22|verbe 1er group|
+disparaître|25|verbe 3ème grou|
+disparition|22|nom féminin|
+dispenser|21|verbe 1er group|
+disperser|34|verbe 1er group|
+disposer|19|verbe 1er group|
+disposition|18|nom féminin|
+disputer|21|verbe 1er group|
+dissiper|26|verbe 1er group|
+distance|25|nom féminin|
+distinction|19|nom féminin|
+distinguer|24|verbe 1er group|
+distraction|18|nom féminin|
+distraire|19|verbe 3ème grou|
+distrait|18|adjectif qualif|
+distribuer|19|verbe 1er group|
+distribution|17|nom féminin|
+divers|23|adjectif qualif|
+divin|16|adjectif qualif|
+diviser|17|verbe 1er group|
+division|13|nom féminin|opération de partage
+dix|13|adjectif numéra|
+dizaine|21|nom féminin|
+docile|19|adjectif qualif|
+docteur|14|nom masculin|
+doigt|19|nom masculin|
+domaine|25|nom masculin|
+domestique|15|adjectif qualif|
+domicile|17|nom masculin|
+dominer|19|verbe 1er group|
+dommage|25|nom masculin|
+dompteur|23|nom masculin|
+don|25|nom masculin|
+donc|12|conjonction|
+donner|19|verbe 1er group|
+dont|17|pronom|
+dorer|24|verbe 1er group|
+dormir|12|verbe 3ème grou|
+dortoir|24|nom masculin|
+dos|16|nom masculin|
+dossier|27|nom masculin|
+double|11|adjectif qualif|
+doubler|21|verbe 1er group|
+doucement|19|adverbe|
+douceur|18|nom féminin|
+douleur|9|nom féminin|
+douloureux|15|adjectif qualif|
+doute|14|nom masculin|
+douter|18|verbe 1er group|
+doux|15|adjectif qualif|
+douzaine|19|nom féminin|
+douze|14|adjectif numéra|
+doyen|25|nom masculin|
+drap|17|nom masculin|
+drapeau|16|nom masculin|
+dresser|25|verbe 1er group|
+droit|17|adjectif qualif|
+droite|9|adjectif qualif|
+drôle|19|adjectif qualif|
+duc|13|nom masculin|
+duquel|22|pronom|
+dur|20|adjectif qualif|
+durant|21|préposition|
+durée|14|nom féminin|
+durer|19|verbe 1er group|
+duvet|17|nom masculin|
+eau|14|nom féminin|
+ébats|26|nom masculin|
+éblouir|18|verbe 2ème grou|
+ébranler|24|verbe 1er group|
+écarter|23|verbe 1er group|
+échanger|20|verbe 1er group|
+échantillon|22|nom masculin|
+échapper|15|verbe 1er group|
+écharpe|12|nom féminin|
+échec|25|nom masculin|
+échelle|15|nom féminin|
+écho|30|nom masculin|
+éclabousser|25|verbe 1er group|
+éclair|21|nom masculin|
+éclaircir|23|verbe 2ème grou|
+éclairer|23|verbe 1er group|
+éclat|15|nom masculin|
+éclatant|22|adjectif qualif|
+éclater|18|verbe 1er group|
+éclore|21|verbe 3ème grou|
+écluse|15|nom féminin|
+école|4|nom féminin|
+écolier|14|nom masculin|
+économie|18|nom féminin|
+économiser|22|verbe 1er group|
+écorce|26|nom féminin|
+écouler|21|verbe 1er group|
+écouter|17|verbe 1er group|
+écraser|24|verbe 1er group|
+écrire|14|verbe 3ème grou|
+écrit|19|adjectif qualif|
+écriture|9|nom féminin|
+écrivain|24|nom masculin|
+écureuil|27|nom masculin|
+écurie|12|nom féminin|
+édifier|23|verbe 1er group|
+éducation|19|nom féminin|
+effacer|22|verbe 1er group|
+effectuer|25|verbe 1er group|
+effet|23|nom masculin|
+effort|21|nom masculin|
+effrayer|25|verbe 1er group|
+effroyable|26|adjectif qualif|
+égal|25|adjectif qualif|
+également|16|adverbe|
+égard|25|nom masculin|
+égarer|21|verbe 1er group|
+église|8|nom féminin|
+eh|36|interjection|
+élan|24|nom masculin|
+élancer|23|verbe 1er group|
+élargir|21|verbe 2ème grou|
+électricité|21|nom féminin|
+électrique|16|adjectif qualif|
+élégant|18|adjectif qualif|
+éléphant|20|nom masculin|
+élève|10|nom commun (mas|
+élever|22|verbe 1er group|
+emballer|30|verbe 1er group|
+embarquer|25|verbe 1er group|
+embarras|36|nom masculin|
+embarrasser|32|verbe 1er group|
+embaumer|26|verbe 1er group|
+embellir|22|verbe 2ème grou|
+embrasser|22|verbe 1er group|
+émerveiller|21|verbe 1er group|
+emmener|33|verbe 1er group|
+émotion|22|nom féminin|
+émouvoir|16|verbe 3ème grou|
+empêcher|30|verbe 1er group|
+empereur|19|nom masculin|
+emplacement|23|nom masculin|
+emplir|19|verbe 2ème grou|
+emploi|28|nom masculin|
+employé|25|nom masculin|
+employer|25|verbe 1er group|
+emporter|21|verbe 1er group|
+empressement|24|nom masculin|
+encadrer|22|verbe 1er group|
+enchanté|23|adjectif qualif|
+encombrer|27|verbe 1er group|
+encore|14|adverbe|
+encourager|20|verbe 1er group|
+encourir|17|verbe 3ème grou|
+encre|13|nom féminin|
+encrier|15|nom masculin|
+endormir|13|verbe 3ème grou|
+endosser|28|verbe 1er group|
+endroit|18|nom masculin|
+énergie|17|nom féminin|
+énergique|21|adjectif qualif|
+enfance|17|nom féminin|
+enfant|8|nom commun (mas|
+enfermer|16|verbe 1er group|
+enfin|15|adverbe|
+enflammer|33|verbe 1er group|
+enfoncer|21|verbe 1er group|
+enfouir|22|verbe 2ème grou|
+engager|14|verbe 1er group|
+engloutir|21|verbe 2ème grou|
+enlever|20|verbe 1er group|
+ennemi|23|nom masculin|
+ennui|26|nom masculin|
+ennuyer|28|verbe 1er group|
+ennuyeux|33|adjectif qualif|
+énorme|14|adjectif qualif|
+énormément|20|adverbe|
+enquête|26|nom féminin|
+enrichir|19|verbe 2ème grou|
+enseignement|20|nom masculin|
+enseigner|19|verbe 1er group|
+ensemble|21|adverbe|
+ensoleillé|29|adjectif qualif|
+ensuite|15|adverbe|
+entasser|24|verbe 1er group|
+entendre|17|verbe 3ème grou|
+enterrement|24|nom masculin|
+enterrer|22|verbe 1er group|
+enthousiasme|35|nom masculin|
+entier|12|adjectif qualif|
+entièrement|22|adverbe|
+entonner|21|verbe 1er group|
+entourer|24|verbe 1er group|
+entrain|23|nom masculin|
+entraîner|31|verbe 1er group|
+entre|10|préposition|
+entrée|13|nom féminin|
+entreprendre|15|verbe 3ème grou|
+entrer|22|verbe 1er group|
+entretenir|12|verbe 3ème grou|
+entretien|25|nom masculin|
+entrevoir|15|verbe 3ème grou|
+entrouvrir|36|verbe 3ème grou|
+envahir|27|verbe 2ème grou|
+enveloppe|23|nom féminin|
+envelopper|27|verbe 1er group|
+envers|28|nom masculin|
+envie|16|nom féminin|
+envier|21|verbe 1er group|
+environ|18|adverbe|
+environner|26|verbe 1er group|
+envoi|26|nom masculin|
+envoyer|23|verbe 1er group|
+épais|21|adjectif qualif|
+épanouir|18|verbe 2ème grou|
+épargne|12|nom féminin|
+épargner|25|verbe 1er group|
+épaule|16|nom féminin|
+épauler|20|verbe 1er group|
+épée|19|nom féminin|
+épi|27|nom masculin|
+épine|12|nom féminin|
+époque|16|nom féminin|
+épouser|21|verbe 1er group|
+épouvantable|22|adjectif qualif|
+épouvanter|26|verbe 1er group|
+époux|21|nom masculin|
+épreuve|13|nom féminin|
+éprouver|20|verbe 1er group|
+épuiser|20|verbe 1er group|
+équilibre|19|nom masculin|
+équipage|17|nom masculin|
+équipe|19|nom féminin|
+ériger|24|verbe 1er group|
+errer|29|verbe 1er group|
+erreur|22|nom féminin|
+escalader|17|verbe 1er group|
+escalier|14|nom masculin|
+esclave|13|nom commun (mas|
+espace|20|nom masculin|
+espèce|25|nom féminin|
+espérance|22|nom féminin|
+espérer|23|verbe 1er group|
+espiègle|24|adjectif qualif|
+espoir|16|nom masculin|
+esprit|15|nom masculin|
+essai|29|nom masculin|
+essayer|28|verbe 1er group|
+essuyer|27|verbe 1er group|
+estime|17|nom féminin|
+estimer|20|verbe 1er group|
+estomac|21|nom masculin|
+estrade|13|nom féminin|
+étable|10|nom féminin|
+établir|10|verbe 2ème grou|
+établissement|24|nom masculin|
+étage|16|nom masculin|
+étagère|20|nom féminin|
+étalage|13|nom masculin|
+étaler|21|verbe 1er group|
+étang|22|nom masculin|
+état|18|nom masculin|
+été|3|nom masculin|
+éteindre|25|verbe 3ème grou|
+étendre|19|verbe 3ème grou|
+étendue|16|nom féminin|
+éternel|15|adjectif qualif|
+éternité|19|nom féminin|
+étincelant|28|adjectif qualif|
+étinceler|29|verbe 1er group|
+étincelle|21|nom féminin|
+étirer|23|verbe 1er group|
+étoffe|17|nom féminin|
+étoile|15|nom féminin|
+étonnement|23|nom masculin|
+étonner|20|verbe 1er group|
+étouffer|30|verbe 1er group|
+étourdi|20|adjectif qualif|
+étrange|15|adjectif qualif|
+étranger|20|adjectif qualif|
+être|18|nom masculin|
+étrennes|25|nom féminin|
+étroit|18|adjectif qualif|
+étude|8|nom féminin|
+étudiant|16|nom masculin|
+étudier|17|verbe 1er group|
+eux|20|pronom|
+évangile|22|nom masculin|
+éveiller|22|verbe 1er group|
+événement|33|nom masculin|
+évêque|24|nom masculin|
+évidemment|33|adverbe|
+éviter|20|verbe 1er group|
+exact|30|adjectif qualif|
+exactement|22|adverbe|
+exactitude|22|nom féminin|
+examen|25|nom masculin|
+examiner|24|verbe 1er group|
+exaucer|31|verbe 1er group|
+excellence|31|nom féminin|
+excellent|33|adjectif qualif|
+exciter|31|verbe 1er group|
+exclamation|21|nom féminin|
+excursion|25|nom féminin|
+excuse|20|nom féminin|
+excuser|28|verbe 1er group|
+exécuter|24|verbe 1er group|
+exécution|25|nom féminin|
+exemplaire|24|nom masculin|
+exemple|21|nom masculin|
+exercer|26|verbe 1er group|
+exercice|24|nom masculin|
+exhaler|42|verbe 1er group|
+exiger|26|verbe 1er group|
+existence|25|nom féminin|
+exister|24|verbe 1er group|
+expédier|22|verbe 1er group|
+expédition|20|nom féminin|
+expérience|23|nom féminin|
+expirer|19|verbe 1er group|
+explication|16|nom féminin|
+expliquer|21|verbe 1er group|
+exposer|23|verbe 1er group|
+exposition|18|nom féminin|
+exprès|23|adverbe|
+expression|26|nom féminin|
+exprimer|18|verbe 1er group|
+exquis|29|adjectif qualif|
+extérieur|21|adjectif qualif|
+extraire|23|verbe 3ème grou|
+extraordinaire|27|adjectif qualif|
+extrême|27|adjectif qualif|
+extrémité|22|nom féminin|
+fabrication|21|nom féminin|
+fabrique|10|nom féminin|
+fabriquer|17|verbe 1er group|
+façade|24|nom féminin|
+face|20|face|
+fâcher|28|verbe 1er group|
+fâcheux|30|adjectif qualif|
+facile|18|adjectif qualif|
+facilement|19|adverbe|
+facilité|21|nom féminin|
+faciliter|21|verbe 1er group|
+façon|19|nom féminin|
+façonner|28|verbe 1er group|
+facteur|7|nom masculin|
+faible|18|adjectif qualif|
+faiblesse|20|nom féminin|
+faim|20|nom féminin|
+faine|38|nom féminin|
+faire|13|verbe 3ème grou|
+fait|23|nom masculin|
+falloir|23|verbe 3ème grou|
+fameux|20|adjectif qualif|
+familial|29|adjectif qualif|
+familier|32|adjectif qualif|
+famille|9|nom féminin|
+faner|26|verbe 1er group|
+farce|19|nom féminin|
+farine|14|nom féminin|
+farouche|16|adjectif qualif|
+fatal|21|adjectif qualif|
+fatigue|14|nom féminin|
+fatiguer|17|verbe 1er group|
+faucher|18|verbe 1er group|
+faucheur|16|nom masculin|
+faute|10|nom féminin|
+fauteuil|23|nom masculin|
+fauve|12|adjectif qualif|
+fauvette|15|nom féminin|
+faux|26|adjectif qualif|
+faveur|15|nom féminin|
+favorable|14|adjectif qualif|
+favori|29|adjectif qualif|
+favoriser|20|verbe 1er group|
+fée|13|nom féminin|
+féliciter|26|verbe 1er group|
+femelle|18|nom féminin|
+femme|7|nom féminin|
+fendre|17|verbe 3ème grou|
+fenêtre|14|nom féminin|
+fer|12|nom masculin|
+ferme|11|nom féminin|
+fermer|19|verbe 1er group|
+fermier|7|nom masculin|
+féroce|23|adjectif qualif|
+ferraille|31|nom féminin|
+ferrer|21|verbe 1er group|
+fervent|25|adjectif qualif|
+ferveur|20|nom féminin|
+fête|8|nom féminin|
+fêter|20|verbe 1er group|
+feu|6|nom masculin|
+feuillage|19|nom masculin|
+feuille|13|nom féminin|
+février|19|nom masculin|
+fiancé|25|nom masculin|
+ficelle|21|nom féminin|
+fidèle|14|adjectif qualif|
+fier|19|verbe 1er group|
+fièrement|23|adverbe|
+fièvre|20|nom féminin|
+figure|11|nom féminin|
+figurer|21|verbe 1er group|
+fil|20|nom masculin|
+file|20|nom féminin|
+filer|24|verbe 1er group|
+filet|19|nom masculin|
+fille|9|nom féminin|
+fillette|20|nom féminin|
+filleul|26|nom masculin|
+fils|14|nom masculin|
+fin|14|nom féminin|
+finalement|18|adverbe|
+finir|12|verbe 2ème grou|
+firmament|25|nom masculin|
+fixe|16|adjectif qualif|
+fixer|23|verbe 1er group|
+flacon|19|nom masculin|
+flamand|23|adjectif qualif|
+flamber|24|verbe 1er group|
+flamme|20|nom féminin|
+flanc|28|nom masculin|
+flaque|19|nom féminin|
+flatter|25|verbe 1er group|
+flatteur|29|nom masculin|
+fléau|21|nom masculin|
+flèche|23|nom féminin|
+fleur|12|nom féminin|
+fleurette|13|nom féminin|
+fleurir|24|verbe 2ème grou|
+fleuve|10|nom masculin|
+flocon|21|nom masculin|
+flot|20|nom masculin|
+flotter|22|verbe 1er group|
+flûte|27|nom féminin|
+foi|19|nom féminin|
+foie|20|nom masculin|
+foin|14|nom masculin|
+foire|16|nom féminin|
+fois|12|nom féminin|
+foncer|27|verbe 1er group|
+fonction|16|nom féminin|
+fond|21|nom masculin|
+fondre|13|verbe 3ème grou|
+fonds|42|nom masculin|
+fontaine|15|nom féminin|
+football|39|nom masculin|
+force|12|nom féminin|
+forcer|22|verbe 1er group|
+forestier|20|adjectif qualif|
+forêt|20|nom féminin|
+forge|15|nom féminin|
+forger|18|verbe 1er group|
+forgeron|14|nom masculin|
+forme|14|nom féminin|
+former|18|verbe 1er group|
+formidable|13|adjectif qualif|
+fort|14|adjectif qualif|
+fortement|10|adverbe|
+fortune|9|nom féminin|
+fossé|19|nom masculin|
+fou|14|adjectif qualif|
+foudre|9|nom féminin|
+fouet|19|nom masculin|
+fouetter|22|verbe 1er group|
+fougère|20|nom féminin|
+fouiller|28|verbe 1er group|
+foule|13|nom féminin|
+four|15|nom masculin|
+fourmi|23|nom féminin|
+fourmillière|30|nom féminin|
+fourneau|17|nom masculin|
+fournir|15|verbe 2ème grou|
+fourniture|17|nom féminin|
+fourrer|29|verbe 1er group|
+fourrure|21|nom féminin|
+foyer|21|nom masculin|
+fragile|19|adjectif qualif|
+fraîcheur|23|nom féminin|
+frais|20|adjectif qualif|
+fraise|20|nom féminin|
+franc|15|adjectif qualif|
+français|24|adjectif qualif|
+franchement|19|adverbe|
+franchir|20|verbe 2ème grou|
+franchise|19|nom féminin|
+frapper|22|verbe 1er group|
+frayeur|23|nom féminin|
+frêle|24|adjectif qualif|
+frémir|21|verbe 2ème grou|
+fréquemment|38|adverbe|
+fréquent|24|adjectif qualif|
+fréquenter|26|verbe 1er group|
+frère|15|nom masculin|
+friandise|18|nom féminin|
+frissonner|25|verbe 1er group|
+froid|10|adjectif qualif|
+froisser|23|verbe 1er group|
+fromage|11|nom masculin|
+froment|20|nom masculin|
+front|21|nom masculin|
+frontière|22|nom féminin|
+frotter|23|verbe 1er group|
+fruit|12|nom masculin|
+fruitier|19|adjectif qualif|
+fuir|18|verbe 3ème grou|
+fuite|15|nom féminin|
+fumée|13|nom féminin|
+fumer|13|verbe 1er group|
+fureur|17|nom féminin|
+furieux|21|adjectif qualif|
+fusil|17|nom masculin|
+futur|10|adjectif qualif|
+gagner|20|verbe 1er group|
+gai|25|adjectif qualif|
+gaiement|27|adverbe|
+gaieté|31|nom féminin|
+galerie|18|nom féminin|
+gambader|30|verbe 1er group|
+gamin|15|nom masculin|
+gant|22|nom masculin|
+garantir|22|verbe 2ème grou|
+garçon|13|nom masculin|
+garde|12|nom masculin|
+garder|18|verbe 1er group|
+gardien|15|nom masculin|
+gare|15|nom féminin|
+garnir|15|verbe 2ème grou|
+garniture|16|nom féminin|
+gâteau|23|nom masculin|
+gâter|25|verbe 1er group|
+gauche|12|adjectif qualif|
+gaufre|33|nom féminin|
+gaz|19|nom masculin|
+gazon|18|nom masculin|
+gazouillement|22|nom masculin|
+gazouiller|27|verbe 1er group|
+géant|20|adjectif qualif|
+gelée|16|nom féminin|
+geler|20|verbe 1er group|
+gémir|23|verbe 2ème grou|
+gendarme|19|nom masculin|
+gêner|30|verbe 1er group|
+général|20|adjectif qualif|
+généralement|18|adverbe|
+généreux|18|adjectif qualif|
+générosité|25|nom féminin|
+genêt|32|nom masculin|
+genou|27|nom masculin|
+genre|14|nom masculin|
+gens|19|nom masculin|
+gentil|22|adjectif qualif|
+gentiment|25|adverbe|
+géographie|17|nom féminin|
+géranium|26|nom masculin|
+gerbe|14|nom féminin|
+germer|20|verbe 1er group|
+geste|20|nom masculin|
+gibecière|30|nom féminin|
+gibier|15|nom masculin|
+giboulée|20|nom féminin|
+gigantesque|26|adjectif qualif|
+giroflée|22|nom féminin|
+gîte|26|nom masculin|
+givre|23|nom masculin|
+glace|16|nom féminin|
+glacer|26|verbe 1er group|
+gland|26|nom masculin|
+glissant|19|adjectif qualif|
+glisser|22|verbe 1er group|
+glissoire|24|nom féminin|
+gloire|13|nom féminin|
+goal|33|nom masculin|
+gonfler|24|verbe 1er group|
+gorge|16|nom féminin|
+gosse|17|nom masculin|
+gourmand|23|adjectif qualif|
+goût|23|nom masculin|
+goûter|26|verbe 1er group|
+goutte|25|nom féminin|
+gouvernement|20|nom masculin|
+gouverner|20|verbe 1er group|
+grâce|21|nom féminin|
+gracieux|22|adjectif qualif|
+grain|17|nom masculin|
+graine|20|nom féminin|
+graisse|23|nom féminin|
+grammaire|13|nom féminin|
+grand|11|adjectif qualif|
+grand-maman|28|nom féminin|
+grand-mère|20|nom féminin|
+grand-père|24|nom masculin|
+grandeur|15|nom féminin|
+grandiose|20|adjectif qualif|
+grandir|14|verbe 2ème grou|
+grange|18|nom féminin|
+grappe|20|nom féminin|
+gras|15|adjectif qualif|
+gratitude|16|nom féminin|
+gratter|28|verbe 1er group|
+grave|14|adjectif qualif|
+gravement|17|adverbe|
+graver|18|verbe 1er group|
+gravir|18|verbe 2ème grou|
+gravure|17|nom féminin|
+grêle|26|nom féminin|
+grelotter|29|verbe 1er group|
+grenier|13|nom masculin|
+grenouille|15|nom féminin|
+grès|20|nom masculin|
+griffe|17|nom féminin|
+griffer|19|verbe 1er group|
+grille|21|nom féminin|
+grimper|23|verbe 1er group|
+grincer|29|verbe 1er group|
+grippe|22|nom féminin|
+gris|13|adjectif qualif|
+grive|14|nom féminin|
+gronder|18|verbe 1er group|
+gros|10|adjectif qualif|
+groseillier|34|nom masculin|
+grossier|23|adjectif qualif|
+grossir|17|verbe 2ème grou|
+grotte|19|nom féminin|
+groupe|14|nom masculin|
+grouper|25|verbe 1er group|
+grue|16|nom féminin|
+guêpe|24|nom féminin|
+guère|29|adverbe|
+guérir|23|verbe 2ème grou|
+guérison|22|nom féminin|
+guerre|17|nom féminin|
+guetter|29|verbe 1er group|
+guichet|25|nom masculin|
+guide|16|nom masculin|
+guider|25|verbe 1er group|
+gymnastique|26|nom féminin|
+habile|28|adjectif qualif|
+habileté|28|nom féminin|
+habiller|28|verbe 1er group|
+habit|20|nom masculin|
+habitant|25|nom masculin|
+habitation|17|nom féminin|
+habiter|23|verbe 1er group|
+habitude|23|nom féminin|
+habituel|24|adjectif qualif|
+habituer|29|verbe 1er group|
+hache|18|nom féminin|
+haie|17|nom féminin|
+haillon|29|nom masculin|
+haine|21|nom féminin|
+haleine|27|nom féminin|
+halte|27|nom féminin|
+hameau|23|nom masculin|
+hangar|29|nom masculin|
+hanneton|24|nom masculin|
+hardi|25|adjectif qualif|
+harmonieux|31|adjectif qualif|
+hasard|25|nom masculin|
+hâte|19|nom féminin|
+hâter|25|verbe 1er group|
+hausser|28|verbe 1er group|
+haut|13|adjectif qualif|
+hauteur|17|nom féminin|
+hélas|22|interjection|
+herbe|13|nom féminin|
+hérissé|29|adjectif qualif|
+hermine|28|nom féminin|
+héroïque|21|adjectif qualif|
+héros|26|nom masculin|
+hésiter|30|verbe 1er group|
+hêtre|22|nom masculin|
+heure|15|nom féminin|
+heureusement|17|adverbe|
+heureux|18|adjectif qualif|
+heurter|27|verbe 1er group|
+hier|14|adverbe|
+hirondelle|16|nom féminin|
+histoire|18|nom féminin|
+hiver|14|nom masculin|
+hommage|33|nom masculin|
+homme|7|nom masculin|
+honnête|25|adjectif qualif|
+honneur|22|nom masculin|
+honorable|23|adjectif qualif|
+honorer|22|verbe 1er group|
+honte|18|nom féminin|
+honteux|21|adjectif qualif|
+hôpital|37|nom masculin|
+horizon|25|nom masculin|
+horloge|17|nom féminin|
+horreur|29|nom féminin|
+horrible|27|adjectif qualif|
+hors|25|préposition|
+hôte|26|nom masculin|
+hôtel|25|nom masculin|
+houille|31|nom féminin|
+huile|17|nom féminin|
+huit|16|adjectif numéra|
+humain|19|adjectif qualif|
+humanité|24|nom féminin|
+humble|21|adjectif qualif|
+humeur|19|nom féminin|
+humide|19|adjectif qualif|
+humidité|22|nom féminin|
+hurler|22|verbe 1er group|
+hygiène|29|nom féminin|
+hypocrite|33|adjectif qualif|
+ici|15|adverbe|
+idéal|22|adjectif qualif|
+idée|12|nom féminin|
+ignorant|23|adjectif qualif|
+ignorer|22|verbe 1er group|
+île|20|nom féminin|
+illuminer|21|verbe 1er group|
+illusion|24|nom féminin|
+illustre|17|adjectif qualif|
+illustrer|23|verbe 1er group|
+image|8|nom féminin|
+imagination|20|nom féminin|
+imaginer|23|verbe 1er group|
+imiter|20|verbe 1er group|
+immaculé|24|adjectif qualif|
+immédiatement|23|adverbe|
+immense|26|adjectif qualif|
+immobile|21|adjectif qualif|
+impatiemment|39|adverbe|
+impatience|34|nom féminin|
+impatient|25|adjectif qualif|
+imperméable|20|adjectif qualif|
+implorer|22|verbe 1er group|
+importance|23|nom féminin|
+important|19|adjectif qualif|
+importer|24|verbe 1er group|
+imposant|23|adjectif qualif|
+imposer|26|verbe 1er group|
+impossibilité|28|nom féminin|
+impossible|25|adjectif qualif|
+impression|24|nom féminin|
+imprévu|23|adjectif qualif|
+imprimer|22|verbe 1er group|
+imprudence|20|nom féminin|
+imprudent|20|adjectif qualif|
+incendie|20|nom masculin|
+incident|24|nom masculin|
+incliner|22|verbe 1er group|
+inconnu|14|nom masculin|
+inconvénient|35|nom masculin|
+indication|18|nom féminin|
+indifférent|28|adjectif qualif|
+indigne|15|adjectif qualif|
+indiquer|21|verbe 1er group|
+indispensable|20|adjectif qualif|
+industrie|14|nom féminin|
+industriel|22|adjectif qualif|
+inerte|20|adjectif qualif|
+inférieur|16|adjectif qualif|
+infini|18|adjectif qualif|
+infiniment|20|adverbe|
+infirme|16|adjectif qualif|
+infirmier|16|nom masculin|
+influence|23|nom féminin|
+informer|21|verbe 1er group|
+ingrat|23|adjectif qualif|
+ingratitude|17|nom féminin|
+injure|16|nom féminin|
+innocent|24|adjectif qualif|
+inondation|30|nom féminin|
+inonder|30|verbe 1er group|
+inquiet|22|adjectif qualif|
+inquiéter|31|verbe 1er group|
+inquiétude|20|nom féminin|
+inscrire|15|verbe 3ème grou|
+insecte|13|nom masculin|
+insigne|17|nom masculin|
+insister|24|verbe 1er group|
+inspecteur|14|nom masculin|
+inspirer|20|verbe 1er group|
+installer|26|verbe 1er group|
+instant|19|nom masculin|
+institut|25|nom masculin|
+instituteur|14|nom masculin|
+instructif|18|adjectif qualif|
+instruction|17|nom féminin|
+instruire|19|verbe 3ème grou|
+instrument|15|nom masculin|
+intellectuel|24|adjectif qualif|
+intelligence|20|nom féminin|
+intelligent|21|adjectif qualif|
+intense|30|adjectif qualif|
+intention|21|nom féminin|
+interdire|22|verbe 3ème grou|
+intéressant|30|adjectif qualif|
+intéresser|31|verbe 1er group|
+intérêt|30|nom masculin|
+intérieur|19|adjectif qualif|
+interpeller|30|verbe 1er group|
+interroger|23|verbe 1er group|
+interrompre|30|verbe 3ème grou|
+interruption|25|nom féminin|
+intervenir|14|verbe 3ème grou|
+intime|16|adjectif qualif|
+intrigué|24|adjectif qualif|
+introduction|17|nom féminin|
+introduire|19|verbe 3ème grou|
+inutile|17|adjectif qualif|
+invention|22|nom féminin|
+invisible|12|adjectif qualif|
+invitation|16|nom féminin|
+inviter|21|verbe 1er group|
+invoquer|21|verbe 1er group|
+irriter|18|verbe 1er group|
+isoler|21|verbe 1er group|
+ivoire|21|nom masculin|
+ivre|17|adjectif qualif|
+ivresse|19|nom féminin|
+jacinthe|33|nom féminin|
+jadis|21|adverbe|
+jaillir|25|verbe 2eme grou|
+jaloux|27|adjectif qualif|
+jamais|16|adverbe|
+jambe|15|nom féminin|
+jambon|18|nom masculin|
+janvier|13|nom masculin|
+jardin|4|nom masculin|
+jardinage|16|nom masculin|
+jardinier|13|nom masculin|
+jaune|12|adjectif qualif|
+jaunir|18|verbe 2ème grou|
+jeter|19|verbe 1er group|
+jeu|18|nom masculin|
+jeudi|7|nom masculin|
+jeune|14|adjectif qualif|
+jeunesse|16|nom féminin|
+joie|13|nom féminin|
+joindre|20|verbe 3ème grou|
+joli|13|adjectif qualif|
+joncher|27|verbe 1er group|
+jonquille|25|nom féminin|
+joue|12|nom féminin|
+jouer|11|verbe 1er group|
+jouet|13|nom masculin|
+joueur|13|nom masculin|
+jouir|14|verbe 2ème grou|
+joujou|14|nom masculin|
+jour|13|nom masculin|
+journal|9|nom masculin|
+journalier|15|adjectif qualif|
+journée|10|nom féminin|
+joyeusement|20|adverbe|
+joyeux|17|adjectif qualif|
+juge|15|nom masculin|
+jugement|16|nom masculin|
+juger|19|verbe 1er group|
+juillet|12|nom masculin|
+juin|13|nom masculin|
+jurer|17|verbe 1er group|
+jusque|15|préposition|
+juste|10|adjectif qualif|
+justement|15|adverbe|
+justice|18|nom féminin|
+képi|22|nom masculin|
+kermesse|28|nom féminin|
+kilogramme|24|nom masculin|
+kilomètre|21|nom masculin|
+là|21|adverbe|
+là-bas|22|adverbe|
+labeur|12|nom masculin|
+laborieux|23|adjectif qualif|
+labourer|19|verbe 1er group|
+laboureur|14|nom masculin|
+lac|12|nom masculin|
+lâcher|27|verbe 1er group|
+laid|23|adjectif qualif|
+laine|14|nom féminin|
+laisser|26|verbe 1er group|
+lait|11|nom masculin|
+laitier|17|nom masculin|
+lambeau|23|nom masculin|
+lamentable|19|adjectif qualif|
+lampe|13|nom féminin|
+lancer|24|verbe 1er group|
+langage|23|nom masculin|
+langue|15|nom féminin|
+lanterne|22|nom féminin|
+lapin|7|nom masculin|
+large|11|adjectif qualif|
+largement|17|adverbe|
+larme|12|nom féminin|
+las|21|adjectif qualif|
+lasser|25|verbe 1er group|
+laver|13|verbe 1er group|
+lécher|16|verbe 1er group|
+leçon|14|nom féminin|
+lecture|9|nom féminin|
+léger|20|adjectif qualif|
+légèrement|21|adverbe|
+légume|13|nom masculin|
+lendemain|17|nom masculin|
+lent|19|adjectif qualif|
+lentement|19|adverbe|
+lenteur|21|nom féminin|
+lequel|20|pronom|
+lettre|12|nom féminin|
+leur|20|pronom|
+lever|15|verbe 1er group|
+lèvre|16|nom féminin|
+libérer|19|verbe 1er group|
+liberté|15|nom féminin|
+libre|9|adjectif qualif|
+lien|19|nom masculin|
+lier|17|verbe 1er group|
+lierre|29|nom masculin|
+lieu|13|nom masculin|
+lieue|25|nom féminin|
+lièvre|12|nom masculin|
+ligne|9|nom féminin|
+ligue|15|nom féminin|
+lilas|16|nom masculin|
+limite|14|nom féminin|
+limiter|22|verbe 1er group|
+limpide|23|adjectif qualif|
+lin|18|nom masculin|
+linge|12|nom masculin|
+lion|6|nom masculin|
+liquide|12|adjectif qualif|
+lire|11|verbe 3ème grou|
+lis|14|nom masculin|
+lisière|20|nom féminin|
+lisse|17|adjectif qualif|
+liste|11|nom féminin|
+lit|9|nom masculin|
+litière|21|nom féminin|
+livre|5|nom masculin|
+livrer|15|verbe 1er group|
+local|16|nom masculin|
+localité|19|nom féminin|
+locomotive|15|nom féminin|
+loger|19|verbe 1er group|
+logis|26|nom masculin|
+loi|16|nom féminin|
+loin|13|adverbe|
+lointain|22|adjectif qualif|
+loisir|19|nom masculin|
+long|14|adjectif qualif|
+longer|21|verbe 1er group|
+longtemps|28|adverbe|
+longuement|22|adverbe|
+longueur|20|nom féminin|
+lors|23|adverbe|
+lorsque|17|conjonction|
+lot|15|nom masculin|
+louange|17|nom féminin|
+louer|8|verbe 1er group|
+loup|12|nom masculin|
+lourd|17|adjectif qualif|
+loyal|23|adjectif qualif|
+lueur|12|nom féminin|
+lugubre|17|adjectif qualif|
+lui|7|pronom|
+lui-même|20|pronom|
+luire|17|verbe 3ème grou|
+luisant|19|adjectif qualif|
+lumière|15|nom féminin|
+lumineux|23|adjectif qualif|
+lundi|7|nom masculin|
+lune|13|nom féminin|
+lunette|13|nom féminin|
+lutin|19|nom masculin|
+lutte|15|nom féminin|
+lutter|22|verbe 1er group|
+lys|14|nom masculin|
+machine|13|nom féminin|
+mâchoire|26|nom féminin|
+madame|12|nom féminin|
+mademoiselle|15|nom féminin|
+magasin|19|nom masculin|
+magique|12|adjectif qualif|
+magnifique|13|adjectif qualif|
+mai|15|nom masculin|
+maigre|18|adjectif qualif|
+main|11|nom féminin|
+maint|28|adjectif indéfi|
+maintenant|20|adverbe|
+maintenir|18|verbe 3ème grou|
+maire|26|nom masculin|
+mais|15|conjonction|
+maison|1|nom féminin|
+maître|12|nom masculin|
+maîtresse|25|nom féminin|
+majesté|22|nom féminin|
+majestueux|24|adjectif qualif|
+mal|4|adverbe|
+malade|10|adjectif qualif|
+maladie|9|nom féminin|
+malette|35|nom féminin|
+malgré|19|préposition|
+malheur|20|nom masculin|
+malheureusement|20|adverbe|
+malheureux|18|adjectif qualif|
+malin|12|adjectif qualif|
+malle|26|nom féminin|
+maman|3|nom féminin|
+manche|19|nom féminin|
+manger|14|verbe 1er group|
+manier|21|verbe 1er group|
+manière|21|nom féminin|
+manifester|20|verbe 1er group|
+manoeuvre|23|nom commun (mas|
+manoeuvrer|23|verbe 1er group|
+manque|17|nom masculin|
+manquer|21|verbe 1er group|
+mansarde|25|nom féminin|
+manteau|19|nom masculin|
+manuel|19|adjectif qualif|
+marbre|9|nom masculin|
+marchand|16|nom masculin|
+marchander|21|verbe 1er group|
+marchandise|16|nom féminin|
+marche|9|nom féminin|
+marché|16|nom masculin|
+marcher|13|verbe 1er group|
+mardi|8|nom masculin|
+mare|18|nom féminin|
+marguerite|23|nom féminin|
+mari|14|nom masculin|
+mariage|10|nom masculin|
+marier|20|verbe 1er group|
+marin|19|nom masculin|
+marque|9|nom féminin|
+marquer|14|verbe 1er group|
+marquis|20|nom masculin|
+marraine|27|nom féminin|
+marron|25|nom masculin|
+marronnier|33|nom masculin|
+mars|7|nom masculin|
+marteau|16|nom masculin|
+masse|20|nom féminin|
+massif|20|adjectif qualif|
+mât|33|nom masculin|
+match|28|nom masculin|
+matériel|23|nom masculin|
+maternel|18|adjectif qualif|
+matière|10|nom féminin|
+matin|6|nom masculin|
+matinal|14|adjectif qualif|
+matinée|11|nom féminin|
+maudire|25|verbe 3ème grou|
+maussade|29|adjectif qualif|
+mauvais|17|adjectif qualif|
+mauve|13|adjectif qualif|
+mécanique|17|adjectif qualif|
+méchant|16|adjectif qualif|
+mécontent|21|adjectif qualif|
+médaille|17|nom féminin|
+médecin|17|nom masculin|
+méditer|21|verbe 1er group|
+meilleur|21|adjectif qualif|
+mélancolie|22|nom féminin|
+mélancolique|21|adjectif qualif|
+mélange|13|nom masculin|
+mélanger|18|verbe 1er group|
+mêler|26|verbe 1er group|
+mélodie|16|nom féminin|
+mélodieux|20|adjectif qualif|
+membre|21|nom masculin|
+même|8|adverbe|
+mémoire|13|nom féminin|
+menacer|25|verbe 1er group|
+ménage|16|nom masculin|
+ménager|16|verbe 1er group|
+ménagère|19|nom féminin|
+ménagerie|14|nom féminin|
+mendiant|19|nom masculin|
+mendier|23|verbe 1er group|
+mener|17|verbe 1er group|
+mensonge|20|nom masculin|
+menteur|14|nom masculin|
+mentir|16|verbe 3ème grou|
+menton|21|nom masculin|
+menu|13|nom masculin|
+menuisier|16|nom masculin|
+mer|15|nom féminin|
+merci|16|nom masculin|
+mercredi|12|nom masculin|
+mère|9|nom féminin|
+mérite|25|nom masculin|
+mériter|22|verbe 1er group|
+merle|13|nom masculin|
+merveille|15|nom féminin|
+merveilleusement|21|adverbe|
+merveilleux|23|adjectif qualif|
+messager|25|nom masculin|
+messe|14|nom féminin|
+mesure|16|nom féminin|
+mesurer|23|verbe 1er group|
+métal|17|nom masculin|
+méthode|28|nom féminin|
+métier|15|nom masculin|
+mètre|18|nom masculin|
+mettre|18|verbe 3ème grou|
+meuble|11|nom masculin|
+meule|17|nom féminin|
+meunier|22|nom masculin|
+midi|9|nom masculin|
+miel|13|nom masculin|
+mien|20|pronom|
+miette|15|nom féminin|
+mieux|20|adverbe|
+mignon|21|adjectif qualif|
+migrateur|15|adjectif qualif|
+milieu|19|nom masculin|
+militaire|17|adjectif qualif|
+mille|17|adjectif numéra|
+millier|23|nom masculin|
+million|23|nom masculin|
+mince|21|adjectif qualif|
+mine|15|nom féminin|
+mineur|10|nom masculin|
+ministre|13|nom masculin|
+minuit|13|nom masculin|
+minuscule|16|adjectif qualif|
+minute|15|nom féminin|
+miracle|10|nom masculin|
+mirer|15|verbe 1er group|
+miroir|23|nom masculin|
+misérable|13|adjectif qualif|
+misère|16|nom féminin|
+missel|25|nom masculin|
+mission|19|nom féminin|
+missionnaire|24|nom masculin|
+mobile|17|adjectif qualif|
+mobilier|24|nom masculin|
+mode|12|nom féminin|
+modèle|16|nom masculin|
+modérer|26|verbe 1er group|
+moderne|12|adjectif qualif|
+modeste|16|adjectif qualif|
+modestie|17|nom féminin|
+moelleux|33|adjectif qualif|
+moindre|17|adjectif qualif|
+moine|10|nom masculin|
+moineau|15|nom masculin|
+moins|25|adverbe|
+mois|14|nom masculin|
+moisson|18|nom féminin|
+moissonneur|28|nom masculin|
+moitié|23|nom féminin|
+moment|15|nom masculin|
+monde|10|nom masculin|
+monnaie|32|nom féminin|
+monotone|20|adjectif qualif|
+monseigneur|25|nom masculin|
+monsieur|22|nom masculin|
+monstre|14|nom masculin|
+mont|16|nom masculin|
+montagne|15|nom féminin|
+montant|19|nom masculin|
+monter|16|verbe 1er group|
+montre|15|nom féminin|
+montrer|18|verbe 1er group|
+monument|18|nom masculin|
+moquer|20|verbe 1er group|
+moqueur|21|adjectif qualif|
+moral|26|nom masculin|
+morale|17|nom féminin|
+morceau|16|nom masculin|
+mordre|16|verbe 3ème grou|
+morne|9|adjectif qualif|
+mort|8|nom masculin|
+mortel|15|adjectif qualif|
+mot|12|nom masculin|
+moteur|12|nom masculin|
+motif|14|nom masculin|
+mou|19|adjectif qualif|
+mouche|15|nom féminin|
+mouchoir|15|nom masculin|
+moudre|13|verbe 3ème grou|
+mouiller|24|verbe 1er group|
+moulin|7|nom masculin|
+mourir|19|verbe 3ème grou|
+mousse|16|nom féminin|
+moustache|8|nom féminin|
+mouton|11|nom masculin|
+mouvement|14|nom masculin|
+mouvoir|13|verbe 3ème grou|
+moyen|17|adjectif qualif|
+moyenne|20|nom féminin|
+muet|17|adjectif qualif|
+muguet|25|nom masculin|
+multicolore|17|adjectif qualif|
+multiple|14|adjectif qualif|
+multitude|13|nom féminin|
+munir|15|verbe 2ème grou|
+mur|15|nom masculin|
+mûr|24|adjectif qualif|
+muraille|14|nom féminin|
+mûrir|24|verbe 2ème grou|
+murmure|12|nom masculin|
+murmurer|12|verbe 1er group|
+muscle|16|nom masculin|
+museau|21|nom masculin|
+musée|16|nom masculin|
+musicien|22|adjectif qualif|
+musique|10|nom féminin|
+myosotis|32|nom masculin|
+mystère|28|nom masculin|
+mystérieux|23|adjectif qualif|
+nager|17|verbe 1er group|
+naissance|21|nom féminin|
+naître|26|verbe 3ème grou|
+nappe|15|nom féminin|
+narcisse|27|nom masculin|
+natal|17|adjectif qualif|
+nation|13|nom féminin|
+national|25|adjectif qualif|
+nature|5|nom féminin|
+naturel|23|adjectif qualif|
+naturellement|14|adverbe|
+naufrage|24|nom masculin|
+navire|13|nom masculin|
+néanmoins|29|adverbe|
+nécessaire|26|adjectif qualif|
+nécéssité|27|nom féminin|
+négligence|26|nom féminin|
+négligent|26|adjectif qualif|
+négliger|23|verbe 1er group|
+négociant|27|nom masculin|
+nègre|24|adjectif qualif|
+neige|10|nom féminin|
+neiger|18|verbe 1er group|
+nerveux|25|adjectif qualif|
+net|16|adjectif qualif|
+nettoyer|25|verbe 1er group|
+neuf|16|adjectif numéra|
+neveu|24|nom masculin|
+nez|13|nom masculin|
+ni|20|conjonction|
+niche|8|nom féminin|
+nid|12|nom masculin|
+nièce|27|nom féminin|
+niveau|22|nom masculin|
+noble|15|adjectif qualif|
+noeud|30|nom masculin|
+noir|14|adjectif qualif|
+noircir|27|verbe 2ème grou|
+noisette|18|nom féminin|
+noix|21|nom féminin|
+nom|13|nom masculin|
+nombre|14|nom masculin|
+nombreux|19|adjectif qualif|
+nommer|21|verbe 1er group|
+non|22|adverbe|
+nord|14|nom masculin|
+normal|17|adjectif qualif|
+notaire|23|nom masculin|
+note|16|nom féminin|
+nourrir|25|verbe 2ème grou|
+nourriture|19|nom féminin|
+nouveau|16|adjectif qualif|
+nouvelle|18|nom féminin|
+novembre|17|nom masculin|
+noyer|18|verbe 1er group|
+nu|21|adjectif qualif|
+nuage|11|nom masculin|
+nuisible|12|adjectif qualif|
+nuit|14|nom féminin|
+nul|15|adjectif indéfi|
+nullement|21|adverbe|
+numéro|17|nom masculin|
+obéir|18|verbe 2ème grou|
+obéissant|22|adjectif qualif|
+objet|15|nom masculin|
+obligeance|27|nom féminin|
+obliger|15|verbe 1er group|
+obscur|24|adjectif qualif|
+obscurcir|31|verbe 2ème grou|
+obscurité|20|nom féminin|
+observation|20|nom féminin|
+observer|23|verbe 1er group|
+obstacle|22|nom masculin|
+obtenir|20|verbe 3ème grou|
+occasion|24|nom féminin|
+occasionner|28|verbe 1er group|
+occupation|23|nom féminin|
+occuper|23|verbe 1er group|
+océan|20|nom masculin|
+octobre|9|nom masculin|
+odeur|12|nom féminin|
+odorant|22|adjectif qualif|
+oeil|24|nom masculin|
+oeillet|29|nom masculin|
+oeuf|10|nom masculin|
+oeuvre|17|nom féminin|
+offenser|32|verbe 1er group|
+office|19|nom masculin|
+officier|20|nom masculin|
+offre|13|nom féminin|
+offrir|19|verbe 3ème grou|
+oh|24|interjection|
+oie|17|nom féminin|
+oiseau|15|nom masculin|
+oisillon|28|nom masculin|
+ombrage|15|nom masculin|
+ombre|17|nom féminin|
+oncle|11|nom masculin|
+onde|15|nom féminin|
+onduler|19|verbe 1er group|
+onze|17|adjectif numéra|
+opération|24|nom féminin|
+opérer|22|verbe 1er group|
+opinion|30|nom féminin|
+opposer|28|verbe 1er group|
+or|13|nom masculin|
+orage|13|nom masculin|
+orange|10|adjectif qualif|
+oranger|21|nom masculin|
+ordinaire|18|adjectif qualif|
+ordinairement|22|adverbe|
+ordonner|23|verbe 1er group|
+ordre|8|nom masculin|
+orée|24|nom féminin|
+oreille|13|nom féminin|
+organiser|21|verbe 1er group|
+orgue|21|nom masculin|
+orgueil|28|nom masculin|
+orgueilleux|30|adjectif qualif|
+ornement|16|nom masculin|
+orner|22|verbe 1er group|
+orphelin|21|nom masculin|
+os|9|nom masculin|
+oser|26|verbe 1er group|
+osier|17|nom masculin|
+ôter|30|verbe 1er group|
+ouate|22|nom féminin|
+oui|15|adverbe|
+ours|16|nom masculin|
+outil|20|nom masculin|
+outre|14|préposition|
+ouverture|13|nom féminin|
+ouvrage|14|nom masculin|
+ouvrier|14|nom masculin|
+ouvrir|16|verbe 3ème grou|
+page|14|nom féminin|
+paille|14|nom féminin|
+pain|17|nom masculin|
+paire|14|nom féminin|
+paisible|21|adjectif qualif|
+paisiblement|24|adverbe|
+paître|27|verbe 3ème grou|
+paix|18|nom féminin|
+palais|17|nom masculin|
+pâle|17|adjectif qualif|
+paletot|28|nom masculin|
+pâlir|23|verbe 2ème grou|
+pan|26|nom masculin|
+panache|16|nom masculin|
+panier|15|nom masculin|
+panorama|17|nom masculin|
+pantalon|16|nom masculin|
+papa|1|nom masculin|
+papier|12|nom masculin|
+papillon|18|nom masculin|
+pâquerette|25|nom féminin|
+paquet|16|nom masculin|
+par|19|préposition|
+paradis|22|nom masculin|
+parages|23|nom masculin|
+paraître|26|verbe 3ème grou|
+parapluie|18|nom masculin|
+parc|17|nom masculin|
+parce que|22|conjonction|
+parcourir|15|verbe 3ème grou|
+parcours|37|nom masculin|
+pardessus|24|nom masculin|
+pardon|12|nom masculin|
+pardonner|21|verbe 1er group|
+pareil|25|adjectif qualif|
+parent|11|nom masculin|
+parer|26|verbe 1er group|
+paresse|22|nom féminin|
+paresseux|24|adjectif qualif|
+parfait|12|adjectif qualif|
+parfaitement|16|adverbe|
+parfois|17|adverbe|
+parfum|16|nom masculin|
+parfumer|23|verbe 1er group|
+parler|16|verbe 1er group|
+parmi|28|préposition|
+paroisse|21|nom féminin|
+parole|15|nom féminin|
+parquet|17|nom masculin|
+parrain|25|nom masculin|
+parsemer|24|verbe 1er group|
+part|16|nom féminin|
+partager|18|verbe 1er group|
+parterre|28|nom masculin|
+parti|20|nom masculin|
+participer|21|verbe 1er group|
+particulier|16|adjectif qualif|
+particulièrement|18|adverbe|
+partie|12|nom féminin|
+partir|14|verbe 3ème grou|
+partout|15|adverbe|
+parure|19|nom féminin|
+parvenir|12|verbe 3ème grou|
+pas|17|nom masculin|
+passage|19|nom masculin|
+passager|24|nom masculin|
+passant|22|nom masculin|
+passé|16|nom masculin|
+passer|20|verbe 1er group|
+passion|22|nom féminin|
+pâte|14|nom féminin|
+paternel|25|adjectif qualif|
+patience|24|nom féminin|
+patin|21|nom masculin|
+pâtisserie|25|nom féminin|
+pâtre|17|nom masculin|
+patrie|13|nom féminin|
+patron|13|nom masculin|
+patronage|21|nom masculin|
+patte|12|nom féminin|
+pâture|23|nom féminin|
+pauvre|9|adjectif qualif|
+pavé|20|nom masculin|
+payer|21|verbe 1er group|
+pays|14|nom masculin|
+paysage|17|nom masculin|
+paysan|23|nom masculin|
+peau|14|nom féminin|
+péché|20|nom masculin|
+pêche|19|nom féminin|
+pécher|25|verbe 1er group|
+pêcher|16|verbe 1er group|
+pêcheur|20|nom masculin|
+peindre|20|verbe 3ème grou|
+peine|16|nom féminin|
+peiner|28|verbe 1er group|
+peintre|18|nom masculin|
+peinture|18|nom féminin|
+pelage|17|nom masculin|
+pelouse|17|nom féminin|
+pencher|21|verbe 1er group|
+pendant|15|préposition|
+pendre|15|verbe 3ème grou|
+pendule|16|nom masculin|
+pénétrer|23|verbe 1er group|
+pénible|10|adjectif qualif|
+péniblement|16|adverbe|
+pénitence|21|nom féminin|
+pensée|16|nom féminin|
+penser|24|verbe 1er group|
+pension|20|nom féminin|
+pensionnaire|25|nom masculin|
+pensionnat|30|nom masculin|
+percer|26|verbe 1er group|
+perche|12|nom féminin|
+percher|21|verbe 1er group|
+perdre|15|verbe 3ème grou|
+perdrix|24|nom féminin|
+père|11|nom masculin|
+perfection|16|nom féminin|
+péril|23|nom masculin|
+périlleux|29|adjectif qualif|
+période|20|nom féminin|
+périr|15|verbe 2ème grou|
+perle|11|nom féminin|
+permettre|21|verbe 3ème grou|
+permission|23|nom féminin|
+perpétuel|24|adjectif qualif|
+perroquet|24|nom masculin|
+persévérer|28|verbe 1er group|
+personnage|17|nom masculin|
+personne|10|nom féminin|
+personnel|21|adjectif qualif|
+perspective|21|nom féminin|
+persuader|23|verbe 1er group|
+perte|14|nom féminin|
+peser|20|verbe 1er group|
+pétale|20|nom masculin|
+petit|13|adjectif qualif|
+pétrir|21|verbe 2ème grou|
+peu|23|adverbe|
+peuple|14|nom masculin|
+peupler|19|verbe 1er group|
+peuplier|17|nom masculin|
+peur|10|nom féminin|
+peut-être|24|adverbe|
+photographie|24|nom féminin|
+photographier|29|verbe 1er group|
+phrase|24|nom féminin|
+physique|30|adjectif qualif|
+piano|17|nom masculin|
+pic|19|nom masculin|
+pie|13|nom féminin|
+pièce|16|nom féminin|
+pied|13|nom masculin|
+pierre|15|nom féminin|
+piété|15|nom féminin|
+pieux|20|adjectif qualif|
+pigeon|19|nom masculin|
+pin|23|nom masculin|
+pinceau|27|nom masculin|
+pinson|17|nom masculin|
+pipe|3|nom féminin|
+piquer|19|verbe 1er group|
+pis|24|adverbe|
+piste|11|nom féminin|
+pitié|15|nom féminin|
+pittoresque|33|adjectif qualif|
+place|13|nom féminin|
+placer|20|verbe 1er group|
+plafond|24|nom masculin|
+plage|13|nom féminin|
+plaie|16|nom féminin|
+plaindre|22|verbe 3ème grou|
+plaine|17|nom féminin|
+plainte|22|nom féminin|
+plaintif|22|adjectif qualif|
+plaire|17|verbe 3ème grou|
+plaisir|15|nom masculin|
+plan|22|nom masculin|
+planche|11|nom féminin|
+plancher|21|nom masculin|
+planer|22|verbe 1er group|
+plante|7|nom féminin|
+planter|18|verbe 1er group|
+plaque|14|nom féminin|
+plat|14|nom masculin|
+plateau|17|nom masculin|
+plein|22|adjectif qualif|
+pleur|21|nom masculin|
+pleurer|17|verbe 1er group|
+pleuvoir|20|verbe 3ème grou|
+pli|27|nom masculin|
+plier|20|verbe 1er group|
+plomb|22|nom masculin|
+plonger|14|verbe 1er group|
+pluie|12|nom féminin|
+plumage|13|nom masculin|
+plume|8|nom féminin|
+plumier|11|nom masculin|
+plupart|24|nom féminin|
+plus|9|adverbe|
+plusieurs|23|adjectif indéfi|
+plutôt|22|adverbe|
+poche|11|nom féminin|
+poêle|26|nom féminin|
+poésie|15|nom féminin|
+poète|27|nom masculin|
+poids|28|nom masculin|
+poignée|17|nom féminin|
+poil|20|nom masculin|
+poing|26|nom masculin|
+point|15|nom masculin|
+pointe|14|nom féminin|
+pointu|17|adjectif qualif|
+poire|7|nom féminin|
+poireau|21|nom masculin|
+poirier|19|nom masculin|
+pois|27|nom masculin|
+poisson|15|nom masculin|
+poitrine|13|nom féminin|
+poli|17|adjectif qualif|
+police|17|nom féminin|
+politesse|14|nom féminin|
+politique|13|nom féminin|
+pomme|9|nom féminin|
+pommier|19|nom masculin|
+pompe|15|nom féminin|
+pompier|20|nom masculin|
+pondre|12|verbe 3ème grou|
+pont|17|nom masculin|
+porc|16|nom masculin|
+port|16|nom masculin|
+porte|1|nom féminin|
+porte-plume|19|nom masculin|
+portée|17|nom féminin|
+portefeuille|29|nom masculin|
+porter|21|verbe 1er group|
+porteur|12|nom masculin|
+portière|21|nom féminin|
+portrait|21|nom masculin|
+poser|19|verbe 1er group|
+position|18|nom féminin|
+posséder|24|verbe 1er group|
+possession|30|nom féminin|
+possible|16|adjectif qualif|
+postal|15|adjectif qualif|
+poste|7|nom commun (mas|
+pot|15|nom masculin|
+potager|22|nom masculin|
+poteau|21|nom masculin|
+poudre|12|nom féminin|
+poulailler|34|nom masculin|
+poulain|24|nom masculin|
+poule|12|nom féminin|
+poulet|13|nom masculin|
+poumon|17|nom masculin|
+poupée|8|nom féminin|
+pour|3|préposition|
+pourpre|18|adjectif qualif|
+pourquoi|15|conjonction|
+pourrir|30|verbe 2ème grou|
+poursuite|16|nom féminin|
+poursuivre|18|verbe 3ème grou|
+pourtant|18|adverbe|
+pourvoir|15|verbe 3ème grou|
+pourvu que|25|conjonction|
+pousser|19|verbe 1er group|
+poussière|22|nom féminin|
+poussin|19|nom masculin|
+poutre|16|nom féminin|
+pouvoir|8|verbe 3ème grou|
+prairie|14|nom féminin|
+pratique|13|adjectif qualif|
+pratiquer|14|verbe 1er group|
+pré|26|nom masculin|
+préau|21|nom masculin|
+précaution|25|nom féminin|
+précédent|28|adjectif qualif|
+précéder|29|verbe 1er group|
+prêcher|23|verbe 1er group|
+précieux|22|adjectif qualif|
+précipiter|22|verbe 1er group|
+précisément|26|adverbe|
+préférence|21|nom féminin|
+préférer|24|verbe 1er group|
+premier|9|adjectif numéra|
+prendre|12|verbe 3ème grou|
+préoccuper|34|vverbe 1er grou|
+préparatif|18|nom masculin|
+préparation|16|nom féminin|
+préparer|19|verbe 1er group|
+près|23|adverbe|
+présence|21|nom féminin|
+présent|17|adjectif qualif|
+présenter|18|verbe 1er group|
+préserver|20|verbe 1er group|
+président|19|nom masculin|
+presque|14|adverbe|
+presser|22|verbe 1er group|
+prêt|22|adjectif qualif|
+prétendre|18|verbe 3ème grou|
+prêter|25|verbe 1er group|
+prêtre|19|nom masculin|
+preuve|13|nom féminin|
+prévenir|16|verbe 3ème grou|
+prévoir|14|verbe 3ème grou|
+prier|18|verbe 1er group|
+prière|14|nom féminin|
+primaire|20|adjectif qualif|
+prime|13|nom féminin|
+primevère|28|nom féminin|
+prince|10|nom masculin|
+princesse|18|nom féminin|
+principal|28|adjectif qualif|
+principalement|19|adverbe|
+principe|18|nom masculin|
+printanier|22|adjectif qualif|
+printemps|19|nom masculin|
+prise|16|nom féminin|
+prison|11|nom féminin|
+prisonnier|19|nom masculin|
+privation|19|nom féminin|
+priver|22|verbe 1er group|
+prix|16|nom masculin|
+probablement|18|adverbe|
+problème|13|nom masculin|
+procéder|28|verbe 1er group|
+procession|30|nom féminin|
+prochain|16|adjectif qualif|
+proche|12|adjectif qualif|
+proclamer|20|verbe 1er group|
+procurer|20|verbe 1er group|
+procureur|13|nom masculin|
+prodigieux|20|adjectif qualif|
+prodiguer|25|verbe 1er group|
+production|14|nom féminin|
+produire|11|verbe 3ème grou|
+produit|15|nom masculin|
+professeur|23|nom masculin|
+profession|24|nom féminin|
+profit|19|nom masculin|
+profiter|20|verbe 1er group|
+profond|23|adjectif qualif|
+profondément|17|adverbe|
+profondeur|12|nom féminin|
+programme|21|nom masculin|
+progrès|24|nom masculin|
+proie|22|nom féminin|
+projet|26|nom masculin|
+projeter|29|verbe 1er group|
+prolonger|22|verbe 1er group|
+promenade|13|nom féminin|
+promener|20|verbe 1er group|
+promeneur|16|nom masculin|
+promesse|16|nom féminin|
+promettre|24|verbe 3ème grou|
+prompt|26|adjectif qualif|
+prononcer|22|verbe 1er group|
+propice|24|adjectif qualif|
+propos|21|nom masculin|
+proposer|20|verbe 1er group|
+proposition|15|nom féminin|
+propre|8|adjectif qualif|
+proprement|15|adverbe|
+propreté|17|nom féminin|
+propriétaire|19|nom masculin|
+propriété|17|nom féminin|
+prospérité|18|nom féminin|
+protecteur|14|nom masculin|
+protection|18|nom féminin|
+protéger|20|verbe 1er group|
+prouver|21|verbe 1er group|
+provenir|13|verbe 3ème grou|
+proverbe|9|nom masculin|
+providence|24|nom féminin|
+provision|20|nom féminin|
+provoquer|22|verbe 1er group|
+prudence|17|nom féminin|
+prudent|20|adjectif qualif|
+public|24|adjectif qualif|
+puis|15|adverbe|
+puisque|15|conjonction|
+puissance|18|nom féminin|
+puissant|18|adjectif qualif|
+puits|37|nom masculin|
+punir|12|verbe 2ème grou|
+punition|17|nom féminin|
+pupitre|15|nom masculin|
+pur|14|adjectif qualif|
+purifier|17|verbe 1er group|
+quai|25|nom masculin|
+qualité|18|nom féminin|
+quand|18|conjonction|
+quant|30|préposition|
+quantité|25|nom féminin|
+quarante|16|adjectif numéra|
+quart|19|nom masculin|
+quartier|25|nom masculin|
+quatorze|22|adjectif numéra|
+quatre|14|adjectif numéra|
+quatrième|21|adjectif numéra|
+quel|21|pronom|
+quelconque|26|adjectif qualif|
+quelqu'un|24|pronom|
+quelque|15|adjectif indéfi|
+quelquefois|25|adverbe|
+question|19|nom féminin|
+queue|24|nom féminin|
+quinzaine|26|nom féminin|
+quinze|22|adjectif numéra|
+quitter|22|verbe 1er group|
+quoi|16|pronom|
+quoique|23|conjonction|
+quotidien|27|adjectif qualif|
+raccommoder|38|verbe 1er group|
+raccourcir|38|verbe 2ème grou|
+race|21|nom féminin|
+racine|15|nom féminin|
+raconter|19|verbe 1er group|
+radieux|20|adjectif qualif|
+rafraîchir|26|verbe 2ème grou|
+rage|11|nom féminin|
+raide|21|adjectif qualif|
+raisin|16|nom masculin|
+raison|15|nom féminin|
+raisonnable|33|adjectif qualif|
+ralentir|19|verbe 2ème grou|
+ramage|11|nom masculin|
+ramasser|25|verbe 1er group|
+rame|14|nom féminin|
+rameau|21|nom masculin|
+ramener|18|verbe 1er group|
+randonnée|37|nom féminin|
+rang|22|nom masculin|
+ranger|29|verbe 1er group|
+ranimer|20|verbe 1er group|
+rapide|16|adjectif qualif|
+rapidement|16|adverbe|
+rapidité|18|nom féminin|
+rapiécer|32|verbe 1er group|
+rappeler|26|verbe 1er group|
+rapport|25|nom masculin|
+rapporter|26|verbe 1er group|
+rapprocher|24|verbe 1er group|
+rare|12|adjectif qualif|
+rarement|15|adverbe|
+raser|19|verbe 1er group|
+rassembler|24|verbe 1er group|
+rassurer|22|verbe 1er group|
+rat|12|nom masculin|
+rater|25|verbe 1er group|
+rattraper|29|verbe 1er group|
+ravage|18|nom masculin|
+ravin|17|nom masculin|
+ravir|17|verbe 2ème grou|
+ravissant|23|adjectif qualif|
+rayon|17|nom masculin|
+rayonner|25|verbe 1er group|
+réaliser|22|verbe 1er group|
+réalité|21|nom féminin|
+réception|30|nom féminin|
+recevoir|19|verbe 3ème grou|
+réchauffer|25|verbe 1er group|
+recherche|17|nom féminin|
+rechercher|18|verbe 1er group|
+récit|25|nom masculin|
+réciter|24|verbe 1er group|
+réclamer|22|verbe 1er group|
+récolte|13|nom féminin|
+récolter|20|verbe 1er group|
+recommandation|29|nom féminin|
+recommander|31|verbe 1er group|
+recommencer|24|verbe 1er group|
+récompense|22|nom féminin|
+récompenser|28|verbe 1er group|
+reconduire|19|verbe 3ème grou|
+réconforter|21|verbe 1er group|
+reconnaissance|27|nom féminin|
+reconnaissant|26|adjectif qualif|
+reconnaître|24|verbe 3ème grou|
+recourir|17|verbe 3ème grou|
+recours|35|nom masculin|
+recouvrir|19|verbe 3ème grou|
+récréation|16|nom féminin|
+recueillir|29|verbe 3ème grou|
+reculer|16|verbe 1er group|
+rédaction|9|nom féminin|
+redescendre|25|verbe 3ème grou|
+redevenir|12|verbe 3ème grou|
+redire|17|verbe 3ème grou|
+redoubler|18|verbe 1er group|
+redoutable|13|adjectif qualif|
+redouter|18|verbe 1er group|
+redresser|26|verbe 1er group|
+réduire|14|verbe 3ème grou|
+réel|24|adjectif qualif|
+réellement|19|adverbe|
+refaire|21|verbe 3ème grou|
+réfectoire|21|nom masculin|
+refermer|21|verbe 1er group|
+réfléchir|16|verbe 2ème grou|
+reflet|22|nom masculin|
+refléter|25|verbe 1er group|
+réflexion|34|nom féminin|
+réformer|22|verbe 1er group|
+refrain|17|nom masculin|
+refroidir|20|verbe 2ème grou|
+refuge|16|nom masculin|
+réfugier|22|verbe 1er group|
+refuser|21|verbe 1er group|
+regagner|18|verbe 1er group|
+régaler|20|verbe 1er group|
+regard|12|nom masculin|
+regarder|10|verbe 1er group|
+régime|14|nom masculin|
+régiment|17|nom masculin|
+région|17|nom féminin|
+règle|19|nom féminin|
+régler|20|verbe 1er group|
+règne|21|nom masculin|
+régner|26|verbe 1er group|
+regret|22|nom masculin|
+regretter|24|verbe 1er group|
+régulier|19|adjectif qualif|
+régulièrement|21|adverbe|
+reine|11|nom féminin|
+rejeter|23|verbe 1er group|
+rejoindre|19|verbe 3ème grou|
+réjouir|17|verbe 2ème grou|
+relatif|14|adjectif qualif|
+relation|18|nom féminin|
+relativement|16|adverbe|
+relever|23|verbe 1er group|
+religieux|19|adjectif qualif|
+religion|15|nom féminin|
+relire|9|verbe 3ème grou|
+remarquable|22|adjectif qualif|
+remarque|11|nom féminin|
+remarquer|21|verbe 1er group|
+remède|21|nom masculin|
+remerciement|23|nom masculin|
+remercier|19|verbe 1er group|
+remettre|16|verbe 3ème grou|
+remise|9|nom féminin|
+remonter|17|verbe 1er group|
+remords|41|nom masculin|
+remplacer|20|verbe 1er group|
+remplir|17|verbe 2ème grou|
+remporter|23|verbe 1er group|
+remuer|20|verbe 1er group|
+renaître|26|verbe 3ème grou|
+renard|13|nom masculin|
+rencontre|13|nom féminin|
+rencontrer|21|verbe 1er group|
+rendez-vous|28|nom masculin|
+rendre|12|verbe 3ème grou|
+renfermer|24|verbe 1er group|
+renoncer|22|verbe 1er group|
+renoncule|18|nom féminin|
+renouveau|16|nom masculin|
+renouveler|23|verbe 1er group|
+renouvellement|17|nom masculin|
+renseignement|22|nom masculin|
+renseigner|25|verbe 1er group|
+rentrée|18|nom féminin|
+rentrer|15|verbe 1er group|
+renverser|21|verbe 1er group|
+renvoyer|24|verbe 1er group|
+répandre|29|verbe 3ème grou|
+reparaître|27|verbe 3ème grou|
+réparer|18|verbe 1er group|
+répartir|17|verbe 2ème grou|
+repas|15|nom masculin|
+repasser|23|verbe 1er group|
+repentir|17|verbe 3ème grou|
+répéter|20|verbe 1er group|
+replier|18|verbe 1er group|
+répondre|15|verbe 3ème grou|
+réponse|15|nom féminin|
+reporter|22|verbe 1er group|
+repos|17|nom masculin|
+reposer|23|verbe 1er group|
+repousser|24|verbe 1er group|
+reprendre|14|verbe 3ème grou|
+représentant|26|nom masculin|
+représentation|16|nom féminin|
+représenter|20|verbe 1er group|
+reprise|13|nom féminin|
+reproche|11|nom masculin|
+reprocher|21|verbe 1er group|
+réserve|16|nom féminin|
+réserver|23|verbe 1er group|
+résigner|24|verbe 1er group|
+résistance|23|nom féminin|
+résister|22|verbe 1er group|
+résolution|19|nom féminin|
+résonner|26|verbe 1er group|
+résoudre|21|verbe 3ème grou|
+respect|22|nom masculin|
+respecter|17|verbe 1er group|
+respectueux|17|adjectif qualif|
+respiration|14|nom féminin|
+respirer|20|verbe 1er group|
+resplendir|27|verbe 2ème grou|
+ressembler|31|verbe 1er group|
+ressentir|25|verbe 3ème grou|
+ressort|27|nom masculin|
+ressource|29|nom féminin|
+reste|10|nom masculin|
+rester|18|verbe 1er group|
+résultat|23|nom masculin|
+rétablir|13|verbe 2ème grou|
+retard|20|nom masculin|
+retardataire|27|nom masculin|
+retenir|8|verbe 3ème grou|
+retentir|18|verbe 2ème grou|
+retirer|22|verbe 1er group|
+retomber|20|verbe 1er group|
+retour|9|nom masculin|
+retourner|19|verbe 1er group|
+retraite|21|nom féminin|
+retrousser|26|verbe 1er group|
+retrouver|16|verbe 1er group|
+réunion|15|nom féminin|
+réunir|10|verbe 2ème grou|
+réussir|24|verbe 2ème grou|
+rêve|17|nom masculin|
+réveil|23|nom masculin|
+réveiller|25|verbe 1er group|
+révéler|25|verbe 1er group|
+revenir|6|verbe 3ème grou|
+rêver|24|verbe 1er group|
+reverdir|19|verbe 2ème grou|
+revêtir|20|verbe 3ème grou|
+revivre|15|verbe 3ème grou|
+revoir|11|verbe 3ème grou|
+revue|11|nom féminin|
+rez-de-chaussée|29|nom masculin|
+rhume|23|nom masculin|
+riant|18|adjectif qualif|
+riche|9|adjectif qualif|
+richesse|17|nom féminin|
+rideau|18|nom masculin|
+rider|19|verbe 1er group|
+rien|12|adverbe|
+rigole|16|nom féminin|
+rigoureux|21|adjectif qualif|
+rire|8|verbe 3ème grou|
+risque|12|nom masculin|
+risquer|21|verbe 1er group|
+rive|6|nom féminin|
+rivière|13|nom féminin|
+riz|17|nom masculin|
+robe|6|nom féminin|
+robuste|13|adjectif qualif|
+rocher|15|nom masculin|
+rôder|31|verbe 1er group|
+roi|11|nom masculin|
+rôle|20|nom masculin|
+romain|16|adjectif qualif|
+rompre|21|verbe 3ème grou|
+ronce|23|nom féminin|
+rond|19|adjectif qualif|
+ronde|10|nom féminin|
+ronger|16|verbe 1er group|
+ronronner|24|verbe 1er group|
+rose|11|nom féminin|
+roseau|21|nom masculin|
+rosée|13|nom féminin|
+rosier|17|nom masculin|
+rossignol|22|nom masculin|
+rôti|24|nom masculin|
+roue|14|nom féminin|
+rouge|5|adjectif qualif|
+rougir|16|verbe 2ème grou|
+rouiller|25|verbe 1er group|
+rouleau|19|nom masculin|
+rouler|17|verbe 1er group|
+roulotte|18|nom féminin|
+route|7|nom féminin|
+roux|20|adjectif qualif|
+royal|19|adjectif qualif|
+royaume|18|nom masculin|
+ruban|17|nom masculin|
+ruche|10|nom féminin|
+rude|9|adjectif qualif|
+rue|1|nom féminin|
+ruelle|14|nom féminin|
+ruine|17|nom masculin|
+ruiner|18|verbe 1er group|
+ruisseau|19|nom masculin|
+ruisseler|25|verbe 1er group|
+ruisselet|24|nom masculin|
+rusé|23|adjectif qualif|
+rustique|16|adjectif qualif|
+s'absenter|24|verbe 1er group|
+s'agenouiller|23|verbe 1er group|
+s'écrier|21|verbe 1er group|
+s'écrouler|24|verbe 1er group|
+s'efforcer|29|verbe 1er group|
+s'éloigner|24|verbe 1er group|
+s'emparer|25|verbe 1er group|
+s'empresser|27|verbe 1er group|
+s'enfuir|21|verbe 3ème grou|
+s'envoler|18|verbe 1er group|
+s'évanouir|16|verbe 2ème grou|
+sable|9|nom masculin|
+sabot|12|nom masculin|
+sabre|13|nom masculin|
+sac|11|nom masculin|
+sacoche|13|nom féminin|
+sacré|15|adjectif qualif|
+sacrement|18|nom masculin|
+sacrifice|17|nom masculin|
+sacrifier|18|verbe 1er group|
+sage|8|adjectif qualif|
+sagement|16|adverbe|
+sagesse|17|nom féminin|
+saigner|27|verbe 1er group|
+sain|22|adjectif qualif|
+saint|13|adjectif qualif|
+saisir|23|verbe 2ème grou|
+saison|15|nom féminin|
+salade|9|nom féminin|
+salaire|19|nom masculin|
+sale|20|adjectif qualif|
+salir|18|verbe 2ème grou|
+salle|15|nom féminin|
+salon|15|nom masculin|
+saluer|18|verbe 1er group|
+salut|23|nom masculin|
+salutation|11|nom féminin|
+samedi|13|nom masculin|
+sang|14|nom masculin|
+sanglot|21|nom masculin|
+sans|18|préposition|
+santé|18|nom féminin|
+sapin|15|nom masculin|
+satin|15|nom masculin|
+satisfaction|18|nom féminin|
+satisfaire|19|verbe 3ème grou|
+satisfait|18|adjectif qualif|
+sauf|24|préposition|
+saule|19|nom masculin|
+saut|21|nom masculin|
+sauter|17|verbe 1er group|
+sautiller|23|verbe 1er group|
+sauvage|13|adjectif qualif|
+sauver|16|verbe 1er group|
+savant|17|nom masculin|
+savoir|14|verbe 3ème grou|
+savon|17|nom masculin|
+savourer|19|verbe 1er group|
+savoureux|22|adjectif qualif|
+scène|29|nom féminin|
+science|25|nom féminin|
+scier|25|verbe 1er group|
+scintiller|34|verbe 1er group|
+scolaire|19|adjectif qualif|
+séance|26|nom féminin|
+seau|18|nom masculin|
+sec|10|adjectif qualif|
+sécher|24|verbe 1er group|
+second|21|adjectif qualif|
+seconde|20|nom féminin|
+secouer|18|verbe 1er group|
+secourir|16|verbe 3ème grou|
+secours|28|nom masculin|
+secret|17|nom masculin|
+sécurité|23|nom féminin|
+seigneur|17|nom masculin|
+sein|30|nom masculin|
+seize|23|adjectif numéra|
+séjour|21|nom masculin|
+sel|12|nom masculin|
+selon|20|préposition|
+semaine|10|nom féminin|
+semblable|20|adjectif qualif|
+sembler|21|verbe 1er group|
+semer|17|verbe 1er group|
+séminaire|33|nom masculin|
+sens|25|nom masculin|
+sensible|23|adjectif qualif|
+sentier|19|nom masculin|
+sentiment|21|nom masculin|
+sentir|17|verbe 3ème grou|
+séparer|23|verbe 1er group|
+sept|19|adjectif numéra|
+septembre|16|nom masculin|
+serein|32|adjectif qualif|
+sergent|20|nom masculin|
+série|15|nom féminin|
+sérieusement|21|adverbe|
+sérieux|20|adjectif qualif|
+sermon|28|nom masculin|
+serrer|23|verbe 1er group|
+serrure|21|nom féminin|
+servante|17|nom féminin|
+serviable|14|adjectif qualif|
+service|17|nom masculin|
+serviette|20|nom féminin|
+servir|16|verbe 3ème grou|
+serviteur|13|nom masculin|
+seuil|21|nom masculin|
+seul|14|adjectif qualif|
+seulement|20|adverbe|
+sève|20|nom féminin|
+sévère|24|adjectif qualif|
+sévèrement|22|adverbe|
+sévir|21|verbe 2ème grou|
+si|14|conjonction|
+siècle|21|nom masculin|
+siège|13|nom masculin|
+sien|20|pronom|
+sifflement|24|nom masculin|
+siffler|24|verbe 1er group|
+sifflet|24|nom masculin|
+signal|18|nom masculin|
+signaler|22|verbe 1er group|
+signature|14|nom féminin|
+signe|12|nom masculin|
+signer|20|verbe 1er group|
+signifier|21|verbe 1er group|
+silence|16|nom masculin|
+silencieusement|22|adverbe|
+silencieux|22|adjectif qualif|
+sillon|23|nom masculin|
+sillonner|28|verbe 1er group|
+simple|16|adjectif qualif|
+simplement|18|adverbe|
+simplicité|24|nom féminin|
+sincère|22|adjectif qualif|
+sincèrement|29|adverbe|
+sincérité|24|nom féminin|
+singe|11|nom masculin|
+singulier|12|adjectif qualif|
+sinistre|17|adjectif qualif|
+sinon|22|conjonction|
+sirène|23|nom féminin|
+sitôt|20|adverbe|
+situation|17|nom féminin|
+situer|20|verbe 1er group|
+six|18|adjectif numéra|
+sobre|17|adjectif qualif|
+société|23|nom féminin|
+soeur|13|nom féminin|
+soie|15|nom féminin|
+soif|16|nom féminin|
+soigner|18|verbe 1er group|
+soigneusement|17|adverbe|
+soigneux|24|adjectif qualif|
+soin|18|nom masculin|
+soir|6|nom masculin|
+soirée|16|nom féminin|
+sol|10|nom masculin|
+soldat|12|nom masculin|
+soleil|7|nom masculin|
+solennel|33|adjectif qualif|
+solide|8|adjectif qualif|
+solitaire|20|adjectif qualif|
+solitude|17|nom féminin|
+solliciter|35|verbe 1er group|
+sombre|13|adjectif qualif|
+somme|16|nom féminin|
+sommeil|24|nom masculin|
+sommet|22|nom masculin|
+son|20|nom masculin|
+songer|16|verbe 1er group|
+sonner|16|verbe 1er group|
+sonnette|22|nom féminin|
+sonore|16|adjectif qualif|
+sort|21|nom masculin|
+sorte|11|nom féminin|
+sortie|10|nom féminin|
+sortir|13|verbe 3ème grou|
+sot|15|adjectif qualif|
+sou|20|nom masculin|
+souci|24|nom masculin|
+soudain|18|adverbe|
+souffle|23|nom masculin|
+souffler|25|verbe 1er group|
+souffrance|20|nom féminin|
+souffrir|19|verbe 3ème grou|
+souhait|22|nom masculin|
+souhaiter|26|verbe 1er group|
+souiller|30|verbe 1er group|
+soulagement|14|nom masculin|
+soulager|17|verbe 1er group|
+soulever|18|verbe 1er group|
+soulier|17|nom masculin|
+soumettre|22|verbe 3ème grou|
+soupçonner|31|verbe 1er group|
+soupe|8|nom féminin|
+souper|16|verbe 1er group|
+soupir|17|nom masculin|
+soupirer|18|verbe 1er group|
+souple|18|adjectif qualif|
+source|18|nom féminin|
+sourd|17|adjectif qualif|
+souriant|19|adjectif qualif|
+sourire|21|verbe 3ème grou|
+souris|17|nom féminin|
+sous|13|préposition|
+soutenir|13|verbe 3ème grou|
+souterrain|29|adjectif qualif|
+soutien|28|nom masculin|
+souvenir|14|nom masculin|
+souvent|17|adverbe|
+souverain|17|nom masculin|
+soyeux|27|adjectif qualif|
+spacieux|22|adjectif qualif|
+spécial|24|adjectif qualif|
+spécialement|22|adverbe|
+spectacle|16|nom masculin|
+spectateur|13|nom masculin|
+splendeur|23|nom féminin|
+splendide|25|adjectif qualif|
+sport|14|nom masculin|
+station|18|nom féminin|
+stationner|23|verbe 1er group|
+statue|11|nom féminin|
+studieux|20|adjectif qualif|
+stupéfaction|20|nom féminin|
+style|27|nom masculin|
+suave|15|adjectif qualif|
+subir|18|verbe 2ème grou|
+subitement|18|adverbe|
+sublime|19|adjectif qualif|
+suc|25|nom masculin|
+succéder|22|verbe 1er group|
+succès|21|nom masculin|
+successivement|33|adverbe|
+succulent|32|adjectif qualif|
+sucer|28|verbe 1er group|
+sucre|5|nom masculin|
+sud|15|nom masculin|
+sueur|12|nom féminin|
+suffire|33|verbe 3ème grou|
+suffisamment|38|adverbe|
+suffisant|27|adjectif qualif|
+suite|9|nom féminin|
+suivant|16|adjectif qualif|
+suivre|13|verbe 3ème grou|
+sujet|16|nom masculin|
+superbe|13|adjectif qualif|
+supérieur|21|adjectif qualif|
+supplier|32|verbe 1er group|
+supporter|25|verbe 1er group|
+supposer|29|verbe 1er group|
+suprême|20|adjectif qualif|
+sur|7|préposition|
+sûr|29|adjectif qualif|
+sûrement|34|adverbe|
+surface|16|nom féminin|
+surgir|19|verbe 2ème grou|
+surmonter|22|verbe 1er group|
+surprendre|20|verbe 3ème grou|
+surprise|12|nom féminin|
+sursaut|26|nom masculin|
+sursauter|22|verbe 1er group|
+surtout|15|adverbe|
+surveiller|19|verbe 1er group|
+survenir|10|verbe 3ème grou|
+suspendre|19|verbe 3ème grou|
+symbole|27|nom masculin|
+sympathie|36|nom féminin|
+tabac|15|nom masculin|
+table|3|nom féminin|
+tableau|13|nom masculin|
+tablier|13|nom masculin|
+tache|14|nom féminin|
+tâche|19|nom féminin|
+tacher|28|verbe 1er group|
+tâcher|30|verbe 1er group|
+tacheter|24|verbe 1er group|
+taille|15|nom féminin|
+tailler|26|verbe 1er group|
+tailleur|17|nom masculin|
+taillis|31|nom masculin|
+taire|17|verbe 3ème grou|
+talent|21|nom masculin|
+talus|30|nom masculin|
+tambour|20|nom masculin|
+tandis que|28|conjonction|
+tant|21|adverbe|
+tante|15|nom féminin|
+tantôt|23|adverbe|
+tapage|16|nom masculin|
+taper|26|verbe 1er group|
+tapis|16|nom masculin|
+tapisser|26|verbe 1er group|
+taquiner|23|verbe 1er group|
+tard|20|adverbe|
+tarder|19|verbe 1er group|
+tarte|11|nom féminin|
+tartine|10|nom féminin|
+tas|18|nom masculin|
+tasse|9|nom féminin|
+teinte|21|nom féminin|
+tel|16|adjectif qualif|
+télégramme|24|nom masculin|
+téléphone|20|nom masculin|
+téléphoner|24|verbe 1er group|
+tellement|25|adverbe|
+témoignage|24|nom masculin|
+témoigner|20|verbe 1er group|
+témoin|17|nom masculin|
+température|19|nom féminin|
+tempête|18|nom féminin|
+temps|18|nom masculin|
+tendre|17|adjectif qualif|
+tendrement|16|adverbe|
+tendresse|17|nom féminin|
+ténèbres|25|nom féminin|
+tenir|15|verbe 3ème grou|
+tentation|18|nom féminin|
+tente|16|nom féminin|
+tenter|25|verbe 1er group|
+tenue|12|nom féminin|
+terme|13|nom masculin|
+terminer|19|verbe 1er group|
+terrain|18|nom masculin|
+terrasse|24|nom féminin|
+terre|2|nom féminin|
+terrestre|19|adjectif qualif|
+terreur|17|nom féminin|
+terrible|17|adjectif qualif|
+terrier|20|nom masculin|
+tête|5|nom féminin|
+thé|21|nom masculin|
+théâtre|31|nom masculin|
+tiède|20|adjectif qualif|
+tige|9|nom féminin|
+tigre|13|nom masculin|
+tilleul|28|nom masculin|
+timbre|13|nom masculin|
+timide|12|adjectif qualif|
+tinter|23|verbe 1er group|
+tirelire|14|nom féminin|
+tirer|18|verbe 1er group|
+tiroir|23|nom masculin|
+tissu|25|nom masculin|
+titre|14|nom masculin|
+toile|12|nom féminin|
+toilette|19|nom féminin|
+toit|15|nom masculin|
+tombe|12|nom féminin|
+tombeau|15|nom masculin|
+tomber|15|verbe 1er group|
+ton|17|nom masculin|
+tonneau|17|nom masculin|
+tonnerre|27|nom masculin|
+tordre|14|verbe 3ème grou|
+torrent|24|nom masculin|
+tort|27|nom masculin|
+tortue|13|nom féminin|
+tôt|20|adverbe|
+toucher|10|verbe 1er group|
+touffe|17|nom féminin|
+touffu|25|adjectif qualif|
+toujours|21|adverbe|
+tour|13|nom commun (mas|
+tourbillon|21|nom masculin|
+tourbillonner|30|verbe 1er group|
+tourment|23|nom masculin|
+tourmenter|25|verbe 1er group|
+tournant|23|nom masculin|
+tournée|17|nom féminin|
+tourner|12|verbe 1er group|
+tournoyer|25|verbe 1er group|
+tous|11|adjectif indéfi|
+tout|11|adjectif indéfi|
+toutefois|27|adverbe|
+toux|26|nom féminin|
+trace|20|nom féminin|
+tracer|26|verbe 1er group|
+train|14|nom masculin|
+traîneau|24|nom masculin|
+traîner|33|verbe 1er group|
+trait|25|nom masculin|
+traitement|19|nom masculin|
+traiter|27|verbe 1er group|
+trajet|27|nom masculin|
+tram|15|nom masculin|
+tramway|15|nom masculin|
+tranche|13|nom féminin|
+trancher|22|verbe 1er group|
+tranquille|19|adjectif qualif|
+tranquillement|22|adverbe|
+transformation|17|nom féminin|
+transformer|21|verbe 1er group|
+transmettre|24|verbe 3ème grou|
+transparent|25|adjectif qualif|
+transport|19|nom masculin|
+transporter|20|verbe 1er group|
+travail|16|nom masculin|
+travailler|16|verbe 1er group|
+travailleur|16|nom masculin|
+travers|24|nom masculin|
+traverser|15|verbe 1er group|
+treize|23|adjectif numéra|
+trembler|22|verbe 1er group|
+tremper|27|verbe 1er group|
+trente|18|adjectif numéra|
+très|20|adverbe|
+trésor|15|nom masculin|
+tressaillir|29|verbe 3ème grou|
+tribunal|14|nom masculin|
+tricolore|14|adjectif qualif|
+tricot|18|nom masculin|
+tricoter|22|verbe 1er group|
+trimestre|16|nom masculin|
+triomphe|23|nom masculin|
+triompher|27|verbe 1er group|
+triste|7|adjectif qualif|
+tristement|15|adverbe|
+tristesse|18|nom féminin|
+trois|12|adjectif numéra|
+troisième|21|adjectif numéra|
+tromper|21|verbe 1er group|
+trompette|22|nom féminin|
+tronc|23|nom masculin|
+trop|18|adverbe|
+trotter|25|verbe 1er group|
+trottoir|27|nom masculin|
+trou|15|nom masculin|
+trouble|13|nom masculin|
+troubler|20|verbe 1er group|
+trouer|21|verbe 1er group|
+troupe|15|nom féminin|
+troupeau|18|nom masculin|
+trouver|17|verbe 1er group|
+tuer||verbe 1er group|
+tuile|20|nom féminin|
+tulipe|13|nom féminin|
+tunnel|31|nom masculin|
+turbulent|30|adjectif qualif|
+tuyau|25|nom masculin|
+type|27|nom masculin|
+union|14|nom féminin|
+unique|15|adjectif qualif|
+unir|17|verbe 2ème grou|
+univers|27|nom masculin|
+universel|26|adjectif qualif|
+urgent|18|adjectif qualif|
+usage|11|nom masculin|
+user|25|verbe 1er group|
+usine|11|nom féminin|
+utile|15|adjectif qualif|
+utiliser|21|verbe 1er group|
+utilité|14|nom féminin|
+vacances|20|nom féminin|
+vache|5|nom féminin|
+vagabond|24|adjectif qualif|
+vague|16|nom féminin|
+vaillant|22|adjectif qualif|
+vain|25|adjectif qualif|
+vaincre|22|verbe 3ème grou|
+vainqueur|24|nom masculin|
+vaisselle|27|nom féminin|
+valet|17|nom masculin|
+valeur|12|nom féminin|
+valise|13|nom féminin|
+vallée|18|nom féminin|
+valoir|17|verbe 3ème grou|
+vanter|28|verbe 1er group|
+vapeur|11|nom féminin|
+varier|21|verbe 1er group|
+vase|12|nom commun (mas|
+vaste|12|adjectif qualif|
+veau|18|nom masculin|
+végétal|19|adjectif qualif|
+végétation|28|nom féminin|
+véhicule|23|nom masculin|
+veille|17|nom féminin|
+veiller|22|verbe 1er group|
+veine|22|nom féminin|
+vélo|20|nom masculin|
+velours|33|nom masculin|
+velouté|20|adjectif qualif|
+vendeur|13|nom masculin|
+vendre|14|verbe 3ème grou|
+vendredi|6|nom masculin|
+vénérer|19|verbe 1er group|
+venger|21|verbe 1er group|
+venir|13|verbe 3ème grou|
+vent|13|nom masculin|
+vente|12|nom féminin|
+ventre|17|nom masculin|
+vêpres|26|nom féminin|
+ver|25|nom masculin|
+verdâtre|28|adjectif qualif|
+verdoyant|25|adjectif qualif|
+verdure|13|nom féminin|
+verger|13|nom masculin|
+vérifier|19|verbe 1er group|
+véritable|12|adjectif qualif|
+vérité|21|nom féminin|
+vermeil|26|nom masculin|
+vernir|14|verbe 2ème grou|
+verre|19|nom masculin|
+vers|25|préposition|
+verser|20|verbe 1er group|
+vert|15|adjectif qualif|
+vertu|17|nom féminin|
+veston|16|nom masculin|
+vêtement|23|nom masculin|
+vêtir|24|verbe 3ème grou|
+veuf|19|adjectif qualif|
+viande|16|nom féminin|
+vicaire|21|nom masculin|
+vice|20|nom masculin|
+victime|12|nom féminin|
+victoire|12|nom féminin|
+vide|12|adjectif qualif|
+vider|18|verbe 1er group|
+vie|10|nom féminin|
+vieil|29|adjectif qualif|
+vieillard|24|nom masculin|
+vieillesse|28|nom féminin|
+vierge|15|adjectif qualif|
+vieux|14|adjectif qualif|
+vif|12|adjectif qualif|
+vigne|6|nom féminin|
+vigoureux|18|adjectif qualif|
+vigueur|22|nom féminin|
+vilain|20|adjectif qualif|
+villa|15|nom féminin|
+village|11|nom masculin|
+villageois|24|nom masculin|
+ville|11|nom féminin|
+vin|13|nom masculin|
+vingt|19|adjectif numéra|
+violence|20|nom féminin|
+violent|20|adjectif qualif|
+violet|17|adjectif qualif|
+violette|14|nom féminin|
+visage|10|nom masculin|
+viser|23|verbe 1er group|
+visible|12|adjectif qualif|
+visite|10|nom féminin|
+visiter|17|verbe 1er group|
+visiteur|10|nom masculin|
+vite|12|adverbe|
+vitesse|15|nom féminin|
+vitre|13|nom féminin|
+vitrine|13|nom féminin|
+vivant|17|adjectif qualif|
+vivement|15|adverbe|
+vivre|13|verbe 3ème grou|
+voeu|31|nom masculin|
+voici|11|adverbe|
+voie|23|nom féminin|
+voilà|24|préposition|
+voile|16|nom féminin|
+voiler|22|verbe 1er group|
+voir|14|verbe 3ème grou|
+voisin|13|nom masculin|
+voisinage|13|nom masculin|
+voiture|9|nom féminin|
+voix|25|nom féminin|
+vol|18|nom masculin|
+volaille|24|nom féminin|
+volée|15|nom féminin|
+voler|21|verbe 1er group|
+volet|18|nom masculin|
+voleur|10|nom masculin|
+volonté|16|nom féminin|
+volontiers|32|adverbe|
+voltiger|16|verbe 1er group|
+volume|12|nom masculin|
+vôtre|18|pronom|
+vouloir|17|verbe 3ème grou|
+voûte|29|nom féminin|
+voyage|16|nom masculin|
+voyager|20|verbe 1er group|
+voyageur|14|nom masculin|
+vrai|24|adjectif qualif|
+vraiment|22|adverbe|
+vue|10|nom féminin|
+vulgaire|25|adjectif qualif|
+wagon|15|nom masculin|
+yeux|16|nom masculin|
+zèle|18|nom masculin|
