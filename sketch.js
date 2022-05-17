@@ -20,8 +20,9 @@ function setup() {
 function draw() {
   if(gameStatus == "playing"){
     showgame();
+  }else{
+    checkStatus();
   }
-  checkStatus();
 }
 
 function showgame(){
@@ -39,7 +40,7 @@ function checkStatus(){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
     }
-    if(word == letters[currentTry-1].join("")){
+    if(word == letters[currentTry-2].join("")){
       gameStatus = "victory";
     }
   }else{
@@ -110,9 +111,7 @@ function typing(){
 function checkWord(){
   if(letters[currentTry-1][numberOfLetters-1] != "empty"){
     currentTry++;
-    if(currentTry>numberOfTries){
-      gameStatus = "gameover";
-    }
+    checkStatus();
   }
 }
   
