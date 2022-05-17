@@ -18,11 +18,9 @@ function setup() {
 }
 
 function draw() {
-  if(gameStatus == "playing"){
-    showgame();
-  }else{
-    checkStatus();
-  }
+  console.log(currentTry);
+  showgame();
+  checkStatus();
 }
 
 function showgame(){
@@ -40,8 +38,10 @@ function checkStatus(){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
     }
-    if(word == letters[currentTry-2].join("")){
-      gameStatus = "victory";
+    if(currentTry != 1){
+      if(word == letters[currentTry-2].join("")){
+        gameStatus = "victory";
+      }
     }
   }else{
     push();
@@ -74,9 +74,9 @@ function Grid(){
       rect(squareX,squareY,squareW,squareH);//draw squares
       if(letters[r][c] != "empty"){
         fill(255);
-        if(letters[r][c] == word.charAt(c)){//correct
+        if(letters[r][c] == word.charAt(c) && currentTry-1>r){//correct
           fill(0,255,0,200);
-        }else if(word.includes(letters[r][c])){//is present at least once
+        }else if(word.includes(letters[r][c])&& currentTry-1>r){//is present at least once
           fill(255,255,0,200);
         }
         rect(squareX,squareY,squareW,squareH);//draw background of square
@@ -110,8 +110,8 @@ function typing(){
 
 function checkWord(){
   if(letters[currentTry-1][numberOfLetters-1] != "empty"){
+    console.log("passed",currentTry,word,letters);
     currentTry++;
-    checkStatus();
   }
 }
   
