@@ -4,10 +4,15 @@ let numberOfTries = 6;
 let currentTry = 1;
 let letters = [];
 let word;
+let dict_frequent;
 let gameStatus = "playing";
 
+function preload(){
+  filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
+  dict_frequent = loadStrings(filename);
+}
 
-function setup() {
+function setup(){
   createCanvas(windowWidth, windowHeight);
   for(let r = 0;r<numberOfTries;r++){
     let line = [];
@@ -16,12 +21,11 @@ function setup() {
     }
     letters.push(line);
   }
-  word = 'access';
-  // word = pickWord();
+  word = random(dict_frequent);
   print(word)
 }
 
-function draw() {
+function draw(){
   showgame();
   checkStatus();
 }
@@ -145,12 +149,4 @@ function deleteLastLetter(){
   if(somethingToDelete){
     letters[placeToDeleteR][placeToDeleteC] = "empty";
   }
-}
-
-async function pickWord(){
-  filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
-  const result = await loadStrings(filename);
-  print(result[4]);
-  return 'access'; // access
-  // return random(result);
 }
