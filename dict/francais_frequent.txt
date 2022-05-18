@@ -252,7 +252,6 @@ aubépine
 auberge
 aucun
 augmenter
-aujourd'hui
 aumône
 auparavant
 auprès
@@ -628,7 +627,6 @@ chausser
 chaussure
 chaux
 chef
-chef-d'oeuvre
 chemin
 cheminée
 chemise
@@ -687,7 +685,6 @@ clef
 clément
 client
 climat
-clin d'oeil
 cloche
 clocher
 clochette
@@ -933,8 +930,6 @@ curieux
 curiosité
 cycliste
 cygne
-d'abord
-d'après
 dahlia
 daigner
 dame
@@ -2091,7 +2086,7 @@ majestueux
 mal
 malade
 maladie
-malette
+mallette
 malgré
 malheur
 malheureusement
@@ -2467,7 +2462,6 @@ parages
 paraître
 parapluie
 parc
-parce que
 parcourir
 parcours
 pardessus
@@ -2843,7 +2837,6 @@ quatre
 quatrième
 quel
 quelconque
-quelqu'un
 quelque
 quelquefois
 question
@@ -3135,17 +3128,6 @@ ruisseler
 ruisselet
 rusé
 rustique
-s'absenter
-s'agenouiller
-s'écrier
-s'écrouler
-s'efforcer
-s'éloigner
-s'emparer
-s'empresser
-s'enfuir
-s'envoler
-s'évanouir
 sable
 sabot
 sabre
