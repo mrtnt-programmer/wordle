@@ -1,8 +1,9 @@
 let numberOfLetters = 6;
+let langue = 'english'; // could also be 'francais'
 let numberOfTries = 6;
 let currentTry = 1;
 let letters = [];
-let word = "access";
+let word;
 let gameStatus = "playing";
 
 
@@ -15,10 +16,12 @@ function setup() {
     }
     letters.push(line);
   }
+  word = 'access';
+  // word = pickWord();
+  print(word)
 }
 
 function draw() {
-  console.log(currentTry);
   showgame();
   checkStatus();
 }
@@ -142,4 +145,12 @@ function deleteLastLetter(){
   if(somethingToDelete){
     letters[placeToDeleteR][placeToDeleteC] = "empty";
   }
+}
+
+async function pickWord(){
+  filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
+  const result = await loadStrings(filename);
+  print(result[4]);
+  return 'access'; // access
+  // return random(result);
 }
