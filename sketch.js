@@ -82,11 +82,11 @@ function Grid(){
       rect(squareX,squareY,squareW,squareH);//draw squares
       if(letter[r][c].letter != "empty"){
         fill(255);
-        if(letters[r][c] == word.charAt(c) && currentTry-1>r){//correct
+        if(letter[r][c].letter == word.charAt(c) && currentTry-1>r){//correct
           fill(0,255,0,200);//green
-        }else if(word.includes(letters[r][c])&& currentTry-1>r){//test if maybe more than 1 copy of the letter
-          let answerCopies = copies(word,letters[r][c]);
-          let tryCopies = copies(letters[r],letters[r][c]);//same but for the word tested
+        }else if(word.includes(letter[r][c].letter)&& currentTry-1>r){//test if maybe more than 1 copy of the letter
+          let answerCopies = copies(word,letter[r][c].letter);
+          let tryCopies = copies(letter[r],letters[r][c]);//same but for the word tested
           let yellow = false;
           let count;
           for(let l= 0;l<numberOfLetters;l++){
