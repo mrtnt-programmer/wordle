@@ -2,7 +2,7 @@ let numberOfLetters = 6;
 let langue = 'english'; // could also be 'francais'
 let numberOfTries = 6;
 let currentTry = 1;
-let letters = [];
+let letter = [];
 let word;
 let dict_frequent;
 let gameStatus = "playing";
@@ -17,7 +17,8 @@ function setup(){
   for(let r = 0;r<numberOfTries;r++){
     let line = [];
     for(let c = 0;c<numberOfLetters;c++){
-      line.push("empty");
+      let newLetter = new Letter(r,c);
+      line.push(newLetter);
     }
     letters.push(line);
   }
@@ -79,7 +80,7 @@ function Grid(){
       let squareW = (w/numberOfLetters)-margin*2;
       let squareH = (h/numberOfTries)-margin*2;
       rect(squareX,squareY,squareW,squareH);//draw squares
-      if(letters[r][c] != "empty"){
+      if(letter[r][c].letter != "empty"){
         fill(255);
         if(letters[r][c] == word.charAt(c) && currentTry-1>r){//correct
           fill(0,255,0,200);//green
