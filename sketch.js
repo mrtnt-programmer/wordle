@@ -76,15 +76,34 @@ function Grid(){
       strokeWeight(3);
       let squareX = x+(w/numberOfLetters*c)+margin;
       let squareY = y+(h/numberOfTries*r)+margin;
-      let squareW = (w/numberOfLetters)-margin*2
-      let squareH = (h/numberOfTries)-margin*2
+      let squareW = (w/numberOfLetters)-margin*2;
+      let squareH = (h/numberOfTries)-margin*2;
       rect(squareX,squareY,squareW,squareH);//draw squares
       if(letters[r][c] != "empty"){
         fill(255);
         if(letters[r][c] == word.charAt(c) && currentTry-1>r){//correct
-          fill(0,255,0,200);
-        }else if(word.includes(letters[r][c])&& currentTry-1>r){//is present at least once
-          fill(255,255,0,200);
+          fill(0,255,0,200);//green
+        }else if(word.includes(letters[r][c])&& currentTry-1>r){//test if maybe more than 1 copy of the letter
+          let answerCopies = copies(word,letters[r][c]);
+          let tryCopies = copies(letters[r],letters[r][c]);//same but for the word tested
+          let yellow = false;
+          let count;
+          for(let l= 0;l<numberOfLetters;l++){
+            if(letters[r][l] == letters[r][c]){
+              count++;
+            }
+            if(count<l && c>=l){
+              yellow = true;
+              break;
+            }
+            if(count>answerCopies)break;         
+          }
+          console.log("yellow",answerCopies,tryCopies);
+//if(answerCopies>=tryCopies){
+          if(yellow){
+            console.log("more yellow");
+            fill(255,255,0,200);//yellow
+          }
         }
         rect(squareX,squareY,squareW,squareH);//draw background of square
         rectMode(CENTER)
@@ -97,15 +116,29 @@ function Grid(){
   }
 }
 
+function copies(w, letter){//number of times a letter apears in the word w (given in 'abcde')
+  //convert
+  let wSeperated = [];//in ['a','b']format
+  for(let i = 0;i<numberOfLetters;i++){
+    wSeperated.push(str(w[i]));
+  }
+  //count
+  let c = 0;
+  for(let i = 0;i<numberOfLetters;i++){
+    if(letter == wSeperated[i]){
+      c++;
+    }
+  }
+  return c;
+}
+
 function keyPressed(){
-  console.log(letters);
   if(gameStatus == "playing"){
     typing();
   }
 }
 
 function typing(){
-
   if(keyCode == ENTER){
     checkWord();
   }else if(keyCode == BACKSPACE){
@@ -117,7 +150,6 @@ function typing(){
 
 function checkWord(){
   if(letters[currentTry-1][numberOfLetters-1] != "empty"){
-    console.log("passed",currentTry,word,letters);
     currentTry++;
   }
 }
