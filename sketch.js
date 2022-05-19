@@ -5,9 +5,11 @@ let currentTry = 1;
 let letter = [];
 let word;
 let dict_frequent;
+let background_image;
 let gameStatus = "playing";
 
 function preload(){
+  background_image = loadImage('background/background.jpg');
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
 }
@@ -33,7 +35,8 @@ function draw(){
 
 function showgame(){
   push();
-  background(220);
+  // background(220);
+  background(background_image);
   fill(60);
   rect(width/3,0,width/3,height);//background
   pop();
