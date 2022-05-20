@@ -1,5 +1,5 @@
 let numberOfLetters = 6;
-let langue = 'english'; // could also be 'francais'
+let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
 let numberOfTries = 6;
 let currentTry = 1;
 let letter = [];
@@ -9,7 +9,8 @@ let background_image;
 let gameStatus = "playing";
 
 function preload(){
-  background_image = loadImage('background/background.jpg');
+  let filename = 'background/background_'+langue+'.jpg';
+  background_image = loadImage(filename);
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
 }
