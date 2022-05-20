@@ -85,7 +85,6 @@ function Grid(){
       rect(squareX,squareY,squareW,squareH);//draw squares
       if(letter[r][c].letter != "empty"){
         fill(255);
-        console.log(r,c,letter[r][c].color);
         if(letter[r][c].color == "green"){//correct
           fill(0,255,0,200);//green
         }else if(letter[r][c].color == "yellow"){
@@ -144,11 +143,9 @@ function copies(w, letter){//number of times a letter apears in the word w (give
 function checkWord(){
   if(letter[currentTry-1][numberOfLetters-1].letter != "empty"){
     for(let c=0;c<numberOfLetters;c++){
-      console.log("checkword");
       if(letter[currentTry-1][c].letter == word.charAt(c)){
         letter[currentTry-1][c].color = "green";
       }
-      console.log("checkword",letter[currentTry-1][c].letter,word.charAt(c),letter[currentTry-1][c].color);
     }
     currentTry++;
   }
@@ -168,21 +165,32 @@ function keyPressed(){
   }
 }
 
+let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+let possibleLetterM = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 function typing(){
   if(keyCode == ENTER){
     checkWord();
   }else if(keyCode == BACKSPACE){
     deleteLastLetter();
-  }else{
-    findEmptySpot();
+  }else if(possibleLetterM.includes(key)){//if lowercase 
+    let k;
+    for(let l=0;l<possibleLetterM.length;l++){
+      if(possibleLetterM[l] == key){
+        k = possibleLetter[l];
+        break;
+      }
+    }
+    findEmptySpot(k);
+  }else if(possibleLetter.includes(key)){
+    findEmptySpot(key);
   }
 }
   
-function findEmptySpot(){
+function findEmptySpot(keyToPut){
   for(let r = 0;r<currentTry;r++){
     for(let c = 0;c<numberOfLetters;c++){
       if(letter[r][c].letter == "empty"){
-        letter[r][c].letter = key;
+        letter[r][c].letter = keyToPut;
         return;
       }
     }
