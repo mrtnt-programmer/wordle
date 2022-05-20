@@ -1,3 +1,4 @@
 beaucoup de listes de mots dans /usr/share/dict
 https://www.wordfrequency.info : words frequency in English (5000 premiers mots gratuits, -> 800 de 6 lettres)
 https://www.sketchengine.eu : 30 days free trial
+https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Norwegian_Bokm%C3%A5l_wordlist
