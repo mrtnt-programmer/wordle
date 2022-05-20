@@ -5,7 +5,4 @@ class Letter{
     this.letter = "empty";
     this.color = "gray";//gray green yellow
   }
-
-
-
 }

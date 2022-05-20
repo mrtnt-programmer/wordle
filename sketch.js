@@ -91,29 +91,6 @@ function Grid(){
         }else if(letter[r][c].color == "yellow"){
           fill(255,255,0,200);//yellow
         }
-        
-        /*else if(word.includes(letter[r][c].letter)&& currentTry-1>r){//test if maybe more than 1 copy of the letter
-          let answerCopies = copies(word,letter[r][c].letter);
-          let tryCopies = copies(findWord(r),letter[r][c].letter);//same but for the word tested
-          let yellow = false;
-          let count;
-          for(let l= 0;l<numberOfLetters;l++){
-            if(letter[r][l].letter == letter[r][c].letter){
-              count++;
-            }
-            if(count<l && c>=l){
-              yellow = true;
-              break;
-            }
-            if(count>answerCopies)break;         
-          }
-          console.log("yellow",answerCopies,tryCopies);
-          if(yellow){
-            console.log("more yellow");
-            fill(255,255,0,200);//yellow
-          }
-        }
-        */
         rect(squareX,squareY,squareW,squareH);//draw background of square
         rectMode(CENTER)
         textSize(squareW);
@@ -125,29 +102,31 @@ function Grid(){
   }
 }
 
-function copies(w, letter){//number of times a letter apears in the word w (given in 'abcde')
-  //convert
-  let wSeperated = [];//in ['a','b']format
-  for(let i = 0;i<numberOfLetters;i++){
-    wSeperated.push(str(w[i]));
-  }
-  //count
-  let c = 0;
-  for(let i = 0;i<numberOfLetters;i++){
-    if(letter == wSeperated[i]){
-      c++;
-    }
-  }
-  return c;
-}
-
 function checkWord(){
   if(letter[currentTry-1][numberOfLetters-1].letter != "empty"){
+    let copies = [];
+    for(let l=0;l<numberOfLetters;l++){//makes a list of all letters present to not draw letter multiple colors
+      copies.push(word[l]);
+    }
+
     for(let c=0;c<numberOfLetters;c++){
       if(letter[currentTry-1][c].letter == word.charAt(c)){
         letter[currentTry-1][c].color = "green";
+        let todelete = copies.indexOf(letter[currentTry-1][c].letter);
+        copies.splice(todelete,1);
       }
     }
+    console.log("mid",copies);
+
+    for(let c=0;c<numberOfLetters;c++){
+      if(copies.includes(letter[currentTry-1][c].letter)){
+        letter[currentTry-1][c].color = "yellow";
+        console.log("yellowing",c); 
+        let todelete = copies.indexOf(letter[currentTry-1][c].letter);
+        copies.splice(todelete,1);
+      }
+    }
+    console.log("end",copies);
     currentTry++;
   }
 }
