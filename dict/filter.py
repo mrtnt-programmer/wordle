@@ -1,6 +1,6 @@
 import unidecode
 
-for langue in ['francais', 'english']:
+for langue in ['norway', 'francais', 'english']: # 
   for nb_letters in [4,5,6,7,8]:
     for suffix in ['frequent', 'all']:
       i = 0
