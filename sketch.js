@@ -116,17 +116,14 @@ function checkWord(){
         copies.splice(todelete,1);
       }
     }
-    console.log("mid",copies);
 
     for(let c=0;c<numberOfLetters;c++){
       if(copies.includes(letter[currentTry-1][c].letter)){
         letter[currentTry-1][c].color = "yellow";
-        console.log("yellowing",c); 
         let todelete = copies.indexOf(letter[currentTry-1][c].letter);
         copies.splice(todelete,1);
       }
     }
-    console.log("end",copies);
     currentTry++;
   }
 }
@@ -193,4 +190,8 @@ function deleteLastLetter(){
   if(somethingToDelete){
     letter[placeToDeleteR][placeToDeleteC].letter = "empty";
   }
+}
+
+function mousePressed(){
+  prompt();
 }
