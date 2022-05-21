@@ -1,3 +1,10 @@
+let myFont;
+
+function preload() {
+  myFont = loadFont('font/OddlyCalming.ttf');
+}
+
+
 function setup(){
   createCanvas(windowWidth, windowHeight);
 }
@@ -30,6 +37,7 @@ function affiche_lettre(letter, x, y, size){
   fill('lightgray');
   rect(x,y,size,size);
   textSize(size*0.93);
+  textFont(myFont);
   textAlign(CENTER);
   fill('black');
   rectMode(CENTER);
