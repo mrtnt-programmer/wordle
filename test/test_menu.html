@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
 <!-- pour la petite fleche dans le menu -->
 <style>
 .navbar {
@@ -38,7 +38,7 @@
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .bt_menu:hover {
   background-color: red;
 }
 
@@ -79,24 +79,37 @@
   display: block;
   font-size: 16px;
 }
+
 </style>
 </head>
 
 <body>
 
-<div class="navbar">
-  <a href="#home">Letters</a>
-  <a href="#news">Tries</a>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Language
-    <i class="fa fa-caret-down"></i> 
-    <!--petite fleche-->
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-    <button class='bt_menu' value='english' onclick="change(this.value)">English</button>
-    <button class='bt_menu' value='francais' onclick="change(this.value)">Français</button>
-    <button class='bt_menu' value='norway' onclick="change(this.value)">Norwegian</button>
-  </div>
+<div class='navbar'>  
+  <div class='dropdown'>
+    <button class='dropbtn' value='dropdown_letters' onclick='myFunction(this.value)'>Number letters
+      <i class='fa fa-caret-down'></i> 
+      <!--petite fleche-->
+    </button>
+    <div class='dropdown-content' id='dropdown_letters'>
+      <button class='bt_menu' value='letters 4' onclick='change(this.value)'>4</button>
+      <button class='bt_menu' value='letters 5' onclick='change(this.value)'>5</button>
+      <button class='bt_menu' value='letters 6' onclick='change(this.value)'>6</button>
+      <button class='bt_menu' value='letters 7' onclick='change(this.value)'>7</button>
+      <button class='bt_menu' value='letters 8' onclick='change(this.value)'>8</button>
+    </div>
+  </div> 
+  
+  <div class='dropdown'>
+    <button class='dropbtn' value='dropdown_langue' onclick='myFunction(this.value)'>Language
+      <i class='fa fa-caret-down'></i> 
+      <!--petite fleche-->
+    </button>
+    <div class='dropdown-content' id='dropdown_langue'>
+      <button class='bt_menu' value='english' onclick='change(this.value)'>English</button>
+      <button class='bt_menu' value='francais' onclick='change(this.value)'>Français</button>
+      <button class='bt_menu' value='norway' onclick='change(this.value)'>Norwegian</button>
+    </div>
   </div> 
 </div>
 
@@ -109,16 +122,18 @@ function change(value){
 }
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+function myFunction(id) {
+  document.getElementById(id).classList.toggle('show');
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
+    for (const id of ['dropdown_letters', 'dropdown_langue']){ 
+      var myDropdown = document.getElementById(id);
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
     }
   }
 }
