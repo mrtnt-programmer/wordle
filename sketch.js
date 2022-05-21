@@ -9,6 +9,7 @@ let word;
 let dict_frequent;
 let background_image;
 let gameStatus = "playing";
+let myFont;
 
 let buttonX,buttonY,buttonW,buttonH;
 
@@ -24,6 +25,8 @@ function preload(){
   background_image = loadImage(filename);
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
+  myFont = loadFont('Salma.otf');
+//   myFont = loadFont('OddlyCalming.ttf');
 }
 
 function setup(){
@@ -108,10 +111,13 @@ function Grid(){
           fill(255,255,0,200);//yellow
         }
         rect(squareX,squareY,squareW,squareH);//draw background of square
-        rectMode(CENTER)
-        textSize(squareW);
+        
+        textSize(squareW*0.95);
+        textFont(myFont);
+        textAlign(CENTER);
         fill(60);
-        text(letter[r][c].letter,squareX+squareW/4*3,squareY+squareH/2,squareW,squareH);//draw letters
+        rectMode(CENTER)
+        text(letter[r][c].letter,squareX+squareW/2,squareY+squareH/2*1.53);//draw letters
       }
       pop();
     }
