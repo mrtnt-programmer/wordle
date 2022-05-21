@@ -1,4 +1,5 @@
 let numberOfLetters = 6;
+let minMaxLetters = [3,8];
 let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
 let possibleLangue = ['francais','english','Norwegian'];
 let numberOfTries = 6;
@@ -11,7 +12,14 @@ let gameStatus = "playing";
 
 let buttonX,buttonY,buttonW,buttonH;
 
-function preload(){
+function preload(){ 
+  console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
+  if(sessionStorage.getItem("numberOfLetters")>minMaxLetters[0] &&
+    sessionStorage.getItem("numberOfLetters")<minMaxLetters[1] &&
+    possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
+    numberOfLetters = sessionStorage.getItem("numberOfLetters");
+    langue = sessionStorage.getItem("langue");  
+  }
   let filename = 'background/background_'+langue+'.jpg';
   background_image = loadImage(filename);
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
@@ -34,13 +42,6 @@ function setup(){
   buttonY = 10;
   buttonW = width/28;
   buttonH = buttonW;
-  console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
-  if(sessionStorage.getItem("numberOfLetters")>3 &&
-     sessionStorage.getItem("numberOfLetters")<8 &&
-     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
-    numberOfLetters = sessionStorage.getItem("numberOfLetters");
-    langue = sessionStorage.getItem("langue");  
-  }
 }
 
 function draw(){
