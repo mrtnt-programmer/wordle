@@ -116,9 +116,7 @@ function checkWord(){
         copies.splice(todelete,1);
       }
     }
-    console.log("mid",copies);
     for(let c=0;c<numberOfLetters;c++){
-
       if(copies.includes(letter[currentTry-1][c].letter) && letter[currentTry-1][c].letter != word.charAt(c)){
         letter[currentTry-1][c].color = "yellow";
         let todelete = copies.indexOf(letter[currentTry-1][c].letter);
@@ -126,7 +124,6 @@ function checkWord(){
       }
     }
     currentTry++;
-    console.log("end",copies);
   }
 }
 
