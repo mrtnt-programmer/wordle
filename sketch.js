@@ -1,5 +1,5 @@
 let numberOfLetters = 6;
-let minMaxLetters = [3,8];
+let minMaxLetters = [4,8];
 let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
 let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
@@ -14,8 +14,8 @@ let buttonX,buttonY,buttonW,buttonH;
 
 function preload(){ 
   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
-  if(sessionStorage.getItem("numberOfLetters")>minMaxLetters[0] &&
-    sessionStorage.getItem("numberOfLetters")<minMaxLetters[1] &&
+  if(sessionStorage.getItem("numberOfLetters")>=minMaxLetters[0] &&
+    sessionStorage.getItem("numberOfLetters")<=minMaxLetters[1] &&
     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
