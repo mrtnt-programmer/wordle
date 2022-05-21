@@ -1,6 +1,6 @@
 let numberOfLetters = 6;
 let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
-let possibleLangue = ['francais','english','norway'];
+let possibleLangue = ['francais','english','Norwegian'];
 let numberOfTries = 6;
 let currentTry = 1;
 let letter = [];
