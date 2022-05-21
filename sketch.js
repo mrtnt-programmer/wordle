@@ -7,6 +7,7 @@ let currentTry = 1;
 let letter = [];
 let word;
 let dict_frequent;
+let dict_all;
 let background_image;
 let gameStatus = "playing";
 let myFont;
@@ -25,6 +26,8 @@ function preload(){
   background_image = loadImage(filename);
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
+  filename = 'dict/'+langue +'_all_'+numberOfLetters.toString()+'.txt'
+  dict_all = loadStrings(filename);
   myFont = loadFont('Salma.otf');
 //   myFont = loadFont('OddlyCalming.ttf');
 }
