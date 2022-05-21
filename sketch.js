@@ -1,5 +1,6 @@
 let numberOfLetters = 6;
 let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
+let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
 let currentTry = 1;
 let letter = [];
@@ -15,6 +16,13 @@ function preload(){
   background_image = loadImage(filename);
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
+  console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
+  if(sessionStorage.getItem("numberOfLetters")>3 &&
+     sessionStorage.getItem("numberOfLetters")<8 &&
+     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
+    numberOfLetters = sessionStorage.getItem("numberOfLetters");
+    langue = sessionStorage.getItem("langue");  
+  }
 }
 
 function setup(){
