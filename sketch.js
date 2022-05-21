@@ -8,6 +8,8 @@ let dict_frequent;
 let background_image;
 let gameStatus = "playing";
 
+let buttonX,buttonY,buttonW,buttonH;
+
 function preload(){
   let filename = 'background/background_'+langue+'.jpg';
   background_image = loadImage(filename);
@@ -27,6 +29,10 @@ function setup(){
   }
   word = random(dict_frequent);
   print(word)
+  buttonX = 10;
+  buttonY = 10;
+  buttonW = width/28;
+  buttonH = buttonW;
 }
 
 function draw(){
@@ -43,6 +49,7 @@ function showgame(){
   pop();
 
   Grid();
+  settingsButton();
 }
 
 function checkStatus(){
@@ -141,6 +148,19 @@ function keyPressed(){
   }
 }
 
+function settingsButton(){
+  push();
+  fill(255,40);
+  rect(buttonX,buttonY,buttonW,buttonH);
+  pop();
+}
+
+function detecteButton(){
+  if(mouseX <buttonX+buttonW && mouseY<buttonY+buttonH && mouseX > buttonX && mouseY > buttonY){
+    window.location.assign("https://mrtnt-programmer.github.io/settings");
+  }
+}
+
 let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 let possibleLetterM = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 function typing(){
@@ -189,4 +209,8 @@ function deleteLastLetter(){
   if(somethingToDelete){
     letter[placeToDeleteR][placeToDeleteC].letter = "empty";
   }
+}
+
+function mousePressed(){
+  detecteButton();
 }
