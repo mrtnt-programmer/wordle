@@ -1,6 +1,6 @@
 let numberOfLetters = 4;
 let minMaxLetters = [4,8];
-let langue = 'francais'; // can be 'francais', 'english' or 'norway'
+let langue = 'norway'; // can be 'francais', 'english' or 'norway'
 let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
 let currentTry = 1;
@@ -95,11 +95,13 @@ function checkStatus(){
   if(gameStatus == "playing"){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
-      miscMessage = "was " + word + "!";
+      let dico = {'francais': "C'était '", 'english': "It was '", 'norway': "Det var '"};
+      miscMessage = dico[langue] + word + "'!";
     }
     if(currentTry != 1){
       if(word == findWord(currentTry-2)){
         gameStatus = "victory";
+        let dico = {'francais': "Bravo !", 'english': "Well done!", 'norway': "Godt gjort!"};
         miscMessage = "victory";
       }
     }
@@ -129,7 +131,7 @@ function misc(){
   let messageY = 2*margin() + (numberOfTries+1)*(squareSize()+margin()) + margin() ;
   if(miscMessage != ""){
     fill(255);
-    textSize(squareSize()*0.9);
+    textSize(squareSize()*0.6);
     text(miscMessage,messageX,messageY);
   }
 }
@@ -163,7 +165,8 @@ function checkWord(){
     currentTry++;
     miscMessage = "";
   }else{
-    miscMessage = "not a valid word";
+    let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'norway': "Ikke et gyldig ord!"};
+    miscMessage = dico[langue];
   }
 }
 
@@ -226,6 +229,7 @@ function findEmptySpot(keyToPut){
 }
 
 function deleteLastLetter(){
+  miscMessage = '';
   let placeToDeleteR = 0;
   let placeToDeleteC = 0;
   let somethingToDelete = false;
