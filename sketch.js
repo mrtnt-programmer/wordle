@@ -1,6 +1,6 @@
 let numberOfLetters = 6;
 let minMaxLetters = [4,8];
-let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
+let langue = 'francais'; // can be 'francais', 'english' or 'norway'
 let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
 let currentTry = 1;
@@ -67,7 +67,7 @@ function draw(){
 }
 
 function squareSize(){
-  return min(height*0.66/numberOfLetters, width*0.6/numberOfLetters);
+  return min(height*0.66/numberOfTries, width*0.6/numberOfLetters);
 }
 
 function margin(){
@@ -186,8 +186,6 @@ function keyPressed(){
 function settingsButton(){
   push();
   image(icon_menu, buttonX,buttonY,buttonW,buttonH);
-//   fill(255,40);
-//   rect(buttonX,buttonY,buttonW,buttonH);
   pop();
 }
 
