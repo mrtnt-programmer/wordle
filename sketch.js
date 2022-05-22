@@ -12,6 +12,7 @@ let background_image, icon_menu;
 let gameStatus = "playing";
 let myFont;
 let buttonX,buttonY,buttonW,buttonH;
+let miscMessage;
 
 function preload(){ 
   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
@@ -87,6 +88,7 @@ function showgame(){
   rect(gridX(),0,gridWidth(),height);//background
   pop();
   Grid();
+  misc();
   settingsButton();
 }
 
@@ -143,6 +145,17 @@ function Grid(){
   }
 }
 
+function misc(){
+  let messageX = gridX()+ 2*margin();
+  let messageY = 2*margin() + 6*(squareSize()+margin()) + margin();
+  console.log();
+  console.log("nom",miscMessage,miscMessage == "not a valid word");
+  if(miscMessage == "not a valid word"){
+    fill(255);
+    text(miscMessage,messageX,messageY);
+  }
+}
+
 function checkWord(){
   if(letter[currentTry-1][numberOfLetters-1].letter != "empty" && dict_all.includes(findWord(currentTry-1))){
     let copies = [];
@@ -165,6 +178,9 @@ function checkWord(){
       }
     }
     currentTry++;
+  }else{
+    miscMessage = "not a valid word";
+    console.log(miscMessage);
   }
 }
 
