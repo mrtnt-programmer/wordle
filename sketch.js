@@ -1,6 +1,6 @@
-let numberOfLetters = 4;
+let numberOfLetters = 5;
 let minMaxLetters = [4,8];
-let langue = 'norway'; // can be 'francais', 'english' or 'norway'
+let langue = 'francais'; // can be 'francais', 'english' or 'norway'
 let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
 let currentTry = 1;
