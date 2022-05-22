@@ -8,10 +8,9 @@ let letter = [];
 let word;
 let dict_frequent;
 let dict_all;
-let background_image;
+let background_image, icon_menu;
 let gameStatus = "playing";
 let myFont;
-
 let buttonX,buttonY,buttonW,buttonH;
 
 function preload(){ 
@@ -24,6 +23,7 @@ function preload(){
   }
   let filename = 'background/background_'+langue+'.jpg';
   background_image = loadImage(filename);
+  icon_menu = loadImage('icon_menu.png');
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
   filename = 'dict/'+langue +'_all_'+numberOfLetters.toString()+'.txt'
@@ -46,7 +46,7 @@ function setup(){
   print(word)
   buttonX = 10;
   buttonY = 10;
-  buttonW = width/28;
+  buttonW = min(width, height)/20;
   buttonH = buttonW;
 }
 
@@ -175,8 +175,9 @@ function keyPressed(){
 
 function settingsButton(){
   push();
-  fill(255,40);
-  rect(buttonX,buttonY,buttonW,buttonH);
+  image(icon_menu, buttonX,buttonY,buttonW,buttonH);
+//   fill(255,40);
+//   rect(buttonX,buttonY,buttonW,buttonH);
   pop();
 }
 
