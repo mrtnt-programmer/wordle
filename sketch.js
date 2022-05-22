@@ -1,29 +1,35 @@
 let numberOfLetters = 6;
-let minMaxLetters = [3,8];
+let minMaxLetters = [4,8];
 let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
-let possibleLangue = ['francais','english','Norwegian'];
+let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
 let currentTry = 1;
 let letter = [];
 let word;
 let dict_frequent;
-let background_image;
+let dict_all;
+let background_image, icon_menu;
 let gameStatus = "playing";
-
+let myFont;
 let buttonX,buttonY,buttonW,buttonH;
 
 function preload(){ 
   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
-  if(sessionStorage.getItem("numberOfLetters")>minMaxLetters[0] &&
-    sessionStorage.getItem("numberOfLetters")<minMaxLetters[1] &&
+  if(sessionStorage.getItem("numberOfLetters")>=minMaxLetters[0] &&
+    sessionStorage.getItem("numberOfLetters")<=minMaxLetters[1] &&
     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
   }
   let filename = 'background/background_'+langue+'.jpg';
   background_image = loadImage(filename);
+  icon_menu = loadImage('icon_menu.png');
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
   dict_frequent = loadStrings(filename);
+  filename = 'dict/'+langue +'_all_'+numberOfLetters.toString()+'.txt'
+  dict_all = loadStrings(filename);
+  myFont = loadFont('Salma.otf');
+//   myFont = loadFont('OddlyCalming.ttf');
 }
 
 function setup(){
@@ -37,10 +43,11 @@ function setup(){
     letter.push(line);
   }
   word = random(dict_frequent);
+  currentDictionary = dict_frequent;
   print(word)
   buttonX = 10;
   buttonY = 10;
-  buttonW = width/28;
+  buttonW = min(width, height)/20;
   buttonH = buttonW;
 }
 
@@ -49,14 +56,28 @@ function draw(){
   checkStatus();
 }
 
+function squareSize(){
+  return min(height*0.66/numberOfLetters, width*0.6/numberOfLetters);
+}
+
+function margin(){
+  return squareSize()/15;
+}
+
+function gridWidth(){
+  return (squareSize()+margin())*numberOfLetters + 3*margin();
+}
+
+function gridX(){
+  return (width - gridWidth()) / 2;
+}
+
 function showgame(){
   push();
-  // background(220);
   background(background_image);
   fill(60);
-  rect(width/3,0,width/3,height);//background
+  rect(gridX(),0,gridWidth(),height);//background
   pop();
-
   Grid();
   settingsButton();
 }
@@ -84,34 +105,30 @@ function checkStatus(){
 }
 
 function Grid(){
-  let margin = 5;
-  let x = width/3;
-  let y = 0;
-  let w = width/3;
-  let h = w;
   for(let r = 0;r<numberOfTries;r++){
     for(let c = 0;c<numberOfLetters;c++){
       push();//important so that background color does not affect other letter
       fill(245,245,245,100);
       stroke(0);
       strokeWeight(3);
-      let squareX = x+(w/numberOfLetters*c)+margin;
-      let squareY = y+(h/numberOfTries*r)+margin;
-      let squareW = (w/numberOfLetters)-margin*2;
-      let squareH = (h/numberOfTries)-margin*2;
-      rect(squareX,squareY,squareW,squareH);//draw squares
+      let squareX = gridX()+ 2*margin() + c*(squareSize()+margin());
+      let squareY = 2*margin() + r*(squareSize()+margin());
+      rect(squareX,squareY,squareSize(),squareSize());//draw empty square
       if(letter[r][c].letter != "empty"){
-        fill(255);
+        fill(255); // white
         if(letter[r][c].color == "green"){//correct
           fill(0,255,0,200);//green
         }else if(letter[r][c].color == "yellow"){
           fill(255,255,0,200);//yellow
         }
-        rect(squareX,squareY,squareW,squareH);//draw background of square
-        rectMode(CENTER)
-        textSize(squareW);
+        rect(squareX,squareY,squareSize(),squareSize());//draw background of square
+        
+        textSize(squareSize()*0.93);
+        textFont(myFont);
+        textAlign(CENTER);
         fill(60);
-        text(letter[r][c].letter,squareX+squareW/4*3,squareY+squareH/2,squareW,squareH);//draw letters
+        rectMode(CENTER)
+        text(letter[r][c].letter,squareX+squareSize()/2,squareY+squareSize()/2*1.53);//draw letters
       }
       pop();
     }
@@ -119,7 +136,7 @@ function Grid(){
 }
 
 function checkWord(){
-  if(letter[currentTry-1][numberOfLetters-1].letter != "empty"){
+  if(letter[currentTry-1][numberOfLetters-1].letter != "empty" && dict_all.includes(findWord(currentTry-1))){
     let copies = [];
     for(let l=0;l<numberOfLetters;l++){//makes a list of all letters present to not draw letter multiple colors
       copies.push(word[l]);
@@ -159,8 +176,9 @@ function keyPressed(){
 
 function settingsButton(){
   push();
-  fill(255,40);
-  rect(buttonX,buttonY,buttonW,buttonH);
+  image(icon_menu, buttonX,buttonY,buttonW,buttonH);
+//   fill(255,40);
+//   rect(buttonX,buttonY,buttonW,buttonH);
   pop();
 }
 
