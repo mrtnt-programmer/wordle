@@ -12,7 +12,8 @@ let background_image, icon_menu;
 let gameStatus = "playing";
 let myFont;
 let buttonX,buttonY,buttonW,buttonH;
-let miscMessage = "";
+let miscMessage = "";//contain a message to draw under letters
+let animating = [];//keep track of animating letters
 
 function preload(){ 
   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
@@ -118,20 +119,7 @@ function Grid(){
       let squareY = 2*margin() + r*(squareSize()+margin());
       rect(squareX,squareY,squareSize(),squareSize());//draw empty square
       if(letter[r][c].letter != "empty"){
-        fill(255); // white
-        if(letter[r][c].color == "green"){//correct
-          fill(0,255,0,200);//green
-        }else if(letter[r][c].color == "yellow"){
-          fill(255,255,0,200);//yellow
-        }
-        rect(squareX,squareY,squareSize(),squareSize());//draw background of square
-        
-        textSize(squareSize()*0.93);
-        textFont(myFont);
-        textAlign(CENTER);
-        fill(60);
-        rectMode(CENTER)
-        text(letter[r][c].letter,squareX+squareSize()/2,squareY+squareSize()/2*1.53);//draw letters
+        letter[r][c].draw(squareX,squareY);
       }
       pop();
     }
@@ -141,8 +129,6 @@ function Grid(){
 function misc(){
   let messageX = gridX()+ 2*margin();
   let messageY = 2*margin() + (numberOfTries+1)*(squareSize()+margin()) + margin() ;
-  console.log();
-  console.log("nom",miscMessage,miscMessage == "not a valid word");
   if(miscMessage != ""){
     fill(255);
     textSize(squareSize()*0.9);
@@ -170,6 +156,11 @@ function checkWord(){
         let todelete = copies.indexOf(letter[currentTry-1][c].letter);
         copies.splice(todelete,1);
       }
+    }
+    //animation
+    for(let c=0;c<numberOfLetters;c++){
+      letter[currentTry-1][c].startAnimation();
+      animating.push([currentTry-1,c]);
     }
     currentTry++;
     miscMessage = "";
