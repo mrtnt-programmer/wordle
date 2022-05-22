@@ -39,7 +39,6 @@ class Letter{
       text(this.letter,0,0);//draw letters
     }
   startAnimation(){
-    console.log("strating animation",this.r,this.c);
     this.animation = true;
     this.starting_time = millis();
   }

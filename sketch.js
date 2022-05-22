@@ -166,7 +166,6 @@ function checkWord(){
     miscMessage = "";
   }else{
     miscMessage = "not a valid word";
-    console.log(miscMessage);
   }
 }
 
