@@ -152,6 +152,7 @@ function misc(){
   console.log("nom",miscMessage,miscMessage == "not a valid word");
   if(miscMessage == "not a valid word"){
     fill(255);
+    textSize(squareSize()/1.1);
     text(miscMessage,messageX,messageY);
   }
 }
