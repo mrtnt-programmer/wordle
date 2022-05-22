@@ -102,7 +102,7 @@ function checkStatus(){
       if(word == findWord(currentTry-2)){
         gameStatus = "victory";
         let dico = {'francais': "Bravo !", 'english': "Well done!", 'norway': "Godt gjort!"};
-        miscMessage = "victory";
+        miscMessage = dico[langue];
       }
     }
   }
