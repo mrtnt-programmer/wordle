@@ -1,4 +1,4 @@
-let numberOfLetters = 6;
+let numberOfLetters = 4;
 let minMaxLetters = [4,8];
 let langue = 'francais'; // can be 'francais', 'english' or 'norway'
 let possibleLangue = ['francais','english','norway'];
@@ -16,7 +16,7 @@ let miscMessage = "";//contain a message to draw under letters
 let animating = [];//keep track of animating letters
 
 function preload(){ 
-  console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
+//   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
   if(sessionStorage.getItem("numberOfLetters")>=minMaxLetters[0] &&
     sessionStorage.getItem("numberOfLetters")<=minMaxLetters[1] &&
     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
@@ -31,7 +31,6 @@ function preload(){
     suffix = '_tall';
   }
   let filename = 'background/background_'+langue+suffix+'.jpg';
-  console.log(width, height, filename);
   background_image = loadImage(filename);
   icon_menu = loadImage('icon_menu.png');
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
@@ -54,7 +53,6 @@ function setup(){
   }
   word = random(dict_frequent);
   currentDictionary = dict_frequent;
-  print(word)
   buttonX = 10;
   buttonY = 10;
   buttonW = min(width, height)/20;
@@ -97,7 +95,7 @@ function checkStatus(){
   if(gameStatus == "playing"){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
-      miscMessage = "gameover";
+      miscMessage = "was " + word + "!";
     }
     if(currentTry != 1){
       if(word == findWord(currentTry-2)){
