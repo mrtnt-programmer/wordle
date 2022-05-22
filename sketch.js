@@ -55,14 +55,28 @@ function draw(){
   checkStatus();
 }
 
+function squareSize(){
+  return min(height*0.66/numberOfLetters, width*0.6/numberOfLetters);
+}
+
+function margin(){
+  return squareSize()/15;
+}
+
+function gridWidth(){
+  return (squareSize()+margin())*numberOfLetters + 3*margin();
+}
+
+function gridX(){
+  return (width - gridWidth()) / 2;
+}
+
 function showgame(){
   push();
-  // background(220);
   background(background_image);
   fill(60);
-  rect(width/3,0,width/3,height);//background
+  rect(gridX(),0,gridWidth(),height);//background
   pop();
-
   Grid();
   settingsButton();
 }
@@ -90,37 +104,30 @@ function checkStatus(){
 }
 
 function Grid(){
-  let margin = 5;
-  let x = width/3;
-  let y = 0;
-  let w = width/3;
-  let h = w;
   for(let r = 0;r<numberOfTries;r++){
     for(let c = 0;c<numberOfLetters;c++){
       push();//important so that background color does not affect other letter
       fill(245,245,245,100);
       stroke(0);
       strokeWeight(3);
-      let squareX = x+(w/numberOfLetters*c)+margin;
-      let squareY = y+(h/numberOfTries*r)+margin;
-      let squareW = (w/numberOfLetters)-margin*2;
-      let squareH = (h/numberOfTries)-margin*2;
-      rect(squareX,squareY,squareW,squareH);//draw squares
+      let squareX = gridX()+ 2*margin() + c*(squareSize()+margin());
+      let squareY = 2*margin() + r*(squareSize()+margin());
+      rect(squareX,squareY,squareSize(),squareSize());//draw empty square
       if(letter[r][c].letter != "empty"){
-        fill(255);
+        fill(255); // white
         if(letter[r][c].color == "green"){//correct
           fill(0,255,0,200);//green
         }else if(letter[r][c].color == "yellow"){
           fill(255,255,0,200);//yellow
         }
-        rect(squareX,squareY,squareW,squareH);//draw background of square
+        rect(squareX,squareY,squareSize(),squareSize());//draw background of square
         
-        textSize(squareW*0.95);
+        textSize(squareSize()*0.93);
         textFont(myFont);
         textAlign(CENTER);
         fill(60);
         rectMode(CENTER)
-        text(letter[r][c].letter,squareX+squareW/2,squareY+squareH/2*1.53);//draw letters
+        text(letter[r][c].letter,squareX+squareSize()/2,squareY+squareSize()/2*1.53);//draw letters
       }
       pop();
     }
