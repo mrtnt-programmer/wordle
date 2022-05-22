@@ -12,7 +12,7 @@ let background_image, icon_menu;
 let gameStatus = "playing";
 let myFont;
 let buttonX,buttonY,buttonW,buttonH;
-let miscMessage;
+let miscMessage = "";
 
 function preload(){ 
   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
@@ -96,21 +96,14 @@ function checkStatus(){
   if(gameStatus == "playing"){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
+      miscMessage = "gameover";
     }
     if(currentTry != 1){
       if(word == findWord(currentTry-2)){
         gameStatus = "victory";
+        miscMessage = "victory";
       }
     }
-  }else{
-    push();
-    fill(0);
-    strokeWeight(2);
-    stroke(60);
-    textSize(width/8);
-    rectMode(CENTER);
-    text(gameStatus,width/2,height/2,width/3,height/4)
-    pop();
   }
 }
 
@@ -147,12 +140,12 @@ function Grid(){
 
 function misc(){
   let messageX = gridX()+ 2*margin();
-  let messageY = 2*margin() + 6*(squareSize()+margin()) + margin();
+  let messageY = 2*margin() + (numberOfTries+1)*(squareSize()+margin()) + margin() ;
   console.log();
   console.log("nom",miscMessage,miscMessage == "not a valid word");
-  if(miscMessage == "not a valid word"){
+  if(miscMessage != ""){
     fill(255);
-    textSize(squareSize()/1.1);
+    textSize(squareSize()*0.9);
     text(miscMessage,messageX,messageY);
   }
 }
@@ -179,6 +172,7 @@ function checkWord(){
       }
     }
     currentTry++;
+    miscMessage = "";
   }else{
     miscMessage = "not a valid word";
     console.log(miscMessage);
