@@ -21,7 +21,15 @@ function preload(){
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
   }
-  let filename = 'background/background_'+langue+'.jpg';
+  let suffix = '_square';
+  if (windowWidth > windowHeight*1.25) {
+    suffix = '_wide';
+  }
+  if (windowHeight > windowWidth*1.25) {
+    suffix = '_tall';
+  }
+  let filename = 'background/background_'+langue+suffix+'.jpg';
+  console.log(width, height, filename);
   background_image = loadImage(filename);
   icon_menu = loadImage('icon_menu.png');
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
