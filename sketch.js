@@ -241,3 +241,4 @@ function deleteLastLetter(){
 function mousePressed(){
   detecteButton();
 }
+
