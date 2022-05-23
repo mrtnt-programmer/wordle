@@ -201,7 +201,7 @@ let possibleLetterM = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","
 function typing(){
   if(keyCode == ENTER){
     checkWord();
-  }else if(keyCode == BACKSPACE){
+  }else if(keyCode == BACKSPACE || keyCode == DELETE || keyCode == LEFT_ARROW){
     deleteLastLetter();
   }else if(possibleLetterM.includes(key)){//if lowercase 
     let k;
