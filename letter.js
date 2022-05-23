@@ -38,6 +38,7 @@ class Letter{
       //translate(-squareSize(),-squareSize());//reset the translate of background
       text(this.letter,0,0);//draw letters
     }
+    
   startAnimation(){
     this.animation = true;
     this.starting_time = millis();

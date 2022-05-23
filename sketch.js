@@ -51,7 +51,10 @@ function setup(){
     }
     letter.push(line);
   }
-  word = random(dict_frequent);
+  word = '';
+  while(word == ''){ // the last line of each dictionary is an empty word
+    word = random(dict_frequent);
+  }
   currentDictionary = dict_frequent;
   buttonX = 10;
   buttonY = 10;
