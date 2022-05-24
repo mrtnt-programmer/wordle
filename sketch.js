@@ -205,9 +205,6 @@ function detecteButton(){
 let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 let possibleLetterM = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 function typing(otherKey){//takes a variable in case we call it in a virtual keyboard
-  if(otherKey == null){
-    otherKey = null;
-  }
   console.log("typing",otherKey);
   if(keyCode == ENTER || otherKey == "ENTER"){
     checkWord();
@@ -228,7 +225,11 @@ function typing(otherKey){//takes a variable in case we call it in a virtual key
       }
     }
     findEmptySpot(k);
+  }else{
+    console.log("typing error");
   }
+  keyCode = null;//to avoid key repetition
+  key = null;
 }
   
 function findEmptySpot(keyToPut){

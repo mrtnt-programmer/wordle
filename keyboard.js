@@ -47,6 +47,8 @@ class Keyboard{
   }
   
   input(r,c){
+    keyCode = null;//to avoid key repetition
+    key = null;
     if(this.keys[r][c] == "enter"){
       typing("ENTER");
     }else if(this.keys[r][c] == "delete"){
