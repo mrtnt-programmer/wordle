@@ -1,6 +1,6 @@
-let numberOfLetters = 6;
+let numberOfLetters = 5;
 let minMaxLetters = [4,8];
-let langue = 'francais'; // can be 'francais', 'english' (and soon 'norway')
+let langue = 'francais'; // can be 'francais', 'english' or 'norway'
 let possibleLangue = ['francais','english','norway'];
 let numberOfTries = 6;
 let currentTry = 1;
@@ -17,7 +17,7 @@ let animating = [];//keep track of animating letters
 let keyboard;
 
 function preload(){ 
-  console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
+//   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
   if(sessionStorage.getItem("numberOfLetters")>=minMaxLetters[0] &&
     sessionStorage.getItem("numberOfLetters")<=minMaxLetters[1] &&
     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
@@ -32,7 +32,6 @@ function preload(){
     suffix = '_tall';
   }
   let filename = 'background/background_'+langue+suffix+'.jpg';
-  console.log(width, height, filename);
   background_image = loadImage(filename);
   icon_menu = loadImage('icon_menu.png');
   filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
@@ -54,9 +53,11 @@ function setup(){
     }
     letter.push(line);
   }
-  word = random(dict_frequent);
+  word = '';
+  while(word == ''){ // the last line of each dictionary is an empty word
+    word = random(dict_frequent);
+  }
   currentDictionary = dict_frequent;
-  print(word)
   buttonX = 10;
   buttonY = 10;
   buttonW = min(width, height)/20;
@@ -69,7 +70,7 @@ function draw(){
 }
 
 function squareSize(){
-  return min(height*0.66/numberOfLetters, width*0.6/numberOfLetters);
+  return min(height*0.66/numberOfTries, width*0.6/numberOfLetters);
 }
 
 function margin(){
@@ -100,12 +101,14 @@ function checkStatus(){
   if(gameStatus == "playing"){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
-      miscMessage = "gameover";
+      let dico = {'francais': "C'était '", 'english': "It was '", 'norway': "Det var '"};
+      miscMessage = dico[langue] + word + "'!";
     }
     if(currentTry != 1){
       if(word == findWord(currentTry-2)){
         gameStatus = "victory";
-        miscMessage = "victory";
+        let dico = {'francais': "Bravo !", 'english': "Well done!", 'norway': "Godt gjort!"};
+        miscMessage = dico[langue];
       }
     }
   }
@@ -134,7 +137,7 @@ function misc(){
   let messageY = 2*margin() + (numberOfTries+1)*(squareSize()+margin()) + margin() ;
   if(miscMessage != ""){
     fill(255);
-    textSize(squareSize()*0.9);
+    textSize(squareSize()*0.6);
     text(miscMessage,messageX,messageY);
   }
 }
@@ -168,7 +171,8 @@ function checkWord(){
     currentTry++;
     miscMessage = "";
   }else{
-    miscMessage = "not a valid word";
+    let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'norway': "Ikke et gyldig ord!"};
+    miscMessage = dico[langue];
   }
 }
 
@@ -189,8 +193,6 @@ function keyPressed(){
 function settingsButton(){
   push();
   image(icon_menu, buttonX,buttonY,buttonW,buttonH);
-//   fill(255,40);
-//   rect(buttonX,buttonY,buttonW,buttonH);
   pop();
 }
 
@@ -209,7 +211,7 @@ function typing(otherKey){//takes a variable in case we call it in a virtual key
   console.log("typing",otherKey);
   if(keyCode == ENTER || otherKey == "ENTER"){
     checkWord();
-  }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE"){
+  }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE" || keyCode == DELETE || keyCode == LEFT_ARROW){
     deleteLastLetter();
   }else if(possibleLetter.includes(key) || otherKey != null){
     if(otherKey != null){
@@ -241,6 +243,7 @@ function findEmptySpot(keyToPut){
 }
 
 function deleteLastLetter(){
+  miscMessage = '';
   let placeToDeleteR = 0;
   let placeToDeleteC = 0;
   let somethingToDelete = false;

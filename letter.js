@@ -23,19 +23,20 @@ class Letter{
       rect(squareX,squareY,squareSize(),squareSize());//draw the real background of square
 
       //angle
-      translate(squareX+squareSize()/2,squareY+squareSize()/2*1.53);//moving for letters
+      translate(squareX+squareSize()/2,squareY+squareSize()/2*1.46);//moving for letters
       if(this.animation){
         angleMode(DEGREES)
         rotate(angle);
       }
       //drawing
-      textSize(squareSize()*0.93);
+      textSize(squareSize()*0.87);
       textFont(myFont);
       textAlign(CENTER);
       fill(60);
       rectMode(CENTER)
       text(this.letter,0,0);//draw letters
     }
+    
   startAnimation(){
     this.animation = true;
     this.starting_time = millis();
