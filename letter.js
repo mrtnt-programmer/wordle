@@ -3,7 +3,7 @@ class Letter{
     this.r = r;
     this.c = c;
     this.letter = "empty";
-    this.color = "gray";//gray green yellow
+    this.color = "gray";//gray green yellow    gray is 60/255
     this.animation = false;
     this.starting_time = 0;
   }
@@ -23,7 +23,6 @@ class Letter{
       rect(squareX,squareY,squareSize(),squareSize());//draw the real background of square
 
       //angle
-      //translate(squareX+squareSize()/2,squareY+squareSize()/2*1.53);//oj
       translate(squareX+squareSize()/2,squareY+squareSize()/2*1.53);//moving for letters
       if(this.animation){
         angleMode(DEGREES)
@@ -35,7 +34,6 @@ class Letter{
       textAlign(CENTER);
       fill(60);
       rectMode(CENTER)
-      //translate(-squareSize(),-squareSize());//reset the translate of background
       text(this.letter,0,0);//draw letters
     }
   startAnimation(){

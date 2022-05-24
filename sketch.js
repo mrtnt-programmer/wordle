@@ -14,6 +14,7 @@ let myFont;
 let buttonX,buttonY,buttonW,buttonH;
 let miscMessage = "";//contain a message to draw under letters
 let animating = [];//keep track of animating letters
+let keyboard;
 
 function preload(){ 
   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
@@ -40,6 +41,7 @@ function preload(){
   dict_all = loadStrings(filename);
   myFont = loadFont('Salma.otf');
 //   myFont = loadFont('OddlyCalming.ttf');
+  keyboard = new Keyboard();
 }
 
 function setup(){
@@ -89,6 +91,7 @@ function showgame(){
   rect(gridX(),0,gridWidth(),height);//background
   pop();
   Grid();
+  keyboard.draw();
   misc();
   settingsButton();
 }
@@ -199,11 +202,21 @@ function detecteButton(){
 
 let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 let possibleLetterM = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-function typing(){
-  if(keyCode == ENTER){
+function typing(otherKey){//takes a variable in case we call it in a virtual keyboard
+  if(otherKey == null){
+    otherKey = null;
+  }
+  console.log("typing",otherKey);
+  if(keyCode == ENTER || otherKey == "ENTER"){
     checkWord();
-  }else if(keyCode == BACKSPACE){
+  }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE"){
     deleteLastLetter();
+  }else if(possibleLetter.includes(key) || otherKey != null){
+    if(otherKey != null){
+      findEmptySpot(otherKey);
+    }else{
+      findEmptySpot(key);
+    }
   }else if(possibleLetterM.includes(key)){//if lowercase 
     let k;
     for(let l=0;l<possibleLetterM.length;l++){
@@ -213,8 +226,6 @@ function typing(){
       }
     }
     findEmptySpot(k);
-  }else if(possibleLetter.includes(key)){
-    findEmptySpot(key);
   }
 }
   
@@ -249,5 +260,6 @@ function deleteLastLetter(){
 
 function mousePressed(){
   detecteButton();
+  keyboard.detection();
 }
 
