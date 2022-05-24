@@ -4,7 +4,7 @@ class Keyboard{
   constructor(){
     this.keys = [["q","w","e","r","t","y","u","i","o","p"],
                 ["a","s","d","f","g","h","j","k","l","↲"],
-                ["empty","z","x","c","v","b","n","m","⛌"]
+                ["empty","z","x","c","v","b","n","m","empty","⛞"]
                              ];//list containing all the keys of the keyboard 
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
@@ -56,7 +56,7 @@ class Keyboard{
     key = null;
     if(this.keys[r][c] == "↲"){
       typing("ENTER");
-    }else if(this.keys[r][c] == "⛌"){
+    }else if(this.keys[r][c] == "⛞"){
       typing("BACKSPACE");
     }else{
       typing(this.keys[r][c]);
