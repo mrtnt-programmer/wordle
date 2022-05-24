@@ -3,36 +3,41 @@
 class Keyboard{
   constructor(){
     this.keys = [["q","w","e","r","t","y","u","i","o","p"],
-                ["a","s","d","f","g","h","j","k","l"],
-                ["enter","empty","z","x","c","v","b","n","m","delete"]
+                ["a","s","d","f","g","h","j","k","l","↲"],
+                ["empty","z","x","c","v","b","n","m","⛌"]
                              ];//list containing all the keys of the keyboard 
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
+    this.show = true;
   }
+  
   draw(){
-    push();
-    //fill(60);
-    fill(60);
-    noStroke();
-    rect(...this.keyboardCoor());
-    for(let r = 0;r<this.keys.length;r++){
-      for(let c = 0;c<this.keys[r].length;c++){
-        if(this.keys[r][c] != "empty"){
-          push();
-          let [x,y,w,h] = this.keyCoor(r,c);
-          x = x+w/2;//because we are drawing in CENTER mode
-          y = y+h/2;
-          rectMode(CENTER);
-          fill(40);
-          rect(x,y,w,h);
-          fill(255);
-          textSize(min(this.keyCoor(r,c)[2],this.keyCoor(r,c)[3]));
-          text(this.keys[r][c],x,y,w,h);
-          pop();
+    if (this.show){
+      push();
+      //fill(60);
+      fill(60);
+      noStroke();
+      rect(...this.keyboardCoor());
+      for(let r = 0;r<this.keys.length;r++){
+        for(let c = 0;c<this.keys[r].length;c++){
+          if(this.keys[r][c] != "empty"){
+            push();
+            let [x,y,w,h] = this.keyCoor(r,c);
+            x = x+w/2;//because we are drawing in CENTER mode
+            y = y+h/2;
+            rectMode(CENTER);
+            fill(40);
+            rect(x,y,w,h);
+            fill(255);
+            textAlign(CENTER);
+            textSize(min(this.keyCoor(r,c)[2],this.keyCoor(r,c)[3]));
+            text(this.keys[r][c],x,y+h/5);
+            pop();
+          }
         }
       }
+      pop();
     }
-    pop();
   }
 
   detection(){
@@ -49,9 +54,9 @@ class Keyboard{
   input(r,c){
     keyCode = null;//to avoid key repetition
     key = null;
-    if(this.keys[r][c] == "enter"){
+    if(this.keys[r][c] == "↲"){
       typing("ENTER");
-    }else if(this.keys[r][c] == "delete"){
+    }else if(this.keys[r][c] == "⛌"){
       typing("BACKSPACE");
     }else{
       typing(this.keys[r][c]);
