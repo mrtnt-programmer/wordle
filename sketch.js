@@ -102,14 +102,14 @@ function checkStatus(){
   if(gameStatus == "playing"){
     if(currentTry>numberOfTries){
       gameStatus = "gameover";
-      keyboard.show=false;
+      keyboard.visible=false;
       let dico = {'francais': "C'était '", 'english': "It was '", 'norway': "Det var '"};
       miscMessage = dico[langue] + word + "'!";
     }
     if(currentTry != 1){
       if(word == findWord(currentTry-2)){
         gameStatus = "victory";
-        keyboard.show=false;
+        keyboard.visible=false;
         let dico = {'francais': "Bravo !", 'english': "Well done!", 'norway': "Godt gjort!"};
         miscMessage = dico[langue];
       }
@@ -175,7 +175,7 @@ function checkWord(){
     miscMessage = "";
   }else{
     let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'norway': "Ikke et gyldig ord!"};
-    keyboard.show=false;
+    keyboard.visible=false;
     miscMessage = dico[langue];
   }
 }
