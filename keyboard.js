@@ -17,7 +17,7 @@ class Keyboard{
   }
   
   draw(){
-    if (this.show){
+    if (this.visible){
       push();
       //fill(60);
       fill(60);
@@ -46,11 +46,13 @@ class Keyboard{
   }
 
   detection(){
-    for(let r = 0;r<this.keys.length;r++){
-      for(let c = 0;c<this.keys[r].length;c++){
-        if(mouseX>this.keyCoor(r,c)[0] && mouseY>this.keyCoor(r,c)[1] && mouseX<this.keyCoor(r,c)[0]+this.keyCoor(r,c)[2] && mouseY<this.keyCoor(r,c)[1]+this.keyCoor(r,c)[3]){
-          this.input(r,c);
-          return;
+    if (this.visible){
+      for(let r = 0;r<this.keys.length;r++){
+        for(let c = 0;c<this.keys[r].length;c++){
+          if(mouseX>this.keyCoor(r,c)[0] && mouseY>this.keyCoor(r,c)[1] && mouseX<this.keyCoor(r,c)[0]+this.keyCoor(r,c)[2] && mouseY<this.keyCoor(r,c)[1]+this.keyCoor(r,c)[3]){
+            this.input(r,c);
+            return;
+          }
         }
       }
     }
