@@ -10,7 +10,6 @@ class Keyboard{
     this.cols = this.keys[0].length;
     this.show = show;
     this.visible = show;
-    console.log('keyboard constructor, this.visible=', this.visible);
   }
   
   toggleShow(){
