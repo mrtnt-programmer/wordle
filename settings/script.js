@@ -2,9 +2,9 @@ let data = [5,"english","ON"];
 
 function backToGame(){
   // window.location.assign("https://mrtnt-programmer.github.io/wordle");
-  console.log(location.hostname, location.pathname, location.origin);
+  console.log(location.hostname, location.pathname, location.pathname.slice(0,-9), location.origin);
   debugger;
-  window.location.assign("../");
+  window.location.assign(location.origin + location.pathname.slice(0,-9));
   sessionStorage.setItem("numberOfLetters", data[0]);
   sessionStorage.setItem("langue", data[1]);
   sessionStorage.setItem("keyboard", data[2]);

@@ -206,7 +206,7 @@ function detecteButton(){
 //     window.location.assign("https://mrtnt-programmer.github.io/wordle/settings");
     console.log(location.hostname, location.pathname, location.origin);
     debugger;
-    window.location.assign(location.origin + "/settings");
+    window.location.assign(location.origin + location.pathname + "settings");
   }
 }
 
