@@ -14,7 +14,7 @@ let myFont;
 let buttonX,buttonY,buttonW,buttonH;
 let miscMessage = "";//contain a message to draw under letters
 let animating = [];//keep track of animating letters
-let keyboard;
+let keyboard, showKeyboard;
 
 function preload(){ 
 //   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
@@ -23,6 +23,7 @@ function preload(){
     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
+    showKeyboard = sessionStorage.getItem("keyboard"); 
   }
   let suffix = '_square';
   if (windowWidth > windowHeight*1.25) {
@@ -40,7 +41,7 @@ function preload(){
   dict_all = loadStrings(filename);
   myFont = loadFont('Salma.otf');
 //   myFont = loadFont('OddlyCalming.ttf');
-  keyboard = new Keyboard();
+  keyboard = new Keyboard(showKeyboard);
 }
 
 function setup(){
