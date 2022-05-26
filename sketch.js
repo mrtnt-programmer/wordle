@@ -23,7 +23,7 @@ function preload(){
     possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
-    showKeyboard = sessionStorage.getItem("keyboard"); 
+    showKeyboard = sessionStorage.getItem("keyboard") == 'ON'; 
   }
   let suffix = '_square';
   if (windowWidth > windowHeight*1.25) {
