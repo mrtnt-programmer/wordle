@@ -1,4 +1,4 @@
-let data = [5,"english",true];
+let data = [5,"english","ON"];
 
 function backToGame(){
   window.location.assign("https://mrtnt-programmer.github.io/wordle");
