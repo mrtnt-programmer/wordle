@@ -1,3 +1,4 @@
+//game settings
 let numberOfLetters = 5;
 let minMaxLetters = [4,8];
 let langue = 'francais'; // can be 'francais', 'english' or 'norway'
@@ -15,16 +16,63 @@ let buttonX,buttonY,buttonW,buttonH;
 let miscMessage = "";//contain a message to draw under letters
 let animating = [];//keep track of animating letters
 let keyboard, showKeyboard;
+let path = location.origin;
+let expireDate = "expires=Thu,1 Dec "+(new Date().getFullYear()+2)+" 12:00:00 UTC";
+let forceMakeCookie = true;
 
-function preload(){ 
+function getCookie(cName) {//from https://www.w3schools.com/js/js_cookies.asp
+  let name = cName + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function creatCookies(CnumberOfLetters,Clangue,Ckeyboard){
+  document.cookie = "numberOfLetters="+CnumberOfLetters+";"+expireDate+";"+"domain="+path;
+  document.cookie = "langue="+Clangue+";"+expireDate+";"+"domain="+path;
+  document.cookie = "keyboard="+Ckeyboard+";"+expireDate+";"+"domain="+path;
+  console.log("sending cookies",document.cookie);
+}
+
+function preload(){
+  //get  data from session storage or cookies
+  let INPUTnumberOfLetters ;
+  let INPUTlangue;
+  let INPUTkeyboard;
+  if(sessionStorage != null){
+    INPUTnumberOfLetters = sessionStorage.getItem("numberOfLetters");
+    INPUTlangue = sessionStorage.getItem("langue");
+    INPUTkeyboard = sessionStorage.getItem("keyboard");
+  }
+  console.log("checking cookie",document.cookie);
+  if (document.cookie != "" && !forceMakeCookie){
+    INPUTnumberOfLetters = getCookie("numberOfLetters");
+    INPUTlangue = getCookie("langue");
+    INPUTkeyboard = getCookie("keyboard");
+  }else{
+    creatCookies(INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
+  }
+  console.log("checking data",INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
+
 //   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
-  if(sessionStorage.getItem("numberOfLetters")>=minMaxLetters[0] &&
-    sessionStorage.getItem("numberOfLetters")<=minMaxLetters[1] &&
-    possibleLangue.includes(sessionStorage.getItem("langue"))){//check if were being sent valid data
-    numberOfLetters = sessionStorage.getItem("numberOfLetters");
-    langue = sessionStorage.getItem("langue");  
-    showKeyboard = sessionStorage.getItem("keyboard") == 'ON'; 
-    console.log(sessionStorage.getItem("keyboard"), showKeyboard);
+  if(INPUTnumberOfLetters>=minMaxLetters[0] &&
+    INPUTnumberOfLetters<=minMaxLetters[1] &&
+    possibleLangue.includes(INPUTlangue)){//check if were being sent valid data
+    numberOfLetters = INPUTnumberOfLetters;
+    langue = INPUTlangue  
+    showKeyboard = INPUTkeyboard == 'ON'; 
+    console.log(INPUTkeyboard, showKeyboard); 
+    console.log("cookies",document.cookie);
+    console.log("session storage",sessionStorage);
   }
   let suffix = '_square';
   if (windowWidth > windowHeight*1.25) {
@@ -274,4 +322,3 @@ function mousePressed(){
   detecteButton();
   keyboard.detection();
 }
-
