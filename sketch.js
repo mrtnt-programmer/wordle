@@ -204,9 +204,9 @@ function settingsButton(){
 function detecteButton(){
   if(mouseX <buttonX+buttonW && mouseY<buttonY+buttonH && mouseX > buttonX && mouseY > buttonY){
 //     window.location.assign("https://mrtnt-programmer.github.io/wordle/settings");
-    console.log(location.hostname, location.pathname);
+    console.log(location.hostname, location.pathname, location.origin);
     debugger;
-    window.location.assign("/settings");
+    window.location.assign(location.origin + "/settings");
   }
 }
 
