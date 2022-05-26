@@ -24,7 +24,6 @@ function preload(){
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
     showKeyboard = sessionStorage.getItem("keyboard"); 
-    console.log('showKeyboard in preload:', showKeyboard);
   }
   let suffix = '_square';
   if (windowWidth > windowHeight*1.25) {
@@ -250,7 +249,7 @@ function findEmptySpot(keyToPut){
 
 function deleteLastLetter(){
   miscMessage = '';
-  keyboard.show=true;
+  keyboard.toggleShow();
   let placeToDeleteR = 0;
   let placeToDeleteC = 0;
   let somethingToDelete = false;
@@ -269,7 +268,7 @@ function deleteLastLetter(){
 }
 
 function mousePressed(){
-  keyboard.show=true;
+  keyboard.toggleShow();
   miscMessage = "";
   detecteButton();
   keyboard.detection();
