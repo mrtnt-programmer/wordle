@@ -4,8 +4,6 @@
 <head>
   <title>Naoki's wordle</title>
   <link rel="shortcut icon" href="../favicon.png">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
-  <!-- pour la petite fleche dans le menu -->
   <link rel='stylesheet' href='style.css'>
 </head>
 
@@ -14,20 +12,31 @@
 
   <div class='navbar'>  
       <div class='dropdown'>
-        <button class='dropbtn' value='dropdown_langue' onclick='myFunction(this.value)'>Language
-          <i class='fa fa-caret-down'></i> <!--petite fleche-->
-        </button>
-        <div class='dropdown-content' id='dropdown_langue'>
-          <button class='bt_menu' value='english' onclick='data[1] = "english"'>English</button>
-          <button class='bt_menu' value='francais' onclick='data[1] = "francais"'>Français</button>
-          <button class='bt_menu' value='norway' onclick='data[1] = "norway"'>Norwegian</button>
-        </div>
-      </div> 
-
+        <button class='dropbtn' value='dropdown_langue' onclick='myFunction(this.value)'>Language ▼</button>
+        <form class='dropdown-content' id='dropdown_langue'>
+          <input type="radio" id="html" name="fav_language" value="english" checked="checked" onclick='data[1] = "english"'>
+          <label for="html">English</label><br>
+          <input type="radio" id="css" name="fav_language" value="francais" onclick='data[1] = "francais"'>
+          <label for="css">Français</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="norway" onclick='data[1] = "norway"'>
+          <label for="javascript">Norwegian</label><br><br>
+        </form> 
+      </div>
+      
       <div class='dropdown'>
-        <button class='dropbtn' value='dropdown_letters' onclick='myFunction(this.value)'>Number letters
-          <i class='fa fa-caret-down'></i> <!--petite fleche-->
-        </button>
+        <button class='dropbtn' value='dropdown_letters' onclick='myFunction(this.value)'>Number letters ▼</button>
+        <form class='dropdown-content' id='dropdown_letters'>
+          <input type="radio" onclick='data[0] = 4'><label>4</label><br>
+          <input type="radio" checked="checked" onclick='data[0] = 5'><label>5</label><br>
+          <input type="radio" onclick='data[0] = 6'><label>6</label><br>
+          <input type="radio" onclick='data[0] = 7'><label>7</label><br>
+          <input type="radio" onclick='data[0] = 8'><label>8</label><br>
+        </form> 
+      </div>
+      
+      
+      <!--<div class='dropdown'>
+        <button class='dropbtn' value='dropdown_letters' onclick='myFunction(this.value)'>Number letters ▼</button>
         <div class='dropdown-content' id='dropdown_letters'>
           <button class='bt_menu' value='letters 4' onclick='data[0] = 4'>4</button>
           <button class='bt_menu' value='letters 5' onclick='data[0] = 5'>5</button>
@@ -35,7 +44,26 @@
           <button class='bt_menu' value='letters 7' onclick='data[0] = 7'>7</button>
           <button class='bt_menu' value='letters 8' onclick='data[0] = 8'>8</button>
         </div>
-      </div>
+      </div>-->
+      
+        <!--<button class='dropbtn' value='dropdown_langue' onclick='myFunction(this.value)'>Language ▼</button>
+        <div class='dropdown-content' id='dropdown_langue'>
+          <button class='bt_menu' value='english' onclick='data[1] = "english"'>English</button>
+          <button class='bt_menu' value='francais' onclick='data[1] = "francais"'>Français</button>
+          <button class='bt_menu' value='norway' onclick='data[1] = "norway"'>Norwegian</button>
+        </div>
+      </div> -->
+
+      <!--<div class='dropdown'>
+        <button class='dropbtn' value='dropdown_letters' onclick='myFunction(this.value)'>Number letters ▼</button>
+        <div class='dropdown-content' id='dropdown_letters'>
+          <button class='bt_menu' value='letters 4' onclick='data[0] = 4'>4</button>
+          <button class='bt_menu' value='letters 5' onclick='data[0] = 5'>5</button>
+          <button class='bt_menu' value='letters 6' onclick='data[0] = 6'>6</button>
+          <button class='bt_menu' value='letters 7' onclick='data[0] = 7'>7</button>
+          <button class='bt_menu' value='letters 8' onclick='data[0] = 8'>8</button>
+        </div>
+      </div>-->
 
   </div> 
 
