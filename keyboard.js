@@ -1,7 +1,7 @@
 //the keyboard layout must have a complete list,no holes!
 //
 class Keyboard{
-  constructor(show){
+  constructor(show=false){
     this.keys = [["q","w","e","r","t","y","u","i","o","p"],
                 ["a","s","d","f","g","h","j","k","l","↲"],
                 ["empty","z","x","c","v","b","n","m","empty","⛞"]
@@ -9,6 +9,7 @@ class Keyboard{
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
     this.show = show;
+    console.log('show in Keyboard constructor:', this.show);
   }
   
   draw(){
