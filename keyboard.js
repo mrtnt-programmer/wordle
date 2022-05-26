@@ -1,11 +1,28 @@
 //the keyboard layout must have a complete list,no holes!
 //
 class Keyboard{
-  constructor(show=false){
-    this.keys = [["q","w","e","r","t","y","u","i","o","p"],
-                ["a","s","d","f","g","h","j","k","l","↲"],
-                ["empty","z","x","c","v","b","n","m","empty","⛞"]
-                             ];//list containing all the keys of the keyboard 
+  constructor(show, langue){
+    if (langue == 'francais'){
+      this.keys = [["a","z","e","r","t","y","u","i","o","p"],
+                   ["q","s","d","f","g","h","j","k","l","m"],
+                   ["empty","w","x","c","v","b","n","empty","⛞","↲"]
+                  ];//list containing all the keys of the keyboard 
+    } 
+    
+    if (langue == 'english'){
+      this.keys = [["q","w","e","r","t","y","u","i","o","p"],
+                  ["empty","a","s","d","f","g","h","j","k","l"],
+                  ["z","x","c","v","b","n","m","empty","⛞","↲"]
+                  ];//list containing all the keys of the keyboard 
+    }
+
+    if (langue == 'norway'){
+      this.keys = [["q","w","e","r","t","y","u","i","o","p","å"],
+                  ["a","s","d","f","g","h","j","k","l","ø","æ"],
+                  ["empty","z","x","c","v","b","n","m","empty","⛞","↲"]
+                  ];//list containing all the keys of the keyboard 
+    }
+
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
     this.show = show;
