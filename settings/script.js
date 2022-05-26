@@ -2,7 +2,7 @@ let data = [5,"english","ON"];
 
 function backToGame(){
   // window.location.assign("https://mrtnt-programmer.github.io/wordle");
-  console.log(location.hostname, location.pathname, location.pathname.slice(0,-9), location.origin);
+  console.log(location.origin, location.pathname.slice(0,-9));
   debugger;
   window.location.assign(location.origin + location.pathname.slice(0,-9));
   sessionStorage.setItem("numberOfLetters", data[0]);
