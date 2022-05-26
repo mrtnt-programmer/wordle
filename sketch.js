@@ -24,6 +24,7 @@ function preload(){
     numberOfLetters = sessionStorage.getItem("numberOfLetters");
     langue = sessionStorage.getItem("langue");  
     showKeyboard = sessionStorage.getItem("keyboard"); 
+    console.log('showKeyboard in preload:', showKeyboard);
   }
   let suffix = '_square';
   if (windowWidth > windowHeight*1.25) {
