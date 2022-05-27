@@ -18,7 +18,7 @@ let animating = [];//keep track of animating letters
 let keyboard, showKeyboard;
 let path = location.origin;
 let expireDate = "expires=Thu,1 Dec "+(new Date().getFullYear()+2)+" 12:00:00 UTC";
-let forceMakeCookie = true;
+let MakeCookieonce = true;
 
 function getCookie(cName) {//from https://www.w3schools.com/js/js_cookies.asp
   let name = cName + "=";
@@ -55,12 +55,14 @@ function preload(){
     INPUTkeyboard = sessionStorage.getItem("keyboard");
   }
   console.log("checking cookie",document.cookie);
-  if (document.cookie != "" && !forceMakeCookie){
+  if(MakeCookieonce && sessionStorage.getItem("numberOfLetters") != null){
+    MakeCookieonce =false;
+    creatCookies(INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
+  }
+  if (document.cookie != "" ){
     INPUTnumberOfLetters = getCookie("numberOfLetters");
     INPUTlangue = getCookie("langue");
     INPUTkeyboard = getCookie("keyboard");
-  }else{
-    creatCookies(INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
   }
   console.log("checking data",INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
 
