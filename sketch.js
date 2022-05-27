@@ -37,7 +37,7 @@ function getCookie(cName) {//from https://www.w3schools.com/js/js_cookies.asp
 }
 
 function creatCookies(CnumberOfLetters,Clangue,Ckeyboard){
-  let path = "/";
+  let path = "/wordle/";
   document.cookie = "numberOfLetters="+CnumberOfLetters+";"+expireDate+";"+"path="+path;
   document.cookie = "langue="+Clangue+";"+expireDate+";"+"path="+path;
   document.cookie = "keyboard="+Ckeyboard+";"+expireDate+";"+"path="+path;
