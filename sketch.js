@@ -12,7 +12,7 @@ class Wordle{
     this.letter = [];
     this.minLetters = 4;
     this.maxLetters = 8;
-    this.possibleLangue = ['francais','english','norway'];
+    this.possibleLangue = ['francais','english','spanish','norway'];
     this.numberOfTries = 6;
     
     this.option = { 'langue': 'francais', 
@@ -121,14 +121,14 @@ function checkStatus(){
     if(wordle.currentTry>wordle.numberOfTries){
       gameStatus = "gameover";
       keyboard.visible=false;
-      let dico = {'francais': "C'était '", 'english': "It was '", 'norway': "Det var '"};
+      let dico = {'francais': "C'était '", 'english': "It was '", 'spanish': "Era '", 'norway': "Det var '"};
       miscMessage = dico[wordle.option.langue] + wordle.word + "'!";
     }
     if(wordle.currentTry != 1){
       if(wordle.word == findWord(wordle.currentTry-2)){
         gameStatus = "victory";
         keyboard.visible=false;
-        let dico = {'francais': "Bravo !", 'english': "Well done!", 'norway': "Godt gjort!"};
+        let dico = {'francais': "Bravo !", 'english': "Well done!", 'spanish': "¡Bien hecho!", 'norway': "Godt gjort!"};
         miscMessage = dico[wordle.option.langue];
       }
     }
@@ -192,7 +192,7 @@ function checkWord(){
     wordle.currentTry++;
     miscMessage = "";
   }else{
-    let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'norway': "Ikke et gyldig ord!"};
+    let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'spanish': "Ni una palabra válida", 'norway': "Ikke et gyldig ord!"};
     keyboard.visible=false;
     miscMessage = dico[wordle.option.langue];
   }

@@ -6,7 +6,7 @@ console.log('after loading cookies:', data);
 
 // create dropdown langue
 let text = '';
-for (const langue of ['english', 'francais', 'norway']){
+for (const langue of ['english', 'francais', 'spanish', 'norway']){
   text += '<input type="radio" id="';
   text += langue+'"';
   text += ' name="fav_language" onclick="data[1] ='; 
@@ -17,7 +17,7 @@ for (const langue of ['english', 'francais', 'norway']){
   text += '>\n';
   text += '<label for="';
   text += langue;
-  langue_menu = {'english': 'English', 'francais': 'Français', 'norway':'Norwegian'};
+  langue_menu = {'english': 'English', 'francais': 'Français', 'spanish': 'Castellano', 'norway':'Norwegian'};
   text += '">' + langue_menu[langue] +'</label>';
   if (langue != 'norway'){
     text += '<br><br>';
@@ -57,7 +57,6 @@ for (const control of ['on', 'off']){
   }
   text += '\n';
 }
-console.log(text);
 document.getElementById("dropdown_keyboard").innerHTML = text;
 
 function backToGame(){
