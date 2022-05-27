@@ -1,50 +1,38 @@
-//game settings
-let numberOfLetters = 5;
-let minMaxLetters = [4,8];
-let langue = 'francais'; // can be 'francais', 'english' or 'norway'
-let possibleLangue = ['francais','english','norway'];
-let numberOfTries = 6;
-let currentTry = 1;
-let letter = [];
-let word;
-let dict_frequent;
-let dict_all;
-let background_image, icon_menu;
+//global variables 
 let gameStatus = "playing";
-let myFont;
-let buttonX,buttonY,buttonW,buttonH;
 let miscMessage = "";//contain a message to draw under letters
 let animating = [];//keep track of animating letters
-let keyboard, showKeyboard;
-let path = location.origin;
-let expireDate = "expires=Thu,1 Dec "+(new Date().getFullYear()+2)+" 12:00:00 UTC";
 let MakeCookieonce = true;
 
-function getCookie(cName) {//from https://www.w3schools.com/js/js_cookies.asp
-  let name = cName + "=";
-  let decodedCookie = decodeURIComponent(document.cookie);
-  let ca = decodedCookie.split(';');
-  for(let i = 0; i <ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
+let wordle;
+let keyboard;
 
-function creatCookies(CnumberOfLetters,Clangue,Ckeyboard){
-  let path = "/wordle/";
-  document.cookie = "numberOfLetters="+CnumberOfLetters+";"+expireDate+";"+"path="+path;
-  document.cookie = "langue="+Clangue+";"+expireDate+";"+"path="+path;
-  document.cookie = "keyboard="+Ckeyboard+";"+expireDate+";"+"path="+path;
-  console.log("sending cookies",document.cookie);
+class Wordle{
+  constructor(){
+    this.letter = [];
+    this.minLetters = 4;
+    this.maxLetters = 8;
+    this.possibleLangue = ['francais','english','norway'];
+    this.numberOfTries = 6;
+    
+    this.option = { 'langue': 'francais', 
+                    'numberOfLetters': 5,
+                    'keyboard': 'ON'
+    }
+    this.dict = { 'frequent': '',
+                  'all': ''
+    }
+    this.background_image = '';
+    this.icon_menu = '';
+    this.currentTry = 1;
+    this.word ='';
+    this.button = {'X': 10, 'Y': 10, 'W':0}; 
+  }
 }
 
 function preload(){
+  wordle = new Wordle();
+  
   //get  data from session storage or cookies
   let INPUTnumberOfLetters ;
   let INPUTlangue;
@@ -57,7 +45,7 @@ function preload(){
   console.log("checking cookie",document.cookie);
   if(MakeCookieonce && sessionStorage.getItem("numberOfLetters") != null){
     MakeCookieonce =false;
-    creatCookies(INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
+    createCookies(INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
   }
   if (document.cookie != "" ){
     INPUTnumberOfLetters = getCookie("numberOfLetters");
@@ -65,18 +53,16 @@ function preload(){
     INPUTkeyboard = getCookie("keyboard");
   }
   console.log("checking data",INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
-
-//   console.log("data from settings",sessionStorage.getItem("numberOfLetters"),sessionStorage.getItem("langue"))
-  if(INPUTnumberOfLetters>=minMaxLetters[0] &&
-    INPUTnumberOfLetters<=minMaxLetters[1] &&
-    possibleLangue.includes(INPUTlangue)){//check if were being sent valid data
-    numberOfLetters = INPUTnumberOfLetters;
-    langue = INPUTlangue  
-    showKeyboard = INPUTkeyboard == 'ON'; 
-    console.log(INPUTkeyboard, showKeyboard); 
+  if(INPUTnumberOfLetters>=wordle.minLetters &&
+    INPUTnumberOfLetters<=wordle.maxLetters &&
+    wordle.possibleLangue.includes(INPUTlangue)){//check if were being sent valid data
+    wordle.option.numberOfLetters = INPUTnumberOfLetters;
+    wordle.option.langue = INPUTlangue  
     console.log("cookies",document.cookie);
     console.log("session storage",sessionStorage);
   }
+  
+  // background image:
   let suffix = '_square';
   if (windowWidth > windowHeight*1.25) {
     suffix = '_wide';
@@ -84,37 +70,41 @@ function preload(){
   if (windowHeight > windowWidth*1.25) {
     suffix = '_tall';
   }
-  let filename = 'background/background_'+langue+suffix+'.jpg';
-  background_image = loadImage(filename);
-  icon_menu = loadImage('icon_menu.png');
-  filename = 'dict/'+langue +'_frequent_'+numberOfLetters.toString()+'.txt'
-  dict_frequent = loadStrings(filename);
-  filename = 'dict/'+langue +'_all_'+numberOfLetters.toString()+'.txt'
-  dict_all = loadStrings(filename);
+  let filename = 'background/background_'+wordle.option.langue+suffix+'.jpg';
+  wordle.background_image = loadImage(filename);
+  
+  // menu:
+  wordle.icon_menu = loadImage('icon_menu.png');
+  
+  // dictionaries:
+  filename = 'dict/'+wordle.option.langue +'_frequent_'+wordle.option.numberOfLetters.toString()+'.txt'
+  wordle.dict.frequent = loadStrings(filename);
+  filename = 'dict/'+wordle.option.langue +'_all_'+wordle.option.numberOfLetters.toString()+'.txt'
+  wordle.dict.all = loadStrings(filename);
+  
+  // fonts:
   myFont = loadFont('Salma.otf');
-//   myFont = loadFont('OddlyCalming.ttf');
-  keyboard = new Keyboard(showKeyboard, langue);
+  
+  // keyboard:
+  let showKeyboard = INPUTkeyboard == 'ON'; 
+  keyboard = new Keyboard(showKeyboard, wordle.option.langue);
 }
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  for(let r = 0;r<numberOfTries;r++){
+  for(let r = 0;r<wordle.numberOfTries;r++){
     let line = [];
-    for(let c = 0;c<numberOfLetters;c++){
+    for(let c = 0;c<wordle.option.numberOfLetters;c++){
       let newLetter = new Letter(r,c);
       line.push(newLetter);
     }
-    letter.push(line);
+    wordle.letter.push(line);
   }
-  word = '';
-  while(word == ''){ // the last line of each dictionary is an empty word
-    word = random(dict_frequent);
+  while(wordle.word == ''){ // the last line of each dictionary is an empty word
+    wordle.word = random(wordle.dict.frequent);
   }
-  currentDictionary = dict_frequent;
-  buttonX = 10;
-  buttonY = 10;
-  buttonW = min(width, height)/20;
-  buttonH = buttonW;
+  currentDictionary = wordle.dict.frequent;
+  wordle.button.W = min(width, height)/20;
 }
 
 function draw(){
@@ -123,7 +113,7 @@ function draw(){
 }
 
 function squareSize(){
-  return min(height*0.66/numberOfTries, width*0.6/numberOfLetters);
+  return min(height*0.66/wordle.numberOfTries, width*0.6/wordle.option.numberOfLetters);
 }
 
 function margin(){
@@ -131,7 +121,7 @@ function margin(){
 }
 
 function gridWidth(){
-  return (squareSize()+margin())*numberOfLetters + 3*margin();
+  return (squareSize()+margin())*wordle.option.numberOfLetters + 3*margin();
 }
 
 function gridX(){
@@ -140,7 +130,7 @@ function gridX(){
 
 function showgame(){
   push();
-  background(background_image);
+  background(wordle.background_image);
   fill(60);
   rect(gridX(),0,gridWidth(),height);//background
   pop();
@@ -152,26 +142,26 @@ function showgame(){
 
 function checkStatus(){
   if(gameStatus == "playing"){
-    if(currentTry>numberOfTries){
+    if(wordle.currentTry>wordle.numberOfTries){
       gameStatus = "gameover";
       keyboard.visible=false;
       let dico = {'francais': "C'était '", 'english': "It was '", 'norway': "Det var '"};
-      miscMessage = dico[langue] + word + "'!";
+      miscMessage = dico[wordle.option.langue] + wordle.word + "'!";
     }
-    if(currentTry != 1){
-      if(word == findWord(currentTry-2)){
+    if(wordle.currentTry != 1){
+      if(wordle.word == findWord(wordle.currentTry-2)){
         gameStatus = "victory";
         keyboard.visible=false;
         let dico = {'francais': "Bravo !", 'english': "Well done!", 'norway': "Godt gjort!"};
-        miscMessage = dico[langue];
+        miscMessage = dico[wordle.option.langue];
       }
     }
   }
 }
 
 function Grid(){
-  for(let r = 0;r<numberOfTries;r++){
-    for(let c = 0;c<numberOfLetters;c++){
+  for(let r = 0;r<wordle.numberOfTries;r++){
+    for(let c = 0;c<wordle.option.numberOfLetters;c++){
       push();//important so that background color does not affect other letter
       fill(245,245,245,100);
       stroke(0);
@@ -179,8 +169,8 @@ function Grid(){
       let squareX = gridX()+ 2*margin() + c*(squareSize()+margin());
       let squareY = 2*margin() + r*(squareSize()+margin());
       rect(squareX,squareY,squareSize(),squareSize());//draw empty square
-      if(letter[r][c].letter != "empty"){
-        letter[r][c].draw(squareX,squareY);
+      if(wordle.letter[r][c].letter != "empty"){
+        wordle.letter[r][c].draw(squareX,squareY);
       }
       pop();
     }
@@ -189,7 +179,7 @@ function Grid(){
 
 function misc(){
   let messageX = gridX()+ 2*margin();
-  let messageY = 2*margin() + (numberOfTries+1)*(squareSize()+margin()) + margin() ;
+  let messageY = 2*margin() + (wordle.numberOfTries+1)*(squareSize()+margin()) + margin() ;
   if(miscMessage != ""){
     fill(255);
     textSize(squareSize()*0.6);
@@ -198,44 +188,44 @@ function misc(){
 }
 
 function checkWord(){
-  if(letter[currentTry-1][numberOfLetters-1].letter != "empty" && dict_all.includes(findWord(currentTry-1))){
+  if(wordle.letter[wordle.currentTry-1][wordle.option.numberOfLetters-1].letter != "empty" && wordle.dict.all.includes(findWord(wordle.currentTry-1))){
     let copies = [];
-    for(let l=0;l<numberOfLetters;l++){//makes a list of all letters present to not draw letter multiple colors
-      copies.push(word[l]);
+    for(let l=0;l<wordle.option.numberOfLetters;l++){//makes a list of all letters present to not draw letter multiple colors
+      copies.push(wordle.word[l]);
     }
 
-    for(let c=0;c<numberOfLetters;c++){
-      if(letter[currentTry-1][c].letter == word.charAt(c)){
-        letter[currentTry-1][c].color = "green";
-        let todelete = copies.indexOf(letter[currentTry-1][c].letter);
+    for(let c=0;c<wordle.option.numberOfLetters;c++){
+      if(wordle.letter[wordle.currentTry-1][c].letter == wordle.word.charAt(c)){
+        wordle.letter[wordle.currentTry-1][c].color = "green";
+        let todelete = copies.indexOf(wordle.letter[wordle.currentTry-1][c].letter);
         copies.splice(todelete,1);
       }
     }
-    for(let c=0;c<numberOfLetters;c++){
-      if(copies.includes(letter[currentTry-1][c].letter) && letter[currentTry-1][c].letter != word.charAt(c)){
-        letter[currentTry-1][c].color = "yellow";
-        let todelete = copies.indexOf(letter[currentTry-1][c].letter);
+    for(let c=0;c<wordle.option.numberOfLetters;c++){
+      if(copies.includes(wordle.letter[wordle.currentTry-1][c].letter) && wordle.letter[wordle.currentTry-1][c].letter != wordle.word.charAt(c)){
+        wordle.letter[wordle.currentTry-1][c].color = "yellow";
+        let todelete = copies.indexOf(wordle.letter[wordle.currentTry-1][c].letter);
         copies.splice(todelete,1);
       }
     }
     //animation
-    for(let c=0;c<numberOfLetters;c++){
-      letter[currentTry-1][c].startAnimation();
-      animating.push([currentTry-1,c]);
+    for(let c=0;c<wordle.option.numberOfLetters;c++){
+      wordle.letter[wordle.currentTry-1][c].startAnimation();
+      animating.push([wordle.currentTry-1,c]);
     }
-    currentTry++;
+    wordle.currentTry++;
     miscMessage = "";
   }else{
     let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'norway': "Ikke et gyldig ord!"};
     keyboard.visible=false;
-    miscMessage = dico[langue];
+    miscMessage = dico[wordle.option.langue];
   }
 }
 
 function findWord(line){//outputs the word at a line
   let w = "";
-  for(let i= 0;i<numberOfLetters;i++){
-    w = w+letter[line][i].letter
+  for(let i= 0;i<wordle.option.numberOfLetters;i++){
+    w = w+wordle.letter[line][i].letter
   }
   return w;
 }
@@ -248,13 +238,16 @@ function keyPressed(){
 
 function settingsButton(){
   push();
-  image(icon_menu, buttonX,buttonY,buttonW,buttonH);
+  image(wordle.icon_menu, wordle.button.X,wordle.button.Y,wordle.button.W,wordle.button.W);
   pop();
 }
 
 function detecteButton(){
-  if(mouseX <buttonX+buttonW && mouseY<buttonY+buttonH && mouseX > buttonX && mouseY > buttonY){
-    window.location.assign(location.origin + location.pathname + "settings");
+  if(  mouseX < wordle.button.X+wordle.button.W 
+    && mouseY< wordle.button.Y+wordle.button.W 
+    && mouseX > wordle.button.X && mouseY > wordle.button.Y){
+      console.log('detecteButton', location.origin+ "/settings");
+      window.location.assign(location.origin + "/settings");
   }
 }
 
@@ -289,10 +282,10 @@ function typing(otherKey){//takes a variable in case we call it in a virtual key
 }
   
 function findEmptySpot(keyToPut){
-  for(let r = 0;r<currentTry;r++){
-    for(let c = 0;c<numberOfLetters;c++){
-      if(letter[r][c].letter == "empty"){
-        letter[r][c].letter = keyToPut;
+  for(let r = 0;r<wordle.currentTry;r++){
+    for(let c = 0;c<wordle.option.numberOfLetters;c++){
+      if(wordle.letter[r][c].letter == "empty"){
+        wordle.letter[r][c].letter = keyToPut;
         return;
       }
     }
@@ -305,9 +298,9 @@ function deleteLastLetter(){
   let placeToDeleteR = 0;
   let placeToDeleteC = 0;
   let somethingToDelete = false;
-  for(let r = 0;r<numberOfTries;r++){
-    for(let c = 0;c<numberOfLetters;c++){
-      if(letter[r][c].letter != "empty" && r>=currentTry-1){
+  for(let r = 0;r<wordle.numberOfTries;r++){
+    for(let c = 0;c<wordle.option.numberOfLetters;c++){
+      if(wordle.letter[r][c].letter != "empty" && r>=wordle.currentTry-1){
         placeToDeleteR = r;
         placeToDeleteC = c;
         somethingToDelete = true;
@@ -315,7 +308,7 @@ function deleteLastLetter(){
     }
   }
   if(somethingToDelete){
-    letter[placeToDeleteR][placeToDeleteC].letter = "empty";
+    wordle.letter[placeToDeleteR][placeToDeleteC].letter = "empty";
   }
 }
 

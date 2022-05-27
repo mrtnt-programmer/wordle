@@ -26,7 +26,7 @@ class Keyboard{
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
     this.show = show;
-    this.visible = show;
+    this.visible = this.show;
   }
   
   toggleShow(){
@@ -89,7 +89,7 @@ class Keyboard{
 
   keyboardCoor(){
     let keyboardX = gridX()+margin();
-    let keyboardY = numberOfTries*(squareSize()+margin())+margin()*2;
+    let keyboardY = wordle.numberOfTries*(squareSize()+margin())+margin()*2;
     let keyboardW = gridWidth()-margin()*2;
     let keyboardH = height - margin() - keyboardY;
     return [keyboardX,keyboardY,keyboardW,keyboardH];
