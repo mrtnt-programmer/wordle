@@ -30,7 +30,7 @@ class Keyboard{
 
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
-    this.show = show;
+    this.show = show == 'on';
     this.visible = this.show;
   }
   

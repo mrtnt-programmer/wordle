@@ -63,7 +63,7 @@ function preload(){
   myFont = loadFont('Salma.otf');
   
   // keyboard:
-  keyboard = new Keyboard(wordle.option.keyboard == 'on', wordle.option.langue);
+  keyboard = new Keyboard(wordle.option.keyboard, wordle.option.langue);
 }
 
 function setup(){
