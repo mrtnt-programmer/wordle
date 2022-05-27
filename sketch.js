@@ -242,12 +242,19 @@ function settingsButton(){
   pop();
 }
 
-function detecteButton(){
+function detectButton(){
   if(  mouseX < wordle.button.X+wordle.button.W 
     && mouseY< wordle.button.Y+wordle.button.W 
     && mouseX > wordle.button.X && mouseY > wordle.button.Y){
-      console.log('detecteButton', location.origin+ "/settings");
-      window.location.assign(location.origin + "/settings");
+      console.log('detectButton');
+      console.log('location.href:', location.href);
+      console.log('location.origin:', location.origin);
+      console.log('location.pathname:', location.pathname);
+      console.log('location.hostname:', location.hostname);
+      let address = location.origin+location.pathname+'settings';
+      console.log('full address:', address);
+      debugger;
+      window.location.assign(address);
   }
 }
 
@@ -315,6 +322,6 @@ function deleteLastLetter(){
 function mousePressed(){
   keyboard.toggleShow();
   miscMessage = "";
-  detecteButton();
+  detectButton();
   keyboard.detection();
 }

@@ -20,10 +20,10 @@ function createCookies(CnumberOfLetters,Clangue,Ckeyboard){
   document.cookie = "numberOfLetters="+CnumberOfLetters+";"+expireDate+";"+"path="+path;
   document.cookie = "langue="+Clangue+";"+expireDate+";"+"path="+path;
   document.cookie = "keyboard="+Ckeyboard+";"+expireDate+";"+"path="+path;
-  console.log("sending cookies",document.cookie);
+  console.log("creating cookies",document.cookie);
 }
 
-function loadCookies(){
+function loadCookies_OLD(){
   if(!loadedCookies){
       data[0] = getCookie("numberOfLetters");
       data[1] = getCookie("langue");
@@ -32,3 +32,10 @@ function loadCookies(){
       loadedCookies = true;
     }
   }
+
+function loadCookies(){
+  wordle.numberOfLetters = getCookie("numberOfLetters");
+  wordle.langue = getCookie("langue");
+  wordle.keyboardShow = getCookie("keyboard");
+  console.log('after loading cookies:', worlde.langue, wordle.numberOfLetters, worldle.keyboardShow);
+}
