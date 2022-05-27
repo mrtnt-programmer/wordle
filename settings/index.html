@@ -7,7 +7,6 @@
   <link rel="shortcut icon" href="../favicon.png">
   <link rel='stylesheet' href='style.css'>
   <script src="../cookies.js"></script>
-  <script src="script.js"></script>
 </head>
 
 <body>
@@ -17,31 +16,21 @@
       <div class='dropdown'>
         <button class='dropbtn' value='dropdown_langue' onclick='showFunction(this.value)'>Language ▼</button>
         <form class='dropdown-content' id='dropdown_langue'>
-          <input type="radio" id="english" name="fav_language" onclick='data[1] = "english"' checked="checked">
-          <label for='english'>English</label><br><br>
-          <input type="radio" id="francais" name="fav_language" onclick='data[1] = "francais"'>
-          <label for='francais'>Français</label><br><br>
-          <input type="radio" id="norway" name="fav_language" onclick='data[1] = "norway"'>
-          <label for='norway'>Norwegian</label>
+          <!-- filled by script.js -->
         </form> 
       </div>
       
       <div class='dropdown'>
         <button class='dropbtn' value='dropdown_letters' onclick='showFunction(this.value)'>Number letters ▼</button>
         <form class='dropdown-content' id='dropdown_letters'>
-          <input type="radio" id='4' name="nb_letters" onclick='data[0] = 4'><label for='4'>4</label><br><br>
-          <input type="radio" id='5' name="nb_letters" onclick='data[0] = 5' checked="checked"><label for='5'>5</label><br><br>
-          <input type="radio" id='6' name="nb_letters" onclick='data[0] = 6'><label for='6'>6</label><br><br>
-          <input type="radio" id='7' name="nb_letters" onclick='data[0] = 7'><label for='7'>7</label><br><br>
-          <input type="radio" id='8' name="nb_letters" onclick='data[0] = 8'><label for='8'>8</label>
+          <!-- filled by script.js -->
         </form> 
       </div>
       
       <div class='dropdown'>
         <button class='dropbtn' value='dropdown_keyboard' onclick='showFunction(this.value)'>Keyboard ▼</button>
         <form class='dropdown-content' id='dropdown_keyboard'>
-          <input type="radio" id='on' name="keyboard" onclick='data[2] = "ON"' checked="checked"><label for='on'>on</label><br><br>
-          <input type="radio" id='off' name="keyboard" onclick='data[2] = "OFF"'><label for='off'>off</label>
+          
         </form> 
       </div>
 
@@ -53,6 +42,8 @@
   </h1>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

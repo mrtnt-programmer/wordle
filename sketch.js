@@ -17,7 +17,7 @@ class Wordle{
     
     this.option = { 'langue': 'francais', 
                     'numberOfLetters': 5,
-                    'keyboard': 'ON'
+                    'keyboard': 'on'
     }
     this.dict = { 'frequent': '',
                   'all': ''
@@ -63,7 +63,7 @@ function preload(){
   myFont = loadFont('Salma.otf');
   
   // keyboard:
-  keyboard = new Keyboard(wordle.option.keyboard == 'ON', wordle.option.langue);
+  keyboard = new Keyboard(wordle.option.keyboard == 'on', wordle.option.langue);
 }
 
 function setup(){
