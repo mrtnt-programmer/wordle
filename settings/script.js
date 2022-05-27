@@ -1,21 +1,13 @@
-let data = [5,"english","ON"];
-let path = location.origin + location.pathname.slice(0,-9);
-let expireDate = "expires=Thu,1 Dec "+(new Date().getFullYear()+2)+" 12:00:00 UTC";
-let loadedCookies = false;
-
-loadCookies();
+let data = [0,0,0];
+data[0] = getCookie("numberOfLetters", 5);
+data[1] = getCookie("langue", 'english');
+data[2] = getCookie("keyboard", 'ON');
+console.log('after loading cookies:', data);
 
 function backToGame(){
-  sessionStorage.setItem("numberOfLetters", data[0]);
-  sessionStorage.setItem("langue", data[1]);
-  sessionStorage.setItem("keyboard", data[2]);
-  console.log("session storage",sessionStorage);
-  document.cookie = "numberOfLetters="+data[0]+";"+expireDate+";"+"path="+path+";"+"domain="+location.origin;
-  document.cookie = "langue="+data[1]+";"+expireDate+";"+"domain="+path;
-  document.cookie = "keyboard="+data[2]+";"+expireDate+";"+"domain="+path;
-  console.log("cookies",document.cookie);
-  console.log("cookies data",expireDate,path,location.origin);
-  window.location.assign(path); // slice removes 'settings'
+  createCookies(...data);
+  let path = location.origin + location.pathname.slice(0,-9); // slice removes 'settings'
+  window.location.assign(path); 
 }
 
 /* When the user clicks on the button, 

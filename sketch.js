@@ -33,34 +33,11 @@ class Wordle{
 function preload(){
   wordle = new Wordle();
   
-  //get  data from session storage or cookies
-  let INPUTnumberOfLetters ;
-  let INPUTlangue;
-  let INPUTkeyboard;
-  if(sessionStorage != null){
-    INPUTnumberOfLetters = sessionStorage.getItem("numberOfLetters");
-    INPUTlangue = sessionStorage.getItem("langue");
-    INPUTkeyboard = sessionStorage.getItem("keyboard");
-  }
-  console.log("checking cookie",document.cookie);
-  if(MakeCookieonce && sessionStorage.getItem("numberOfLetters") != null){
-    MakeCookieonce =false;
-    createCookies(INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
-  }
-  if (document.cookie != "" ){
-    INPUTnumberOfLetters = getCookie("numberOfLetters");
-    INPUTlangue = getCookie("langue");
-    INPUTkeyboard = getCookie("keyboard");
-  }
-  console.log("checking data",INPUTnumberOfLetters,INPUTlangue,INPUTkeyboard);
-  if(INPUTnumberOfLetters>=wordle.minLetters &&
-    INPUTnumberOfLetters<=wordle.maxLetters &&
-    wordle.possibleLangue.includes(INPUTlangue)){//check if were being sent valid data
-    wordle.option.numberOfLetters = INPUTnumberOfLetters;
-    wordle.option.langue = INPUTlangue  
-    console.log("cookies",document.cookie);
-    console.log("session storage",sessionStorage);
-  }
+  //get options from cookies
+  wordle.option.numberOfLetters = getCookie("numberOfLetters");
+  wordle.option.langue = getCookie("langue");
+  wordle.option.keyboard = getCookie("keyboard");
+  console.log('after loading cookies:', wordle.option.langue, wordle.option.numberOfLetters, wordle.option.keyboard);
   
   // background image:
   let suffix = '_square';
@@ -86,8 +63,7 @@ function preload(){
   myFont = loadFont('Salma.otf');
   
   // keyboard:
-  let showKeyboard = INPUTkeyboard == 'ON'; 
-  keyboard = new Keyboard(showKeyboard, wordle.option.langue);
+  keyboard = new Keyboard(wordle.option.keyboard == 'ON', wordle.option.langue);
 }
 
 function setup(){
@@ -251,10 +227,8 @@ function detectButton(){
       console.log('location.origin:', location.origin);
       console.log('location.pathname:', location.pathname);
       console.log('location.hostname:', location.hostname);
-      let address = location.origin+location.pathname+'settings';
-      console.log('full address:', address);
-      debugger;
-      window.location.assign(address);
+      console.log('full address:', location.href+'settings');
+      window.location.assign(location.href+'settings');
   }
 }
 
