@@ -37,9 +37,10 @@ function getCookie(cName) {//from https://www.w3schools.com/js/js_cookies.asp
 }
 
 function creatCookies(CnumberOfLetters,Clangue,Ckeyboard){
-  document.cookie = "numberOfLetters="+CnumberOfLetters+";"+expireDate+";"+"domain="+path;
-  document.cookie = "langue="+Clangue+";"+expireDate+";"+"domain="+path;
-  document.cookie = "keyboard="+Ckeyboard+";"+expireDate+";"+"domain="+path;
+  let path = "/";
+  document.cookie = "numberOfLetters="+CnumberOfLetters+";"+expireDate+";"+"path="+path;
+  document.cookie = "langue="+Clangue+";"+expireDate+";"+"path="+path;
+  document.cookie = "keyboard="+Ckeyboard+";"+expireDate+";"+"path="+path;
   console.log("sending cookies",document.cookie);
 }
 
