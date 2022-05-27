@@ -5570,8 +5570,6 @@ Elysian's
 Elysium
 Elysium's
 Elysiums
-Elysée
-Elysée's
 Emacs
 Emacs's
 Emanuel
@@ -5941,8 +5939,6 @@ FNMA
 FNMA's
 FSF
 FSF's
-Fabergé
-Fabergé's
 Fabian
 Fabian's
 Facebook
@@ -8210,8 +8206,6 @@ Hyundai
 Hyundai's
 Hz
 Hz's
-Héloise
-Héloise's
 I
 I'd
 I'll
@@ -10940,8 +10934,6 @@ Malinda
 Malinda's
 Malinowski
 Malinowski's
-Mallarmé
-Mallarmé's
 Mallomars
 Mallomars's
 Mallory
@@ -14074,8 +14066,6 @@ Poe
 Poe's
 Pogo
 Pogo's
-Poincaré
-Poincaré's
 Poiret
 Poiret's
 Poirot
@@ -14084,8 +14074,6 @@ Poisson
 Poisson's
 Poitier
 Poitier's
-Pokémon
-Pokémon's
 Poland
 Poland's
 Polanski
@@ -14457,10 +14445,6 @@ Pythias
 Pythias's
 Python
 Python's
-Pétain
-Pétain's
-Pôrto
-Pôrto's
 Q
 Qaddafi
 Qaddafi's
@@ -14529,8 +14513,6 @@ Quonset
 Quonset's
 Qur'an
 Quran
-Québecois
-Québecois's
 R
 R's
 RCA
@@ -18011,8 +17993,6 @@ Valparaiso
 Valparaiso's
 Valvoline
 Valvoline's
-Valéry
-Valéry's
 Van
 Van's
 Vance
@@ -19256,9 +19236,6 @@ abbreviating
 abbreviation
 abbreviation's
 abbreviations
-abbé
-abbé's
-abbés
 abdicate
 abdicated
 abdicates
@@ -22323,11 +22300,6 @@ applicator's
 applicators
 applied
 applies
-appliqué
-appliqué's
-appliquéd
-appliquéing
-appliqués
 apply
 applying
 appoint
@@ -23372,9 +23344,6 @@ attaching
 attachment
 attachment's
 attachments
-attaché
-attaché's
-attachés
 attack
 attack's
 attacked
@@ -26234,7 +26203,6 @@ blastoff
 blastoff's
 blastoffs
 blasts
-blasé
 blatant
 blatantly
 blaze
@@ -28892,9 +28860,7 @@ caffeine's
 caftan
 caftan's
 caftans
-café
-café's
-cafés
+cafe
 cage
 cage's
 caged
@@ -29188,9 +29154,6 @@ can't
 canal
 canal's
 canals
-canapé
-canapé's
-canapés
 canard
 canard's
 canards

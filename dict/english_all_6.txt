@@ -1489,7 +1489,6 @@ camuss
 canaan
 canada
 canals
-canape
 canard
 canary
 cancan
@@ -2967,7 +2966,6 @@ elvira
 elviss
 elways
 elwood
-elysee
 emacss
 emails
 embalm
@@ -7077,7 +7075,6 @@ peruse
 peseta
 pester
 pestle
-petain
 petals
 petard
 peters
@@ -7332,7 +7329,6 @@ ported
 porter
 portia
 portly
-portos
 posers
 poseur
 posher
@@ -10164,7 +10160,6 @@ vaguer
 vainer
 vainly
 valdez
-valery
 valets
 valise
 valium

@@ -678,7 +678,6 @@ atreuss
 atriums
 atrophy
 atropos
-attache
 attacks
 attains
 attempt
@@ -1891,7 +1890,6 @@ camposs
 campuss
 canaans
 canadas
-canapes
 canards
 canarys
 canasta
@@ -3923,7 +3921,6 @@ eluding
 elusive
 elviras
 elwoods
-elysees
 elysian
 elysium
 emailed
@@ -4257,7 +4254,6 @@ eyelids
 eyesore
 eysenck
 ezekiel
-faberge
 fabians
 fabrics
 facades
@@ -5676,7 +5672,6 @@ hellion
 hellish
 hellman
 helmets
-heloise
 helpers
 helpful
 helping
@@ -9009,7 +9004,6 @@ peskier
 pesters
 pestled
 pestles
-petains
 petards
 petered
 peterss
@@ -9288,7 +9282,6 @@ poising
 poisons
 poisson
 poitier
-pokemon
 pokiest
 polands
 polaris
@@ -13123,7 +13116,6 @@ valence
 valenti
 valeria
 valerie
-valerys
 valeted
 valiant
 validly

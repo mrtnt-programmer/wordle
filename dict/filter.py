@@ -11,7 +11,8 @@ for langue in ['norway', 'francais', 'english']: #
       words = set() 
       for line in lines:
         line.replace(" ", "") # remove spaces
-        line = unidecode.unidecode(line) # remove accents
+        if langue != 'norway':
+          line = unidecode.unidecode(line) # remove accents
         word = ''
         for character in line: # remove special characters
           if character.isalnum():

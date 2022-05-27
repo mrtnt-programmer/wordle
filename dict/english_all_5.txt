@@ -6,7 +6,6 @@ abase
 abash
 abate
 abbas
-abbes
 abbey
 abbot
 abbys
@@ -611,7 +610,6 @@ blame
 bland
 blank
 blare
-blase
 blast
 blatz
 blaze
@@ -885,7 +883,6 @@ cadet
 cadge
 cadiz
 cadre
-cafes
 caged
 cages
 cagey
@@ -4565,7 +4562,6 @@ pores
 porks
 porno
 porns
-porto
 ports
 posed
 poser
