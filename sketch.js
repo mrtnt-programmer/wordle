@@ -1,8 +1,7 @@
 //global variables 
-let gameStatus = "playing";
+// let gameStatus = "playing";
 let miscMessage = "";//contain a message to draw under letters
 let animating = [];//keep track of animating letters
-let MakeCookieonce = true;
 
 let wordle;
 let keyboard;
@@ -27,6 +26,7 @@ class Wordle{
     this.currentTry = 1;
     this.word ='';
     this.button = {'X': 10, 'Y': 10, 'W':0}; 
+    this.status = "playing";
   }
 }
 
@@ -117,16 +117,16 @@ function showgame(){
 }
 
 function checkStatus(){
-  if(gameStatus == "playing"){
+  if(wordle.status == "playing"){
     if(wordle.currentTry>wordle.numberOfTries){
-      gameStatus = "gameover";
+      wordle.status = "gameover";
       keyboard.visible=false;
       let dico = {'francais': "C'était '", 'english': "It was '", 'spanish': "Era '", 'norway': "Det var '"};
       miscMessage = dico[wordle.option.langue] + wordle.word + "'!";
     }
     if(wordle.currentTry != 1){
       if(wordle.word == findWord(wordle.currentTry-2)){
-        gameStatus = "victory";
+        wordle.status = "victory";
         keyboard.visible=false;
         let dico = {'francais': "Bravo !", 'english': "Well done!", 'spanish': "¡Bien hecho!", 'norway': "Godt gjort!"};
         miscMessage = dico[wordle.option.langue];
@@ -207,9 +207,7 @@ function findWord(line){//outputs the word at a line
 }
 
 function keyPressed(){
-  if(gameStatus == "playing"){
     typing();
-  }
 }
 
 function settingsButton(){
@@ -233,28 +231,30 @@ function detectButton(){
 }
 
 function typing(otherKey){//takes a variable in case we call it in a virtual keyboard
-  console.log("typing",otherKey);
-  let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-  if (wordle.option.langue == 'norway'){
-    possibleLetter = possibleLetter.concat(["å","ø","æ"]);
+  if (wordle.status == 'playing'){
+    console.log("typing",otherKey);
+    let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+    if (wordle.option.langue == 'norway'){
+      possibleLetter = possibleLetter.concat(["å","ø","æ"]);
+    }
+    let lowerKey;
+    if (otherKey != null){
+      lowerKey = otherKey;
+    }else{
+      lowerKey = key.toLowerCase();
+    }
+    if(keyCode == ENTER || otherKey == "ENTER"){
+      checkWord();
+    }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE" || keyCode == DELETE || keyCode == LEFT_ARROW){
+      deleteLastLetter();
+    }else if(possibleLetter.includes(lowerKey)){
+      findEmptySpot(lowerKey);
+    }else{
+      console.log("unknown key");
+    }
+    keyCode = null;//to avoid key repetition
+    key = null;
   }
-  let lowerKey;
-  if (otherKey != null){
-    lowerKey = otherKey;
-  }else{
-    lowerKey = key.toLowerCase();
-  }
-  if(keyCode == ENTER || otherKey == "ENTER"){
-    checkWord();
-  }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE" || keyCode == DELETE || keyCode == LEFT_ARROW){
-    deleteLastLetter();
-  }else if(possibleLetter.includes(lowerKey)){
-    findEmptySpot(lowerKey);
-  }else{
-    console.log("unknown key");
-  }
-  keyCode = null;//to avoid key repetition
-  key = null;
 }
   
 function findEmptySpot(keyToPut){
@@ -293,4 +293,12 @@ function mousePressed(){
   miscMessage = "";
   detectButton();
   keyboard.detection();
+}
+
+function touchStarted(){
+  console.log('touchStarted');
+}
+
+function touchEnded(){
+  console.log('touchEnded');
 }
