@@ -307,6 +307,7 @@ function deleteLastLetter(){
 }
 
 function mousePressed(){
+  console.log('mousePressed');
   keyboard.toggleShow();
   miscMessage = "";
   detectButton();
