@@ -34,9 +34,9 @@ function preload(){
   wordle = new Wordle();
   
   //get options from cookies
-  wordle.option.numberOfLetters = getCookie("numberOfLetters");
-  wordle.option.langue = getCookie("langue");
-  wordle.option.keyboard = getCookie("keyboard");
+  wordle.option.numberOfLetters = getCookie("numberOfLetters", 5);
+  wordle.option.langue = getCookie("langue", 'english');
+  wordle.option.keyboard = getCookie("keyboard", 'on');
   console.log('after loading cookies:', wordle.option.langue, wordle.option.numberOfLetters, wordle.option.keyboard);
   
   // background image:
