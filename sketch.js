@@ -21,7 +21,7 @@ class colorSquare{
     }
   }
 }
-let square = new colorSquare(true);
+let square = new colorSquare(false); // true to see colored square indicator of touch actions
 
 class Wordle{
   constructor(){
