@@ -6,6 +6,23 @@ let animating = [];//keep track of animating letters
 let wordle;
 let keyboard;
 
+class colorSquare{
+  constructor(visible=false){
+    this.color = 'black';
+    this.visible = visible;
+  }
+
+  draw(){
+    if (this.visible){
+      push();
+      fill(this.color);
+      rect(width-40,0,20);
+      pop();
+    }
+  }
+}
+let square = new colorSquare(true);
+
 class Wordle{
   constructor(){
     this.letter = [];
@@ -86,6 +103,7 @@ function setup(){
 function draw(){
   showgame();
   checkStatus();
+  square.draw();
 }
 
 function squareSize(){
@@ -297,8 +315,10 @@ function mousePressed(){
 
 function touchStarted(){
   console.log('touchStarted');
+  square.color = 'red';
 }
 
 function touchEnded(){
   console.log('touchEnded');
+  square.color = 'green';
 }
