@@ -4,27 +4,27 @@ class Keyboard{
   constructor(show, langue){
     this.keys = [["q","w","e","r","t","y","u","i","o","p"],
                   ["empty","a","s","d","f","g","h","j","k","l"],
-                  ["z","x","c","v","b","n","m","empty","⛞","↲"]
+                  ["z","x","c","v","b","n","m","▢", "empty","↲"]
                   ]; //default list containing all the keys of the keyboard 
 
     if (langue == 'francais'){
       this.keys = [["a","z","e","r","t","y","u","i","o","p"],
                    ["q","s","d","f","g","h","j","k","l","m"],
-                   ["empty","w","x","c","v","b","n","empty","⛞","↲"]
+                   ["empty","w","x","c","v","b","n","▢", "empty","↲"]
                   ];
     } 
     
     if (langue == 'english'){
       this.keys = [["q","w","e","r","t","y","u","i","o","p"],
                   ["empty","a","s","d","f","g","h","j","k","l"],
-                  ["z","x","c","v","b","n","m","empty","⛞","↲"]
+                  ["z","x","c","v","b","n","m","▢", "empty","↲"]
                   ];
     }
 
     if (langue == 'norway'){
       this.keys = [["q","w","e","r","t","y","u","i","o","p","å"],
                   ["a","s","d","f","g","h","j","k","l","ø","æ"],
-                  ["empty","z","x","c","v","b","n","m","empty","⛞","↲"]
+                  ["empty","z","x","c","v","b","n","m","▢", "empty","↲"]
                   ];
     }
 
@@ -85,7 +85,7 @@ class Keyboard{
     key = null;
     if(this.keys[r][c] == "↲"){
       typing("ENTER");
-    }else if(this.keys[r][c] == "⛞"){
+    }else if(this.keys[r][c] == "▢"){
       typing("BACKSPACE");
     }else{
       typing(this.keys[r][c]);
