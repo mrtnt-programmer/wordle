@@ -1,10 +1,8 @@
 //global variables 
-// let gameStatus = "playing";
-let miscMessage = "";//contain a message to draw under letters
-let animating = [];//keep track of animating letters
 
 let wordle;
 let keyboard;
+let message;
 
 class colorSquare{
   constructor(visible=false){
@@ -22,6 +20,54 @@ class colorSquare{
   }
 }
 let square = new colorSquare(false); // true to see colored square indicator of touch actions
+
+class Message{
+  constructor(){
+    this.text ='';
+  }
+
+  draw(){
+    let X = gridX()+ 2*margin();
+    let Y = 2*margin() + (wordle.numberOfTries+1)*(squareSize()+margin()) + margin() ;
+    if(this.text != ""){
+      fill(255);
+      textSize(squareSize()*0.6);
+      text(this.text, X, Y);
+    }
+  }
+
+  reset(){
+    this.text ='';
+    keyboard.toggleShow();
+  }
+
+  update(flag){
+    let dico;
+    if (flag == 'notvalid'){
+      dico = {
+        'francais': "Pas un mot valide !", 
+        'english': "Not a valid word!", 
+        'spanish': "Ni una palabra válida", 
+        'norway': "Ikke et gyldig ord!"
+      };
+    }else if(flag == 'victory'){
+      dico = {
+        'francais': "Bravo !", 
+        'english': "Well done!", 
+        'spanish': "¡Bien hecho!", 
+        'norway': "Godt gjort!"
+      };
+    }else if(flag == 'gameover'){
+      dico = {
+        'francais': "C'était '" + wordle.word + "'!", 
+        'english': "It was '" + wordle.word + "'!", 
+        'spanish': "¡Era '" + wordle.word + "'!", 
+        'norway': "Det var '" + wordle.word + "'!"};
+    }
+    this.text = dico[wordle.option.langue];
+    keyboard.visible=false;
+  }
+}
 
 class Wordle{
   constructor(){
@@ -98,12 +144,14 @@ function setup(){
   }
   currentDictionary = wordle.dict.frequent;
   wordle.button.W = min(width, height)/20;
+  message = new Message();
 }
 
 function draw(){
   showgame();
   checkStatus();
   square.draw();
+  message.draw();
 }
 
 function squareSize(){
@@ -130,7 +178,6 @@ function showgame(){
   pop();
   Grid();
   keyboard.draw();
-  misc();
   settingsButton();
 }
 
@@ -138,16 +185,12 @@ function checkStatus(){
   if(wordle.status == "playing"){
     if(wordle.currentTry>wordle.numberOfTries){
       wordle.status = "gameover";
-      keyboard.visible=false;
-      let dico = {'francais': "C'était '", 'english': "It was '", 'spanish': "Era '", 'norway': "Det var '"};
-      miscMessage = dico[wordle.option.langue] + wordle.word + "'!";
+      message.update('gameover');
     }
     if(wordle.currentTry != 1){
       if(wordle.word == findWord(wordle.currentTry-2)){
         wordle.status = "victory";
-        keyboard.visible=false;
-        let dico = {'francais': "Bravo !", 'english': "Well done!", 'spanish': "¡Bien hecho!", 'norway': "Godt gjort!"};
-        miscMessage = dico[wordle.option.langue];
+        message.update('victory');
       }
     }
   }
@@ -168,16 +211,6 @@ function Grid(){
       }
       pop();
     }
-  }
-}
-
-function misc(){
-  let messageX = gridX()+ 2*margin();
-  let messageY = 2*margin() + (wordle.numberOfTries+1)*(squareSize()+margin()) + margin() ;
-  if(miscMessage != ""){
-    fill(255);
-    textSize(squareSize()*0.6);
-    text(miscMessage,messageX,messageY);
   }
 }
 
@@ -205,14 +238,11 @@ function checkWord(){
     //animation
     for(let c=0;c<wordle.option.numberOfLetters;c++){
       wordle.letter[wordle.currentTry-1][c].startAnimation();
-      animating.push([wordle.currentTry-1,c]);
     }
     wordle.currentTry++;
-    miscMessage = "";
+    message.reset();
   }else{
-    let dico = {'francais': "Pas un mot valide !", 'english': "Not a valid word!", 'spanish': "Ni una palabra válida", 'norway': "Ikke et gyldig ord!"};
-    keyboard.visible=false;
-    miscMessage = dico[wordle.option.langue];
+    message.update('notvalid');
   }
 }
 
@@ -270,8 +300,8 @@ function typing(otherKey){//takes a variable in case we call it in a virtual key
     }else{
       console.log("unknown key");
     }
-    keyCode = null;//to avoid key repetition
-    key = null;
+    // keyCode = null;//to avoid key repetition // Je ne crois pas que ça serve à quelque chose
+    // key = null;
   }
 }
   
@@ -308,18 +338,24 @@ function deleteLastLetter(){
 
 function mousePressed(){
   console.log('mousePressed');
-  keyboard.toggleShow();
-  miscMessage = "";
-  detectButton();
-  keyboard.detection();
+  if (message.text != ''){
+    message.reset();
+  } else {
+    detectButton();
+    keyboard.detection();
+  }
 }
 
 function touchStarted(){
+  // on ipad, each touch fires a touchStarted() and a mousePressed().
+  // if touchStarted() is not defined, it fires another MousePressed, resulting in double typing.
   console.log('touchStarted');
   square.color = 'red';
 }
 
 function touchEnded(){
+  // on laptop, touch fires mousePressed(), and release fires touchEnded()
+  // we do nothing
   console.log('touchEnded');
   square.color = 'green';
 }
