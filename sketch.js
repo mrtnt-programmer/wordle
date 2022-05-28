@@ -232,39 +232,34 @@ function detectButton(){
   }
 }
 
-let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-let possibleLetterM = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 function typing(otherKey){//takes a variable in case we call it in a virtual keyboard
   console.log("typing",otherKey);
+  let possibleLetter = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+  if (wordle.option.langue == 'norway'){
+    possibleLetter = possibleLetter.concat(["å","ø","æ"]);
+  }
+  let lowerKey;
+  if (otherKey != null){
+    lowerKey = otherKey;
+  }else{
+    lowerKey = key.toLowerCase();
+  }
   if(keyCode == ENTER || otherKey == "ENTER"){
     checkWord();
   }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE" || keyCode == DELETE || keyCode == LEFT_ARROW){
     deleteLastLetter();
-  }else if(possibleLetter.includes(key) || otherKey != null){
-    if(otherKey != null){
-      findEmptySpot(otherKey);
-    }else{
-      findEmptySpot(key);
-    }
-  }else if(possibleLetterM.includes(key)){//if lowercase 
-    let k;
-    for(let l=0;l<possibleLetterM.length;l++){
-      if(possibleLetterM[l] == key){
-        k = possibleLetter[l];
-        break;
-      }
-    }
-    findEmptySpot(k);
+  }else if(possibleLetter.includes(lowerKey)){
+    findEmptySpot(lowerKey);
   }else{
-    console.log("typing error");
+    console.log("unknown key");
   }
   keyCode = null;//to avoid key repetition
   key = null;
 }
   
 function findEmptySpot(keyToPut){
-  for(let r = 0;r<wordle.currentTry;r++){
-    for(let c = 0;c<wordle.option.numberOfLetters;c++){
+  for(let r = 0; r < wordle.currentTry; r++){
+    for(let c = 0; c < wordle.option.numberOfLetters; c++){
       if(wordle.letter[r][c].letter == "empty"){
         wordle.letter[r][c].letter = keyToPut;
         return;
