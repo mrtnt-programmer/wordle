@@ -179,6 +179,18 @@ function showgame(){
   Grid();
   keyboard.draw();
   settingsButton();
+  restartButton();
+}
+
+function restartButton(){
+  push();
+  RbuttonX=wordle.button.X+width/20;
+  RbuttonY=wordle.button.Y;
+  RbuttonW=wordle.button.W;
+  rect(RbuttonX,RbuttonY,RbuttonW,RbuttonW);
+  textSize(RbuttonW/3);
+  text("restart", RbuttonX+1,RbuttonY,RbuttonW,RbuttonW);
+  pop();
 }
 
 function checkStatus(){
@@ -276,6 +288,11 @@ function detectButton(){
       console.log('full address:', location.href+'settings');
       window.location.assign(location.href+'settings');
   }
+  if(  mouseX < wordle.button.X+width/20+wordle.button.W 
+    && mouseY< wordle.button.Y+wordle.button.W 
+    && mouseX > wordle.button.X+width/20 && mouseY > wordle.button.Y){
+      location.reload()
+    }
 }
 
 function typing(otherKey){//takes a variable in case we call it in a virtual keyboard
