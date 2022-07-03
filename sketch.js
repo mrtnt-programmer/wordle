@@ -142,7 +142,7 @@ function setup(){
   while(wordle.word == ''){ // the last line of each dictionary is an empty word
     wordle.word = random(wordle.dict.frequent);
   }
-  currentDictionary = wordle.dict.frequent;
+//   currentDictionary = wordle.dict.frequent;
   wordle.button.W = min(width, height)/20;
   message = new Message();
 }
@@ -183,14 +183,19 @@ function showgame(){
 }
 
 function restartButton(){
-  push();
-  RbuttonX=wordle.button.X+width/20;
-  RbuttonY=wordle.button.Y;
-  RbuttonW=wordle.button.W;
-  rect(RbuttonX,RbuttonY,RbuttonW,RbuttonW);
-  textSize(RbuttonW/3);
-  text("restart", RbuttonX+1,RbuttonY,RbuttonW,RbuttonW);
-  pop();
+  if (wordle.status == "victory" || wordle.status == "gameover"){
+  // if (true){
+    push();
+    RbuttonX=wordle.button.X+width/20;
+    RbuttonY=wordle.button.Y;
+    RbuttonW=wordle.button.W;
+    fill(200);
+    rect(RbuttonX,RbuttonY,RbuttonW,RbuttonW,10);
+    textSize(RbuttonW*.3);
+    fill(0);
+    text("restart", RbuttonX+RbuttonW*.08,RbuttonY+RbuttonW*.38,RbuttonW,RbuttonW);
+    pop();
+  }
 }
 
 function checkStatus(){
@@ -279,18 +284,15 @@ function settingsButton(){
 function detectButton(){
   if(  mouseX < wordle.button.X+wordle.button.W 
     && mouseY< wordle.button.Y+wordle.button.W 
-    && mouseX > wordle.button.X && mouseY > wordle.button.Y){
-      console.log('detectButton');
-      console.log('location.href:', location.href);
-      console.log('location.origin:', location.origin);
-      console.log('location.pathname:', location.pathname);
-      console.log('location.hostname:', location.hostname);
-      console.log('full address:', location.href+'settings');
+    && mouseX > wordle.button.X 
+    && mouseY > wordle.button.Y){
       window.location.assign(location.href+'settings');
   }
-  if(  mouseX < wordle.button.X+width/20+wordle.button.W 
+  if( (wordle.status == 'victory' || wordle.status == 'gameover') 
+    &&  mouseX < wordle.button.X+width/20+wordle.button.W 
     && mouseY< wordle.button.Y+wordle.button.W 
-    && mouseX > wordle.button.X+width/20 && mouseY > wordle.button.Y){
+    && mouseX > wordle.button.X+width/20 
+    && mouseY > wordle.button.Y){
       location.reload()
     }
 }
@@ -357,10 +359,9 @@ function mousePressed(){
   console.log('mousePressed');
   if (message.text != ''){
     message.reset();
-  } else {
-    detectButton();
-    keyboard.detection();
   }
+  detectButton();
+  keyboard.detection();
 }
 
 function touchStarted(){
