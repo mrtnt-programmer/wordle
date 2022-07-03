@@ -96,7 +96,7 @@ class Keyboard{
     let keyboardX = gridX()+margin();
     let keyboardY = wordle.numberOfTries*(squareSize()+margin())+margin()*2;
     let keyboardW = gridWidth()-margin()*2;
-    let keyboardH = height - margin() - keyboardY;
+    let keyboardH = min(keyboardW, height - margin() - keyboardY);
     return [keyboardX,keyboardY,keyboardW,keyboardH];
   }
 
