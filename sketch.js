@@ -234,25 +234,37 @@ function Grid(){
 function checkWord(){
   if(wordle.letter[wordle.currentTry-1][wordle.option.numberOfLetters-1].letter != "empty" && wordle.dict.all.includes(findWord(wordle.currentTry-1))){
     let copies = [];
-    for(let l=0;l<wordle.option.numberOfLetters;l++){//makes a list of all letters present to not draw letter multiple colors
+    for(let l=0;l<wordle.option.numberOfLetters;l++){//makes a list of all letters of the correct word to not draw letter multiple colors
       copies.push(wordle.word[l]);
+    }
+    let wordToTest = [];
+    for(let c=0;c<wordle.option.numberOfLetters;c++){//makes a list of all letters of the word to test to put them in gray
+      wordToTest.push(wordle.letter[wordle.currentTry-1][c].letter);
     }
 
     for(let c=0;c<wordle.option.numberOfLetters;c++){
       if(wordle.letter[wordle.currentTry-1][c].letter == wordle.word.charAt(c)){
         wordle.letter[wordle.currentTry-1][c].color = "green";
+        keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"green");//for the change of color of keys
         let todelete = copies.indexOf(wordle.letter[wordle.currentTry-1][c].letter);
         copies.splice(todelete,1);
+        wordToTest.splice(todelete,1);
       }
     }
     for(let c=0;c<wordle.option.numberOfLetters;c++){
       if(copies.includes(wordle.letter[wordle.currentTry-1][c].letter) && wordle.letter[wordle.currentTry-1][c].letter != wordle.word.charAt(c)){
         wordle.letter[wordle.currentTry-1][c].color = "yellow";
+        keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"yellow");//for the change of color of keys
         let todelete = copies.indexOf(wordle.letter[wordle.currentTry-1][c].letter);
         copies.splice(todelete,1);
+        wordToTest.splice(todelete,1);
       }
     }
-    //animation
+    console.log(wordle,wordToTest);
+    for(let c=0;c<wordToTest.length;c++){//putting incorrect letter's in gary
+      keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"gray");//for the change of color of keys
+    }
+      //animation
     for(let c=0;c<wordle.option.numberOfLetters;c++){
       wordle.letter[wordle.currentTry-1][c].startAnimation();
     }

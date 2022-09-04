@@ -3,7 +3,7 @@ class Letter{
     this.r = r;
     this.c = c;
     this.letter = "empty";
-    this.color = "gray";//gray green yellow    gray is 60/255
+    this.color = "white";//white gray green yellow    gray is 60/255
     this.animation = false;
     this.starting_time = 0;
   }

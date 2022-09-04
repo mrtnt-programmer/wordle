@@ -28,10 +28,51 @@ class Keyboard{
                   ];
     }
 
+    this.keyColor;
+    this.resetColor();
+
     this.rows = this.keys.length;//number of rows in the layout
     this.cols = this.keys[0].length;
     this.show = show == 'on';
     this.visible = this.show;
+  }
+
+  findKeyCoor(letter){
+    for(let r = 0;r<this.keys.length;r++){
+      for(let c = 0;c<this.keys[r].length;c++){
+        if(this.keys[r][c] == letter){
+          return [r,c];
+        }
+      }
+    }
+  }
+
+  setColor(letter,color){
+    let [r,c] = this.findKeyCoor(letter);
+    if (color == "green"){
+      this.keyColor[r][c] = "green";
+    }
+    if(color == "yellow" && this.keyColor[r][c] != "green"){//if it is green is should stay green
+      this.keyColor[r][c] = "yellow";
+    }
+    if(color == "gray" && this.keyColor[r][c] != "yellow" && this.keyColor[r][c] != "green"){//if it is green is should stay green
+      this.keyColor[r][c] = "gray";
+    }
+  }
+
+  resetColor(){
+    this.keyColor = JSON.parse(JSON.stringify(this.keys));
+    for(let r = 0;r<this.keys.length;r++){
+      for(let c = 0;c<this.keys[r].length;c++){
+        if(this.keys[r][c] != "empty"){
+          this.keyColor[r][c] = "white";
+        }else{
+          this.keyColor[r][c] = "empty";
+        }
+      }
+    }
+    console.log(this.keys);
+    console.log(this.keyColor);
   }
   
   toggleShow(){
@@ -45,6 +86,7 @@ class Keyboard{
       fill(60);
       noStroke();
       rect(...this.keyboardCoor());
+
       for(let r = 0;r<this.keys.length;r++){
         for(let c = 0;c<this.keys[r].length;c++){
           if(this.keys[r][c] != "empty"){
@@ -53,9 +95,18 @@ class Keyboard{
             x = x+w/2;//because we are drawing in CENTER mode
             y = y+h/2;
             rectMode(CENTER);
-            fill(40);
+            fill(255);//background color of the rect
+            if(this.keyColor[r][c] == "green"){
+              fill(0,255,0);
+            } 
+            if(this.keyColor[r][c] == "yellow"){
+              fill(255,255,0);
+            }            
+            if(this.keyColor[r][c] == "gray"){
+              fill(60);
+            }
             rect(x,y,w,h);
-            fill(255);
+            fill(0);//color of the letter
             textAlign(CENTER);
             textSize(min(this.keyCoor(r,c)[2],this.keyCoor(r,c)[3]));
             text(this.keys[r][c],x,y+h/5);
