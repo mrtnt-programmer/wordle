@@ -71,8 +71,6 @@ class Keyboard{
         }
       }
     }
-    console.log(this.keys);
-    console.log(this.keyColor);
   }
   
   toggleShow(){
@@ -82,7 +80,6 @@ class Keyboard{
   draw(){
     if (this.visible){
       push();
-      //fill(60);
       fill(60);
       noStroke();
       rect(...this.keyboardCoor());

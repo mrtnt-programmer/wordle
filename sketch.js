@@ -237,32 +237,28 @@ function checkWord(){
     for(let l=0;l<wordle.option.numberOfLetters;l++){//makes a list of all letters of the correct word to not draw letter multiple colors
       copies.push(wordle.word[l]);
     }
-    let wordToTest = [];
-    for(let c=0;c<wordle.option.numberOfLetters;c++){//makes a list of all letters of the word to test to put them in gray
-      wordToTest.push(wordle.letter[wordle.currentTry-1][c].letter);
-    }
+
 
     for(let c=0;c<wordle.option.numberOfLetters;c++){
       if(wordle.letter[wordle.currentTry-1][c].letter == wordle.word.charAt(c)){
-        wordle.letter[wordle.currentTry-1][c].color = "green";
+        wordle.letter[wordle.currentTry-1][c].color = "green";//telling the letter it's color
         keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"green");//for the change of color of keys
         let todelete = copies.indexOf(wordle.letter[wordle.currentTry-1][c].letter);
         copies.splice(todelete,1);
-        wordToTest.splice(todelete,1);
       }
     }
     for(let c=0;c<wordle.option.numberOfLetters;c++){
       if(copies.includes(wordle.letter[wordle.currentTry-1][c].letter) && wordle.letter[wordle.currentTry-1][c].letter != wordle.word.charAt(c)){
-        wordle.letter[wordle.currentTry-1][c].color = "yellow";
+        wordle.letter[wordle.currentTry-1][c].color = "yellow";//telling the letter it's color
         keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"yellow");//for the change of color of keys
         let todelete = copies.indexOf(wordle.letter[wordle.currentTry-1][c].letter);
         copies.splice(todelete,1);
-        wordToTest.splice(todelete,1);
       }
     }
-    console.log(wordle,wordToTest);
-    for(let c=0;c<wordToTest.length;c++){//putting incorrect letter's in gary
-      keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"gray");//for the change of color of keys
+
+    //putting all letters to gray. if it is already yellow or green it will not change
+    for(let c=0;c<wordle.option.numberOfLetters;c++){
+      keyboard.setColor(wordle.letter[wordle.currentTry-1][c].letter,"gray");
     }
       //animation
     for(let c=0;c<wordle.option.numberOfLetters;c++){
@@ -326,6 +322,9 @@ function typing(otherKey){//takes a variable in case we call it in a virtual key
       checkWord();
     }else if(keyCode == BACKSPACE || otherKey == "BACKSPACE" || keyCode == DELETE || keyCode == LEFT_ARROW){
       deleteLastLetter();
+      if (message.text != ''){//take away the "wrong word" message even is we are keyboard only
+        message.reset();
+      }
     }else if(possibleLetter.includes(lowerKey)){
       findEmptySpot(lowerKey);
     }else{
